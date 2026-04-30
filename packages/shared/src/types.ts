@@ -143,6 +143,34 @@ export interface ExtractedParagraphInfo {
   text: string;
 }
 
+export interface ExtractedTableInfo {
+  index: number;
+  textSample?: string;
+  styleId?: string;
+  alignment?: string;
+  width?: {
+    value?: number;
+    type?: string;
+  };
+  layout?: string;
+  borders?: {
+    top?: string;
+    left?: string;
+    bottom?: string;
+    right?: string;
+    insideH?: string;
+    insideV?: string;
+  };
+  cellMargins?: {
+    top?: number;
+    left?: number;
+    bottom?: number;
+    right?: number;
+  };
+  gridColumnWidths?: number[];
+  tblPrXml?: string;
+}
+
 export interface TemplateRoleBinding {
   styleId?: string;
   sampleText?: string;
@@ -230,10 +258,12 @@ export interface TemplateSchemaDraft {
   rawExtraction: {
     styleCount: number;
     paragraphCount: number;
+    tableCount?: number;
     sectionCount: number;
     page?: ExtractedPageSettings;
     styles: ExtractedStyleInfo[];
     paragraphSamples: ExtractedParagraphInfo[];
+    tableSamples?: ExtractedTableInfo[];
   };
   semanticMapping: TemplateSemanticMapping;
   document: {
@@ -244,6 +274,12 @@ export interface TemplateSchemaDraft {
     };
     numbering: {
       detected: boolean;
+    };
+    tables?: {
+      detected: boolean;
+      count: number;
+      bodyTable?: ExtractedTableInfo;
+      samples: ExtractedTableInfo[];
     };
   };
   roles: {

@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-04-30T13:56:14.889Z",
+  "schemaVersion": "0.2.0",
+  "templateId": "0f69d495-1437-493b-beee-7533df871e0b",
+  "templateVersion": 1,
+  "sourceDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-55-55-504Z/templates/template-0f69d495-1437-493b-beee-7533df871e0b/v1/source-template.docx",
+  "outputPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-55-55-504Z/templates/template-0f69d495-1437-493b-beee-7533df871e0b/v1/render-reference.docx",
+  "strategy": "schema-driven-reference-docx",
+  "note": "render-reference.docx is generated from schema style bindings and uses the source DOCX only as an OOXML package shell.",
+  "styleBindings": [
+    {
+      "role": "title",
+      "styleId": "Title",
+      "styleName": "Title",
+      "evidence": []
+    },
+    {
+      "role": "authors",
+      "styleId": "Author",
+      "styleName": "Author",
+      "sourceParagraphIndex": 10,
+      "sourceText": "姓　　名：",
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名:"
+      ]
+    },
+    {
+      "role": "abstract-title",
+      "styleId": "AbstractTitle",
+      "styleName": "Abstract Title",
+      "sourceParagraphIndex": 19,
+      "sourceText": "摘要",
+      "evidence": [
+        "matches 摘要/中文摘要 after normalization"
+      ]
+    },
+    {
+      "role": "abstract-body",
+      "styleId": "Abstract",
+      "styleName": "Abstract",
+      "sourceParagraphIndex": 20,
+      "sourceText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。\n系统主要功能包含成绩数据的导入、清洗和分析以及询班级成绩分布、课程及格率、对比两个学期的成绩、分析学生的弱势学科、分析学生的学期表现、预测学生的未来成绩和评估学生的学习潜力的功能。系统采用 SQLite 数据库来存储数据，并借助 Pandas、NumPy 和 Matplotlib 完成数据处理和可视化处理。教师通过直观的界面查看分析后成绩分布、学期对比分析等结果，生成导出的可视化图表。\n本系统界面设计简洁、操作方便且运行高效，使教师能够通过该软件快速了解学生学习状态，改进教学方案，提升教学效果。经过反复测试，结果表明系统功能设计完备，使用方便，对高校教育管理具有实践价值。",
+      "evidence": [
+        "after 摘要",
+        "before 关键词"
+      ]
+    },
+    {
+      "role": "keywords",
+      "styleId": "Keywords",
+      "styleName": "Keywords",
+      "sourceParagraphIndex": 24,
+      "sourceText": "关键词： 成绩分析 数据可视化 预测模型 教学管理",
+      "evidence": [
+        "Chinese keyword label"
+      ]
+    },
+    {
+      "role": "english-abstract-title",
+      "styleId": "EnglishAbstractTitle",
+      "styleName": "English Abstract Title",
+      "evidence": [
+        "English abstract is secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "english-abstract-body",
+      "styleId": "EnglishAbstract",
+      "styleName": "English Abstract",
+      "sourceText": "",
+      "evidence": [
+        "English abstract secondary detection"
+      ]
+    },
+    {
+      "role": "english-keywords",
+      "styleId": "EnglishKeywords",
+      "styleName": "English Keywords",
+      "evidence": [
+        "English keywords are secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "toc-title",
+      "styleId": "TOCHeading",
+      "styleName": "TOC Heading",
+      "sourceParagraphIndex": 29,
+      "sourceText": "目 录",
+      "evidence": [
+        "matches 目录 after whitespace removal"
+      ]
+    },
+    {
+      "role": "toc-entry-level1",
+      "styleId": "TOC1",
+      "styleName": "TOC 1",
+      "sourceParagraphIndex": 31,
+      "sourceText": "1. 引言",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "toc-entry-level2",
+      "styleId": "TOC2",
+      "styleName": "TOC 2",
+      "sourceParagraphIndex": 32,
+      "sourceText": "2. 系统需求分析",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "toc-entry-level3",
+      "styleId": "TOC3",
+      "styleName": "TOC 3",
+      "sourceParagraphIndex": 33,
+      "sourceText": "2.1 系统可行性分析",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "body-first-paragraph",
+      "styleId": "FirstParagraph",
+      "styleName": "First Paragraph",
+      "sourceParagraphIndex": 20,
+      "sourceText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "body",
+      "styleId": "BodyText",
+      "styleName": "Body Text",
+      "sourceParagraphIndex": 20,
+      "sourceText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "compact-body",
+      "styleId": "Compact",
+      "styleName": "Compact",
+      "sourceParagraphIndex": 20,
+      "sourceText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "heading1",
+      "styleId": "Heading1",
+      "styleName": "Heading 1",
+      "sourceParagraphIndex": 5,
+      "sourceText": "基于 Python 的广安职院学生成绩数据分析系统设计与实现",
+      "evidence": [
+        "not TOC",
+        "heading1 regex",
+        "bold/center/large font evidence"
+      ]
+    },
+    {
+      "role": "heading2",
+      "styleId": "Heading2",
+      "styleName": "Heading 2",
+      "sourceParagraphIndex": 62,
+      "sourceText": "系统可行性分析",
+      "evidence": [
+        "not TOC",
+        "heading2 regex",
+        "bold/spacing/font evidence"
+      ]
+    },
+    {
+      "role": "equation",
+      "styleId": "Equation",
+      "styleName": "Equation",
+      "sourceParagraphIndex": 20,
+      "sourceText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "captioned-figure",
+      "styleId": "CaptionedFigure",
+      "styleName": "Captioned Figure",
+      "sourceParagraphIndex": 297,
+      "sourceText": "图4.1 平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption",
+      "styleId": "ImageCaption",
+      "styleName": "Image Caption",
+      "sourceParagraphIndex": 297,
+      "sourceText": "图4.1 平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption-compat",
+      "styleId": "FigureCaption",
+      "styleName": "Figure Caption",
+      "sourceParagraphIndex": 297,
+      "sourceText": "图4.1 平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "table-caption",
+      "styleId": "TableCaption",
+      "styleName": "Table Caption",
+      "sourceParagraphIndex": 77,
+      "sourceText": "表3.1 班级表",
+      "evidence": [
+        "Chinese table caption pattern"
+      ]
+    },
+    {
+      "role": "references-title",
+      "styleId": "ReferencesTitle",
+      "styleName": "References Title",
+      "sourceParagraphIndex": 322,
+      "sourceText": "参考文献",
+      "evidence": [
+        "Chinese references title pattern"
+      ]
+    },
+    {
+      "role": "bibliography",
+      "styleId": "Bibliography",
+      "styleName": "Bibliography",
+      "sourceParagraphIndex": 323,
+      "sourceText": "[1] 刘大莲，田英杰．可拓数据挖掘在学生成绩分析中的应用研究[J]．智能系统学报，2022，17(4)：707-713．",
+      "evidence": [
+        "reference item pattern"
+      ]
+    },
+    {
+      "role": "acknowledgement-title",
+      "styleId": "AcknowledgementTitle",
+      "styleName": "Acknowledgement Title",
+      "evidence": [
+        "Chinese acknowledgement title pattern"
+      ]
+    },
+    {
+      "role": "appendix-title",
+      "styleId": "AppendixTitle",
+      "styleName": "Appendix Title",
+      "evidence": [
+        "Chinese appendix title pattern"
+      ]
+    },
+    {
+      "role": "header",
+      "styleId": "Header",
+      "styleName": "Header",
+      "evidence": []
+    },
+    {
+      "role": "footer",
+      "styleId": "Footer",
+      "styleName": "Footer",
+      "evidence": []
+    }
+  ]
+}

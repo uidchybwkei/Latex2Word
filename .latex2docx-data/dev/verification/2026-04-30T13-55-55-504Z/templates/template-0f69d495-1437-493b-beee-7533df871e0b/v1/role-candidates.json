@@ -1,0 +1,3029 @@
+{
+  "coverTitleField": [],
+  "coverAuthorField": [
+    {
+      "sampleText": "姓　　名：",
+      "normalizedText": "姓名:",
+      "paragraphIndex": 10,
+      "paragraphIndexes": [
+        10
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 1600
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "楷体_GB2312"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312"
+          ],
+          "dominantFont": "楷体_GB2312",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field authorField."
+    }
+  ],
+  "coverStudentIdField": [
+    {
+      "sampleText": "学　　号：",
+      "normalizedText": "学号:",
+      "paragraphIndex": 11,
+      "paragraphIndexes": [
+        11
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学号:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 1600
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "楷体_GB2312"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312"
+          ],
+          "dominantFont": "楷体_GB2312",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field studentIdField."
+    }
+  ],
+  "coverSchoolField": [],
+  "coverMajorField": [
+    {
+      "sampleText": "专业",
+      "normalizedText": "专业",
+      "paragraphIndex": 93,
+      "paragraphIndexes": [
+        93
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=专业"
+      ],
+      "formatting": {
+        "spacing": {
+          "after": 0,
+          "line": 240,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field majorField."
+    }
+  ],
+  "coverSupervisorField": [
+    {
+      "sampleText": "指导教师：",
+      "normalizedText": "指导教师:",
+      "paragraphIndex": 12,
+      "paragraphIndexes": [
+        12
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=指导教师:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 1600
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "楷体_GB2312"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312"
+          ],
+          "dominantFont": "楷体_GB2312",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field supervisorField."
+    }
+  ],
+  "chineseAbstractTitle": [
+    {
+      "styleId": "2",
+      "sampleText": "摘要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 19,
+      "paragraphIndexes": [
+        19
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "matches 摘要/中文摘要"
+      ],
+      "formatting": {
+        "outlineLevel": 9,
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract title candidate."
+    }
+  ],
+  "chineseAbstractBody": [
+    {
+      "sampleText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+      "normalizedText": "随着信息技术的快速发展,数据分析在教育管理中的应用日益重要.传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能,没有进行数据分析,无法充分的利用这些成绩数据.因此,本文设计并实现了一个基于Python的学生成绩数据分析管理系统,以帮助教师通过对学生成绩数据的进行分析来提高教学质量.",
+      "paragraphIndex": 20,
+      "paragraphIndexes": [
+        20
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 482
+        },
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 19,
+          "runCount": 19,
+          "textRunCount": 19,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    },
+    {
+      "sampleText": "系统主要功能包含成绩数据的导入、清洗和分析以及询班级成绩分布、课程及格率、对比两个学期的成绩、分析学生的弱势学科、分析学生的学期表现、预测学生的未来成绩和评估学生的学习潜力的功能。系统采用 SQLite 数据库来存储数据，并借助 Pandas、NumPy 和 Matplotlib 完成数据处理和可视化处理。教师通过直观的界面查看分析后成绩分布、学期对比分析等结果，生成导出的可视化图表。",
+      "normalizedText": "系统主要功能包含成绩数据的导入、清洗和分析以及询班级成绩分布、课程及格率、对比两个学期的成绩、分析学生的弱势学科、分析学生的学期表现、预测学生的未来成绩和评估学生的学习潜力的功能.系统采用SQLite数据库来存储数据,并借助Pandas、NumPy和Matplotlib完成数据处理和可视化处理.教师通过直观的界面查看分析后成绩分布、学期对比分析等结果,生成导出的可视化图表.",
+      "paragraphIndex": 21,
+      "paragraphIndexes": [
+        21
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 482
+        },
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 9,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    },
+    {
+      "sampleText": "本系统界面设计简洁、操作方便且运行高效，使教师能够通过该软件快速了解学生学习状态，改进教学方案，提升教学效果。经过反复测试，结果表明系统功能设计完备，使用方便，对高校教育管理具有实践价值。",
+      "normalizedText": "本系统界面设计简洁、操作方便且运行高效,使教师能够通过该软件快速了解学生学习状态,改进教学方案,提升教学效果.经过反复测试,结果表明系统功能设计完备,使用方便,对高校教育管理具有实践价值.",
+      "paragraphIndex": 22,
+      "paragraphIndexes": [
+        22
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 482
+        },
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    }
+  ],
+  "chineseKeywords": [
+    {
+      "sampleText": "关键词： 成绩分析 数据可视化 预测模型 教学管理",
+      "normalizedText": "关键词:成绩分析数据可视化预测模型教学管理",
+      "paragraphIndex": 24,
+      "paragraphIndexes": [
+        24
+      ],
+      "confidence": 0.94,
+      "evidence": [
+        "matches 关键词/关键字 label"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 480
+        },
+        "runSummary": {
+          "runs": 12,
+          "runCount": 12,
+          "textRunCount": 12,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32",
+            "24"
+          ],
+          "fontSizes": [
+            32,
+            24
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 24,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体",
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese keywords candidate."
+    }
+  ],
+  "tocTitle": [
+    {
+      "sampleText": "目 录",
+      "normalizedText": "目录",
+      "paragraphIndex": 29,
+      "paragraphIndexes": [
+        29
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 目录/目 录"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "outlineLevel": 9,
+        "indentation": {
+          "firstLine": 640
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC title candidate."
+    }
+  ],
+  "tocEntries": [
+    {
+      "styleId": "9",
+      "sampleText": "1. 引言",
+      "normalizedText": "1.引言",
+      "paragraphIndex": 31,
+      "paragraphIndexes": [
+        31
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 15,
+          "runCount": 15,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "9",
+      "sampleText": "2. 系统需求分析",
+      "normalizedText": "2.系统需求分析",
+      "paragraphIndex": 32,
+      "paragraphIndexes": [
+        32
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "2.1 系统可行性分析",
+      "normalizedText": "2.1系统可行性分析",
+      "paragraphIndex": 33,
+      "paragraphIndexes": [
+        33
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "2.1.1 技术可行性分析",
+      "normalizedText": "2.1.1技术可行性分析",
+      "paragraphIndex": 34,
+      "paragraphIndexes": [
+        34
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "2.1.2 操作易用性分析",
+      "normalizedText": "2.1.2操作易用性分析",
+      "paragraphIndex": 35,
+      "paragraphIndexes": [
+        35
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "2.2 系统需求分析",
+      "normalizedText": "2.2系统需求分析",
+      "paragraphIndex": 36,
+      "paragraphIndexes": [
+        36
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "2.3 系统用例分析",
+      "normalizedText": "2.3系统用例分析",
+      "paragraphIndex": 37,
+      "paragraphIndexes": [
+        37
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "9",
+      "sampleText": "3. 系统设计与架构",
+      "normalizedText": "3.系统设计与架构",
+      "paragraphIndex": 38,
+      "paragraphIndexes": [
+        38
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "3.1 总体架构设计",
+      "normalizedText": "3.1总体架构设计",
+      "paragraphIndex": 39,
+      "paragraphIndexes": [
+        39
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "3.2 数据库设计",
+      "normalizedText": "3.2数据库设计",
+      "paragraphIndex": 40,
+      "paragraphIndexes": [
+        40
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "9",
+      "sampleText": "4. 系统实现与关键技术",
+      "normalizedText": "4.系统实现与关键技术",
+      "paragraphIndex": 41,
+      "paragraphIndexes": [
+        41
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "4.1 数据采集、上传与预处理实现",
+      "normalizedText": "4.1数据采集、上传与预处理实现",
+      "paragraphIndex": 42,
+      "paragraphIndexes": [
+        42
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "4.2 多维度深度分析与引擎实现",
+      "normalizedText": "4.2多维度深度分析与引擎实现",
+      "paragraphIndex": 43,
+      "paragraphIndexes": [
+        43
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "4.2.1 班级/课程/学期维度的描述性统计查询",
+      "normalizedText": "4.2.1班级/课程/学期维度的描述性统计查询",
+      "paragraphIndex": 44,
+      "paragraphIndexes": [
+        44
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "4.2.2 班级两学期对比",
+      "normalizedText": "4.2.2班级两学期对比",
+      "paragraphIndex": 45,
+      "paragraphIndexes": [
+        45
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "4.2.3 学生弱项识别",
+      "normalizedText": "4.2.3学生弱项识别",
+      "paragraphIndex": 46,
+      "paragraphIndexes": [
+        46
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "4.2.4 学生学期表现分析",
+      "normalizedText": "4.2.4学生学期表现分析",
+      "paragraphIndex": 47,
+      "paragraphIndexes": [
+        47
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "4.2.5 潜力评估",
+      "normalizedText": "4.2.5潜力评估",
+      "paragraphIndex": 48,
+      "paragraphIndexes": [
+        48
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "7",
+      "sampleText": "4.2.6 学生成绩趋势预测",
+      "normalizedText": "4.2.6学生成绩趋势预测",
+      "paragraphIndex": 49,
+      "paragraphIndexes": [
+        49
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "10",
+      "sampleText": "4.3 数据报告与结果生成",
+      "normalizedText": "4.3数据报告与结果生成",
+      "paragraphIndex": 50,
+      "paragraphIndexes": [
+        50
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "9",
+      "sampleText": "5. 结论",
+      "normalizedText": "5.结论",
+      "paragraphIndex": 51,
+      "paragraphIndexes": [
+        51
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 11,
+          "runCount": 11,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    }
+  ],
+  "heading1": [
+    {
+      "sampleText": "基于 Python 的广安职院学生成绩数据分析系统设计与实现",
+      "normalizedText": "基于Python的广安职院学生成绩数据分析系统设计与实现",
+      "paragraphIndex": 5,
+      "paragraphIndexes": [
+        5
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "outlineLevel": 0,
+        "indentation": {
+          "firstLine": 1205
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "60"
+          ],
+          "fontSizes": [
+            60
+          ],
+          "maxFontSize": 60,
+          "minFontSize": 60,
+          "dominantFontSize": 60,
+          "fonts": [
+            "楷体_GB2312"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312"
+          ],
+          "dominantFont": "楷体_GB2312",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "2",
+      "sampleText": "摘要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 19,
+      "paragraphIndexes": [
+        19
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "outlineLevel": 9,
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "sampleText": "引言",
+      "normalizedText": "引言",
+      "paragraphIndex": 55,
+      "paragraphIndexes": [
+        55
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 0,
+        "numbering": {
+          "numId": "1",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "sampleText": "系统需求分析",
+      "normalizedText": "系统需求分析",
+      "paragraphIndex": 61,
+      "paragraphIndexes": [
+        61
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 0,
+        "numbering": {
+          "numId": "1",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "sampleText": "系统设计与架构",
+      "normalizedText": "系统设计与架构",
+      "paragraphIndex": 71,
+      "paragraphIndexes": [
+        71
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 0,
+        "numbering": {
+          "numId": "1",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "3",
+      "sampleText": "续表3.4",
+      "normalizedText": "续表3.4",
+      "paragraphIndex": 219,
+      "paragraphIndexes": [
+        219
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "right",
+        "outlineLevel": 0,
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "sampleText": "系统实现与关键技术",
+      "normalizedText": "系统实现与关键技术",
+      "paragraphIndex": 275,
+      "paragraphIndexes": [
+        275
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 0,
+        "numbering": {
+          "numId": "1",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "sampleText": "结论",
+      "normalizedText": "结论",
+      "paragraphIndex": 319,
+      "paragraphIndexes": [
+        319
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 0,
+        "numbering": {
+          "numId": "1",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    }
+  ],
+  "heading2": [
+    {
+      "sampleText": "系统可行性分析",
+      "normalizedText": "系统可行性分析",
+      "paragraphIndex": 62,
+      "paragraphIndexes": [
+        62
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "1",
+          "level": "1",
+          "ilvl": "1"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "技术可行性分析",
+      "normalizedText": "技术可行性分析",
+      "paragraphIndex": 63,
+      "paragraphIndexes": [
+        63
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "操作易用性分析",
+      "normalizedText": "操作易用性分析",
+      "paragraphIndex": 65,
+      "paragraphIndexes": [
+        65
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "系统需求分析",
+      "normalizedText": "系统需求分析",
+      "paragraphIndex": 67,
+      "paragraphIndexes": [
+        67
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "1",
+          "level": "1",
+          "ilvl": "1"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "系统用例分析",
+      "normalizedText": "系统用例分析",
+      "paragraphIndex": 69,
+      "paragraphIndexes": [
+        69
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "1",
+          "level": "1",
+          "ilvl": "1"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "3.1 总体架构设计",
+      "normalizedText": "3.1总体架构设计",
+      "paragraphIndex": 72,
+      "paragraphIndexes": [
+        72
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "0",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "3.2 数据库设计",
+      "normalizedText": "3.2数据库设计",
+      "paragraphIndex": 74,
+      "paragraphIndexes": [
+        74
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "0",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3",
+      "sampleText": "续表3.4",
+      "normalizedText": "续表3.4",
+      "paragraphIndex": 219,
+      "paragraphIndexes": [
+        219
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "right",
+        "outlineLevel": 0,
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "数据采集、上传与预处理实现",
+      "normalizedText": "数据采集、上传与预处理实现",
+      "paragraphIndex": 276,
+      "paragraphIndexes": [
+        276
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "1",
+          "level": "1",
+          "ilvl": "1"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "多维度深度分析与引擎实现",
+      "normalizedText": "多维度深度分析与引擎实现",
+      "paragraphIndex": 291,
+      "paragraphIndexes": [
+        291
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "1",
+          "level": "1",
+          "ilvl": "1"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "班级/课程/学期维度的描述性统计查询",
+      "normalizedText": "班级/课程/学期维度的描述性统计查询",
+      "paragraphIndex": 292,
+      "paragraphIndexes": [
+        292
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "班级两学期对比",
+      "normalizedText": "班级两学期对比",
+      "paragraphIndex": 298,
+      "paragraphIndexes": [
+        298
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "学生弱项识别",
+      "normalizedText": "学生弱项识别",
+      "paragraphIndex": 302,
+      "paragraphIndexes": [
+        302
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "学生学期表现分析",
+      "normalizedText": "学生学期表现分析",
+      "paragraphIndex": 304,
+      "paragraphIndexes": [
+        304
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "潜力评估",
+      "normalizedText": "潜力评估",
+      "paragraphIndex": 308,
+      "paragraphIndexes": [
+        308
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "学生成绩趋势预测",
+      "normalizedText": "学生成绩趋势预测",
+      "paragraphIndex": 311,
+      "paragraphIndexes": [
+        311
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 2,
+        "numbering": {
+          "numId": "1",
+          "level": "2",
+          "ilvl": "2"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "4.3 数据报告与结果生成",
+      "normalizedText": "4.3数据报告与结果生成",
+      "paragraphIndex": 317,
+      "paragraphIndexes": [
+        317
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "outlineLevel": 1,
+        "numbering": {
+          "numId": "0",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "left": 0,
+          "firstLine": 0
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    }
+  ],
+  "body": [
+    {
+      "sampleText": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+      "normalizedText": "随着信息技术的快速发展,数据分析在教育管理中的应用日益重要.传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能,没有进行数据分析,无法充分的利用这些成绩数据.因此,本文设计并实现了一个基于Python的学生成绩数据分析管理系统,以帮助教师通过对学生成绩数据的进行分析来提高教学质量.",
+      "paragraphIndex": 20,
+      "paragraphIndexes": [
+        20
+      ],
+      "confidence": 0.78,
+      "evidence": [
+        "after heading and excluded front matter/TOC/instructions"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 482
+        },
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 19,
+          "runCount": 19,
+          "textRunCount": 19,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Body candidate."
+    }
+  ],
+  "figureCaption": [
+    {
+      "styleId": "11",
+      "sampleText": "图4.1 平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+      "normalizedText": "图4.1平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+      "paragraphIndex": 297,
+      "paragraphIndexes": [
+        297
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 图 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "numbering": {
+          "numId": "0",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "indentation": {
+          "right": 0
+        },
+        "spacing": {
+          "before": 0,
+          "after": 0,
+          "line": 240,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "21"
+          ],
+          "fontSizes": [
+            21
+          ],
+          "maxFontSize": 21,
+          "minFontSize": 21,
+          "dominantFontSize": 21,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Figure caption candidate."
+    }
+  ],
+  "tableCaption": [
+    {
+      "sampleText": "表3.1 班级表",
+      "normalizedText": "表3.1班级表",
+      "paragraphIndex": 77,
+      "paragraphIndexes": [
+        77
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 表 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Table caption candidate."
+    }
+  ],
+  "references": [
+    {
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 322,
+      "paragraphIndexes": [
+        322
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "matches 参考文献/参考资料"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "numbering": {
+          "numId": "0",
+          "level": "0",
+          "ilvl": "0"
+        },
+        "spacing": {
+          "line": 590,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "References title candidate."
+    }
+  ],
+  "acknowledgement": [],
+  "appendix": []
+}

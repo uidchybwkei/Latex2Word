@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-04-30T13:59:56.386Z",
+  "schemaVersion": "0.2.0",
+  "templateId": "e0c648ff-3f3c-4284-b680-a6b47e0ced60",
+  "templateVersion": 1,
+  "sourceDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-59-18-603Z/templates/1-e0c648ff-3f3c-4284-b680-a6b47e0ced60/v1/converted-source-template.docx",
+  "outputPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-59-18-603Z/templates/1-e0c648ff-3f3c-4284-b680-a6b47e0ced60/v1/render-reference.docx",
+  "strategy": "schema-driven-reference-docx",
+  "note": "render-reference.docx is generated from schema style bindings and uses the source DOCX only as an OOXML package shell.",
+  "styleBindings": [
+    {
+      "role": "title",
+      "styleId": "Title",
+      "styleName": "Title",
+      "sourceParagraphIndex": 5,
+      "sourceText": "题目：",
+      "evidence": [
+        "normalized cover label match",
+        "normalized=题目:"
+      ]
+    },
+    {
+      "role": "authors",
+      "styleId": "Author",
+      "styleName": "Author",
+      "sourceParagraphIndex": 14,
+      "sourceText": "姓 名",
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名"
+      ]
+    },
+    {
+      "role": "abstract-title",
+      "styleId": "AbstractTitle",
+      "styleName": "Abstract Title",
+      "sourceParagraphIndex": 41,
+      "sourceText": "摘 要",
+      "evidence": [
+        "matches 摘要/中文摘要 after normalization"
+      ]
+    },
+    {
+      "role": "abstract-body",
+      "styleId": "Abstract",
+      "styleName": "Abstract",
+      "sourceParagraphIndex": 42,
+      "sourceText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "evidence": [
+        "after 摘要",
+        "before 关键词"
+      ]
+    },
+    {
+      "role": "keywords",
+      "styleId": "Keywords",
+      "styleName": "Keywords",
+      "sourceParagraphIndex": 44,
+      "sourceText": "关键词： 本页为中文摘要样版",
+      "evidence": [
+        "Chinese keyword label"
+      ]
+    },
+    {
+      "role": "english-abstract-title",
+      "styleId": "EnglishAbstractTitle",
+      "styleName": "English Abstract Title",
+      "sourceParagraphIndex": 46,
+      "sourceText": "Abstract",
+      "evidence": [
+        "English abstract is secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "english-abstract-body",
+      "styleId": "EnglishAbstract",
+      "styleName": "English Abstract",
+      "sourceText": "",
+      "evidence": [
+        "English abstract secondary detection"
+      ]
+    },
+    {
+      "role": "english-keywords",
+      "styleId": "EnglishKeywords",
+      "styleName": "English Keywords",
+      "sourceParagraphIndex": 49,
+      "sourceText": "Key Words：",
+      "evidence": [
+        "English keywords are secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "toc-title",
+      "styleId": "TOCHeading",
+      "styleName": "TOC Heading",
+      "sourceParagraphIndex": 52,
+      "sourceText": "目 录",
+      "evidence": [
+        "matches 目录 after whitespace removal"
+      ]
+    },
+    {
+      "role": "toc-entry-level1",
+      "styleId": "TOC1",
+      "styleName": "TOC 1",
+      "sourceParagraphIndex": 53,
+      "sourceText": "摘 要",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "toc-entry-level2",
+      "styleId": "TOC2",
+      "styleName": "TOC 2",
+      "sourceParagraphIndex": 54,
+      "sourceText": "Abstract",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "toc-entry-level3",
+      "styleId": "TOC3",
+      "styleName": "TOC 3",
+      "sourceParagraphIndex": 55,
+      "sourceText": "1.引言",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "body-first-paragraph",
+      "styleId": "FirstParagraph",
+      "styleName": "First Paragraph",
+      "sourceParagraphIndex": 117,
+      "sourceText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "body",
+      "styleId": "BodyText",
+      "styleName": "Body Text",
+      "sourceParagraphIndex": 117,
+      "sourceText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "compact-body",
+      "styleId": "Compact",
+      "styleName": "Compact",
+      "sourceParagraphIndex": 117,
+      "sourceText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "heading1",
+      "styleId": "Heading1",
+      "styleName": "Heading 1",
+      "sourceParagraphIndex": 114,
+      "sourceText": "1.（空一字距离）引言",
+      "evidence": [
+        "not TOC",
+        "heading1 regex",
+        "bold/center/large font evidence"
+      ]
+    },
+    {
+      "role": "heading2",
+      "styleId": "Heading2",
+      "styleName": "Heading 2",
+      "sourceParagraphIndex": 115,
+      "sourceText": "1.1（空半字距离）XXXXXX",
+      "evidence": [
+        "not TOC",
+        "heading2 regex",
+        "bold/spacing/font evidence"
+      ]
+    },
+    {
+      "role": "equation",
+      "styleId": "Equation",
+      "styleName": "Equation",
+      "sourceParagraphIndex": 117,
+      "sourceText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "captioned-figure",
+      "styleId": "CaptionedFigure",
+      "styleName": "Captioned Figure",
+      "sourceParagraphIndex": 148,
+      "sourceText": "图X-X（空半字距离）XXX原理图",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption",
+      "styleId": "ImageCaption",
+      "styleName": "Image Caption",
+      "sourceParagraphIndex": 148,
+      "sourceText": "图X-X（空半字距离）XXX原理图",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption-compat",
+      "styleId": "FigureCaption",
+      "styleName": "Figure Caption",
+      "sourceParagraphIndex": 148,
+      "sourceText": "图X-X（空半字距离）XXX原理图",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "table-caption",
+      "styleId": "TableCaption",
+      "styleName": "Table Caption",
+      "sourceParagraphIndex": 122,
+      "sourceText": "表X-X（空半字距离）1995—1998年工商银行资产负债情况 单位：亿元",
+      "evidence": [
+        "Chinese table caption pattern"
+      ]
+    },
+    {
+      "role": "references-title",
+      "styleId": "ReferencesTitle",
+      "styleName": "References Title",
+      "sourceParagraphIndex": 198,
+      "sourceText": "参考文献",
+      "evidence": [
+        "Chinese references title pattern"
+      ]
+    },
+    {
+      "role": "bibliography",
+      "styleId": "Bibliography",
+      "styleName": "Bibliography",
+      "sourceParagraphIndex": 199,
+      "sourceText": "[1]吕叔湘.中国文法要略[M]. 北京：商务印书馆，1982年.",
+      "evidence": [
+        "reference item pattern"
+      ]
+    },
+    {
+      "role": "acknowledgement-title",
+      "styleId": "AcknowledgementTitle",
+      "styleName": "Acknowledgement Title",
+      "sourceParagraphIndex": 203,
+      "sourceText": "致 谢",
+      "evidence": [
+        "Chinese acknowledgement title pattern"
+      ]
+    },
+    {
+      "role": "appendix-title",
+      "styleId": "AppendixTitle",
+      "styleName": "Appendix Title",
+      "evidence": [
+        "Chinese appendix title pattern"
+      ]
+    },
+    {
+      "role": "header",
+      "styleId": "Header",
+      "styleName": "Header",
+      "evidence": []
+    },
+    {
+      "role": "footer",
+      "styleId": "Footer",
+      "styleName": "Footer",
+      "evidence": []
+    }
+  ]
+}

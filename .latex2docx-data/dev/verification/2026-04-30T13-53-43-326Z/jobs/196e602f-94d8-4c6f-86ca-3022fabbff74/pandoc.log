@@ -1,0 +1,10 @@
+command: pandoc
+
+args: ["/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/196e602f-94d8-4c6f-86ca-3022fabbff74/fixed-template.tex","--from=latex","--to=docx","--number-sections","--toc","--toc-depth=3","--reference-doc=/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/1-458f737d-98a5-4a86-9a47-f627cc3cfb50/v1/render-reference.docx","--output=/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/196e602f-94d8-4c6f-86ca-3022fabbff74/fixed-template.docx"]
+
+referenceDocx: /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/1-458f737d-98a5-4a86-9a47-f627cc3cfb50/v1/render-reference.docx
+
+stdout:
+
+
+stderr:

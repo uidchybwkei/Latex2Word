@@ -1,0 +1,598 @@
+{
+  "coverTitleField": [
+    {
+      "styleId": "4",
+      "sampleText": "论文题目：",
+      "normalizedText": "论文题目:",
+      "paragraphIndex": 9,
+      "paragraphIndexes": [
+        9
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=论文题目:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field titleField."
+    }
+  ],
+  "coverAuthorField": [
+    {
+      "styleId": "4",
+      "sampleText": "姓 名：",
+      "normalizedText": "姓名:",
+      "paragraphIndex": 11,
+      "paragraphIndexes": [
+        11
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field authorField."
+    }
+  ],
+  "coverStudentIdField": [
+    {
+      "sampleText": "学号：",
+      "normalizedText": "学号:",
+      "paragraphIndex": 1,
+      "paragraphIndexes": [
+        1
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学号:"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field studentIdField."
+    }
+  ],
+  "coverSchoolField": [
+    {
+      "sampleText": "学 院",
+      "normalizedText": "学院",
+      "paragraphIndex": 13,
+      "paragraphIndexes": [
+        13
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学院"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field schoolField."
+    }
+  ],
+  "coverMajorField": [
+    {
+      "styleId": "4",
+      "sampleText": "专 业：",
+      "normalizedText": "专业:",
+      "paragraphIndex": 15,
+      "paragraphIndexes": [
+        15
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=专业:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field majorField."
+    }
+  ],
+  "coverSupervisorField": [
+    {
+      "styleId": "4",
+      "sampleText": "指导教师：",
+      "normalizedText": "指导教师:",
+      "paragraphIndex": 19,
+      "paragraphIndexes": [
+        19
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=指导教师:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field supervisorField."
+    }
+  ],
+  "chineseAbstractTitle": [],
+  "chineseAbstractBody": [],
+  "chineseKeywords": [],
+  "tocTitle": [],
+  "tocEntries": [],
+  "heading1": [],
+  "heading2": [
+    {
+      "styleId": "3",
+      "sampleText": "1.1 二级标题 ……………………………………………………………………………………1",
+      "normalizedText": "1.1二级标题................................................................................................1",
+      "paragraphIndex": 61,
+      "paragraphIndexes": [
+        61
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "indentation": {
+          "left": 210
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3",
+      "sampleText": "1.1.1 三级标题…………………………………………………………………………………1",
+      "normalizedText": "1.1.1三级标题.............................................................................................1",
+      "paragraphIndex": 62,
+      "paragraphIndexes": [
+        62
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "indentation": {
+          "left": 420
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3",
+      "sampleText": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+      "normalizedText": "1.1二级标题(左对齐,黑体,四号,序号后空一字符接标题,末尾无标点)",
+      "paragraphIndex": 90,
+      "paragraphIndexes": [
+        90
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3",
+      "sampleText": "1.1.1 三级标题（左对齐，黑体，小四号，序号后空一字符接标题，末尾无标点）",
+      "normalizedText": "1.1.1三级标题(左对齐,黑体,小四号,序号后空一字符接标题,末尾无标点)",
+      "paragraphIndex": 92,
+      "paragraphIndexes": [
+        92
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    }
+  ],
+  "body": [],
+  "figureCaption": [
+    {
+      "styleId": "3",
+      "sampleText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+      "normalizedText": "图1.1图题名(图题名置于图下方,居中,宋体,小四号,图序号后空一字符)",
+      "paragraphIndex": 102,
+      "paragraphIndexes": [
+        102
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 图 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Figure caption candidate."
+    }
+  ],
+  "tableCaption": [
+    {
+      "styleId": "3",
+      "sampleText": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+      "normalizedText": "表1.1表题名(表题名置于表上方,居中,宋体,小四号,图序号后空一字符)",
+      "paragraphIndex": 104,
+      "paragraphIndexes": [
+        104
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 表 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Table caption candidate."
+    }
+  ],
+  "references": [],
+  "acknowledgement": [],
+  "appendix": []
+}

@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-04-30T13:54:11.211Z",
+  "schemaVersion": "0.2.0",
+  "templateId": "3cf122cd-55c6-4cd5-90bb-31c08d5916a7",
+  "templateVersion": 1,
+  "sourceDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-3cf122cd-55c6-4cd5-90bb-31c08d5916a7/v1/source-template.docx",
+  "outputPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-3cf122cd-55c6-4cd5-90bb-31c08d5916a7/v1/render-reference.docx",
+  "strategy": "schema-driven-reference-docx",
+  "note": "render-reference.docx is generated from schema style bindings and uses the source DOCX only as an OOXML package shell.",
+  "styleBindings": [
+    {
+      "role": "title",
+      "styleId": "Title",
+      "styleName": "Title",
+      "evidence": []
+    },
+    {
+      "role": "authors",
+      "styleId": "Author",
+      "styleName": "Author",
+      "sourceParagraphIndex": 5,
+      "sourceText": "学生姓名",
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学生姓名"
+      ]
+    },
+    {
+      "role": "abstract-title",
+      "styleId": "AbstractTitle",
+      "styleName": "Abstract Title",
+      "sourceParagraphIndex": 42,
+      "sourceText": "摘 要",
+      "evidence": [
+        "matches 摘要/中文摘要 after normalization"
+      ]
+    },
+    {
+      "role": "abstract-body",
+      "styleId": "Abstract",
+      "styleName": "Abstract",
+      "sourceParagraphIndex": 43,
+      "sourceText": "将Wistar大鼠随机分为5组：正常对照组、模型对照组、皂苷低剂量组、皂苷中剂量组和皂苷高剂量组。饲料中添加1%乳清酸建立大鼠脂肪肝模型，并同时分别给予不同剂量的海参皂苷（0.01%、0.03%、0.05%），连续饲喂10d。分别测定大鼠血清总胆固醇（Total cholesterol，TC）、甘油三酯（Triglyceride，TG）、高密度脂蛋白胆固醇（High density lipoprotein-cholesterol，HDL-C）含量，大鼠肝脏TC、TG、磷脂（phospholipid，PL）含量，以及肝脏中脂肪酸合成酶（FAS）的活性。结果显示海参皂苷可降低血清和肝脏脂肪含量，对脂肪肝具有很好的预防作用。",
+      "evidence": [
+        "after 摘要",
+        "before 关键词"
+      ]
+    },
+    {
+      "role": "keywords",
+      "styleId": "Keywords",
+      "styleName": "Keywords",
+      "sourceParagraphIndex": 44,
+      "sourceText": "关键词：海参；皂苷；脂肪肝；乳清酸；脂肪代谢",
+      "evidence": [
+        "Chinese keyword label"
+      ]
+    },
+    {
+      "role": "english-abstract-title",
+      "styleId": "EnglishAbstractTitle",
+      "styleName": "English Abstract Title",
+      "sourceParagraphIndex": 52,
+      "sourceText": "Abstract",
+      "evidence": [
+        "English abstract is secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "english-abstract-body",
+      "styleId": "EnglishAbstract",
+      "styleName": "English Abstract",
+      "sourceParagraphIndex": 53,
+      "sourceText": "Male Wistar rats were randomly divided into five groups, including normal group, control group, low, medium and high dose saponin group. Model rats were established by with 1% dietary orotic acid. Saponin tested group were given diets incorporated with saponin at the levels of 0.01 %, 0.03% and 0.05%, respectively. After 10 days feeding, Serum total cholesterol (TC), triglyceride (TG), high density lipoprotein-cholesterol (HDL-c), hepatic lipid concentrations (TG, TC and phospholipids) and the a",
+      "evidence": [
+        "English abstract secondary detection"
+      ]
+    },
+    {
+      "role": "english-keywords",
+      "styleId": "EnglishKeywords",
+      "styleName": "English Keywords",
+      "sourceParagraphIndex": 54,
+      "sourceText": "Keywords: sea cucumber; saponin; fatty liver; orotic acid; lipid bolism",
+      "evidence": [
+        "English keywords are secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "toc-title",
+      "styleId": "TOCHeading",
+      "styleName": "TOC Heading",
+      "sourceParagraphIndex": 58,
+      "sourceText": "目 录",
+      "evidence": [
+        "matches 目录 after whitespace removal"
+      ]
+    },
+    {
+      "role": "toc-entry-level1",
+      "styleId": "TOC1",
+      "styleName": "TOC 1",
+      "evidence": []
+    },
+    {
+      "role": "toc-entry-level2",
+      "styleId": "TOC2",
+      "styleName": "TOC 2",
+      "evidence": []
+    },
+    {
+      "role": "toc-entry-level3",
+      "styleId": "TOC3",
+      "styleName": "TOC 3",
+      "evidence": []
+    },
+    {
+      "role": "body-first-paragraph",
+      "styleId": "FirstParagraph",
+      "styleName": "First Paragraph",
+      "sourceParagraphIndex": 24,
+      "sourceText": "本人郑重声明：所呈交的毕业论文（设计）是本人在导师的指导下，独立进行研究工作所取得的成果，所有数据、图片资料均真实可靠。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品或成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全意识到本声明的法律结果由本人承担。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "body",
+      "styleId": "BodyText",
+      "styleName": "Body Text",
+      "sourceParagraphIndex": 24,
+      "sourceText": "本人郑重声明：所呈交的毕业论文（设计）是本人在导师的指导下，独立进行研究工作所取得的成果，所有数据、图片资料均真实可靠。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品或成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全意识到本声明的法律结果由本人承担。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "compact-body",
+      "styleId": "Compact",
+      "styleName": "Compact",
+      "sourceParagraphIndex": 24,
+      "sourceText": "本人郑重声明：所呈交的毕业论文（设计）是本人在导师的指导下，独立进行研究工作所取得的成果，所有数据、图片资料均真实可靠。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品或成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全意识到本声明的法律结果由本人承担。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "heading1",
+      "styleId": "Heading1",
+      "styleName": "Heading 1",
+      "sourceParagraphIndex": 3,
+      "sourceText": "毕业论文（设计）题目",
+      "evidence": [
+        "not TOC",
+        "heading1 regex",
+        "bold/center/large font evidence"
+      ]
+    },
+    {
+      "role": "heading2",
+      "styleId": "Heading2",
+      "styleName": "Heading 2",
+      "sourceParagraphIndex": 60,
+      "sourceText": "1.1 题目背景及目的",
+      "evidence": [
+        "not TOC",
+        "heading2 regex",
+        "bold/spacing/font evidence"
+      ]
+    },
+    {
+      "role": "equation",
+      "styleId": "Equation",
+      "styleName": "Equation",
+      "sourceParagraphIndex": 24,
+      "sourceText": "本人郑重声明：所呈交的毕业论文（设计）是本人在导师的指导下，独立进行研究工作所取得的成果，所有数据、图片资料均真实可靠。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品或成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全意识到本声明的法律结果由本人承担。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "figure-caption",
+      "styleId": "ImageCaption",
+      "styleName": "Image Caption",
+      "sourceParagraphIndex": 99,
+      "sourceText": "图1-1 刺参形态",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption-compat",
+      "styleId": "FigureCaption",
+      "styleName": "Figure Caption",
+      "sourceParagraphIndex": 99,
+      "sourceText": "图1-1 刺参形态",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "table-caption",
+      "styleId": "TableCaption",
+      "styleName": "Table Caption",
+      "sourceParagraphIndex": 123,
+      "sourceText": "表2-1 动物饲料配比",
+      "evidence": [
+        "Chinese table caption pattern"
+      ]
+    },
+    {
+      "role": "references-title",
+      "styleId": "ReferencesTitle",
+      "styleName": "References Title",
+      "sourceParagraphIndex": 85,
+      "sourceText": "参考文献",
+      "evidence": [
+        "Chinese references title pattern"
+      ]
+    },
+    {
+      "role": "bibliography",
+      "styleId": "Bibliography",
+      "styleName": "Bibliography",
+      "evidence": [
+        "reference item pattern"
+      ]
+    },
+    {
+      "role": "acknowledgement-title",
+      "styleId": "AcknowledgementTitle",
+      "styleName": "Acknowledgement Title",
+      "sourceParagraphIndex": 86,
+      "sourceText": "致谢",
+      "evidence": [
+        "Chinese acknowledgement title pattern"
+      ]
+    },
+    {
+      "role": "appendix-title",
+      "styleId": "AppendixTitle",
+      "styleName": "Appendix Title",
+      "sourceParagraphIndex": 250,
+      "sourceText": "附 录",
+      "evidence": [
+        "Chinese appendix title pattern"
+      ]
+    },
+    {
+      "role": "header",
+      "styleId": "Header",
+      "styleName": "Header",
+      "evidence": []
+    },
+    {
+      "role": "footer",
+      "styleId": "Footer",
+      "styleName": "Footer",
+      "evidence": []
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { app, BrowserWindow } from 'electron';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { AppBootstrapResult } from '@latex2docx/shared';
@@ -47,6 +47,15 @@ function findProjectRoot(): string {
 let mainWindow: BrowserWindow | null = null;
 let runtimeContext: RuntimeContext;
 let bootstrapResult: AppBootstrapResult;
+const projectRoot = findProjectRoot();
+const isDev = Boolean(rendererUrl);
+const userDataDir = isDev ? join(projectRoot, '.latex2docx-data', 'dev') : app.getPath('userData');
+const electronSessionDir = isDev ? join(userDataDir, 'electron-session') : app.getPath('sessionData');
+
+app.setPath('userData', userDataDir);
+app.setPath('sessionData', electronSessionDir);
+mkdirSync(join(electronSessionDir, 'Shared Dictionary', 'cache'), { recursive: true });
+mkdirSync(electronSessionDir, { recursive: true });
 
 async function createWindow(): Promise<void> {
   mainWindow = new BrowserWindow({
@@ -75,9 +84,6 @@ async function createWindow(): Promise<void> {
 async function main(): Promise<void> {
   await app.whenReady();
 
-  const projectRoot = findProjectRoot();
-  const userDataDir = rendererUrl ? join(projectRoot, '.latex2docx-data', 'dev') : app.getPath('userData');
-  app.setPath('userData', userDataDir);
   const bootstrapped = await bootstrapRuntime(userDataDir);
   runtimeContext = bootstrapped.runtime;
   bootstrapResult = bootstrapped.result;

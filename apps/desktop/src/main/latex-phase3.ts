@@ -1,7 +1,7 @@
 import { execFile } from 'node:child_process';
 import { createHash, randomUUID } from 'node:crypto';
 import { copyFile, mkdir, readFile, stat, writeFile } from 'node:fs/promises';
-import { basename, dirname, extname, join } from 'node:path';
+import { basename, dirname, extname, isAbsolute, join, resolve, sep } from 'node:path';
 import { promisify } from 'node:util';
 import JSZip from 'jszip';
 import * as coreModule from '../../../../packages/core/src/index.js';
@@ -17,6 +17,9 @@ import type {
 
 const execFileAsync = promisify(execFile);
 const PANDOC_TIMEOUT_MS = 60000;
+const SAMPLE_FIGURE_FILENAME = 'latex2docx-sample-figure.png';
+const SAMPLE_FIGURE_PNG_BASE64 =
+  'iVBORw0KGgoAAAANSUhEUgAAAEAAAAAoCAIAAADBrGu+AAAA+ElEQVR42tWZSQ6DMAxF32V6sh6/C3bdFqRKVdUUMtmOvxSEIPaXH5kcwu3++Cnb8yVUKAG0ME4BVDA4LmkG3rdrhswYfD8oYlC+0sLgrEIFg+vq/AxULZI3BY12aTHosk6IwYBPKgyGPZNgMOm/nIF5ibVNgZXQEoxDFnPFGIyPIE4fxgmjlMKvdxoyXOjgOsImm6LFnYCZrhejy56wJbMaVktxnEZdMSLWAQ+M0IVsSfQCY2A9QEuIGcfAQExjGMT3E1tyksQ9nIYglLf9VUYlbbZJ5lZtvmYBkuzfuwFy/syqA5hPKa4YaMVdMrApH89UDvkkTil3sUuVmXR14DkAAAAASUVORK5CYII=';
 
 function sha256(content: Uint8Array | Buffer | string): string {
   return createHash('sha256').update(content).digest('hex');
@@ -59,9 +62,15 @@ function buildLatexDocument(schema: TemplateSchemaDraft): string {
     '\\subsection{研究背景}',
     '这里填写二级标题下的正文内容。',
     '',
+    '\\subsection{公式示例}',
+    '这里填写公式前后的说明文字。',
+    '\\[',
+    'E = mc^2',
+    '\\]',
+    '',
     '\\begin{figure}[htbp]',
     '\\centering',
-    '\\fbox{\\rule{0pt}{2in}\\rule{0.8\\linewidth}{0pt}}',
+    `\\includegraphics[width=0.55\\linewidth]{${SAMPLE_FIGURE_FILENAME}}`,
     '\\caption{图1-1 示例图题}',
     '\\end{figure}',
     '',
@@ -124,6 +133,57 @@ function setParagraphStyle(paragraphXml: string, styleId: string): string {
   return paragraphXml.replace(/<w:p\b([^>]*)>/, `<w:p$1><w:pPr><w:pStyle w:val="${styleId}"/></w:pPr>`);
 }
 
+function setTableCellParagraphProperties(paragraphXml: string, schema: TemplateSchemaDraft): string {
+  const spacing = schema.semanticMapping.body?.formatting?.spacing ?? schema.roles.body?.formatting?.spacing;
+  const spacingXml = `<w:spacing w:after="${spacing?.after ?? 0}" w:line="${spacing?.line ?? 360}" w:lineRule="${spacing?.lineRule ?? 'auto'}"/>`;
+  const nextPPr = `<w:pPr><w:pStyle w:val="Compact"/>${spacingXml}<w:ind w:firstLine="0" w:firstLineChars="0"/><w:jc w:val="center"/></w:pPr>`;
+  if (/<w:pPr\b[\s\S]*?<\/w:pPr>/.test(paragraphXml)) {
+    return paragraphXml.replace(/<w:pPr\b[\s\S]*?<\/w:pPr>/, nextPPr);
+  }
+  return paragraphXml.replace(/<w:p\b([^>]*)>/, `<w:p$1>${nextPPr}`);
+}
+
+function defaultThesisTablePrXml(): string {
+  return [
+    '<w:tblPr>',
+    '<w:tblStyle w:val="Table"/>',
+    '<w:tblW w:w="0" w:type="auto"/>',
+    '<w:jc w:val="center"/>',
+    '<w:tblBorders>',
+    '<w:top w:val="single" w:color="auto" w:sz="4" w:space="0"/>',
+    '<w:left w:val="none" w:color="auto" w:sz="0" w:space="0"/>',
+    '<w:bottom w:val="single" w:color="auto" w:sz="4" w:space="0"/>',
+    '<w:right w:val="none" w:color="auto" w:sz="0" w:space="0"/>',
+    '<w:insideH w:val="single" w:color="auto" w:sz="4" w:space="0"/>',
+    '<w:insideV w:val="single" w:color="auto" w:sz="4" w:space="0"/>',
+    '</w:tblBorders>',
+    '<w:tblLayout w:type="fixed"/>',
+    '<w:tblCellMar><w:top w:w="0" w:type="dxa"/><w:left w:w="108" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:right w:w="108" w:type="dxa"/></w:tblCellMar>',
+    '</w:tblPr>',
+  ].join('');
+}
+
+function tablePropertiesFromSchema(schema: TemplateSchemaDraft): string {
+  return schema.document.tables?.bodyTable?.tblPrXml ?? defaultThesisTablePrXml();
+}
+
+function mergeTableProperties(currentTablePrXml: string | undefined, schemaTablePrXml: string): string {
+  const captionXml = currentTablePrXml?.match(/<w:tblCaption\b[^>]*\/>/)?.[0];
+  if (captionXml && !schemaTablePrXml.includes('<w:tblCaption')) {
+    return schemaTablePrXml.replace('</w:tblPr>', `${captionXml}</w:tblPr>`);
+  }
+  return schemaTablePrXml;
+}
+
+function applySchemaTableFormatting(tableXml: string, schema: TemplateSchemaDraft): string {
+  const currentTablePrXml = tableXml.match(/<w:tblPr\b[\s\S]*?<\/w:tblPr>/)?.[0];
+  const nextTablePrXml = mergeTableProperties(currentTablePrXml, tablePropertiesFromSchema(schema));
+  const withTablePr = currentTablePrXml
+    ? tableXml.replace(currentTablePrXml, nextTablePrXml)
+    : tableXml.replace(/<w:tbl\b([^>]*)>/, `<w:tbl$1>${nextTablePrXml}`);
+  return withTablePr.replace(/<w:p\b[\s\S]*?<\/w:p>/g, (paragraphXml) => setTableCellParagraphProperties(paragraphXml, schema));
+}
+
 function replaceParagraphText(paragraphXml: string, nextText: string): string {
   let replaced = false;
   return paragraphXml
@@ -135,6 +195,41 @@ function replaceParagraphText(paragraphXml: string, nextText: string): string {
       return `<w:t${attrs}>${encodeXmlText(nextText)}</w:t>`;
     })
     .replace(/<w:r\b[^>]*>\s*<\/w:r>/g, '');
+}
+
+function referencedGraphics(content: string): string[] {
+  return [...content.matchAll(/\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}/g)]
+    .map((match) => match[1]?.trim())
+    .filter((value): value is string => Boolean(value));
+}
+
+async function copyLatexReferencedAssets(latexInputPath: string, latexInputCopyPath: string): Promise<void> {
+  const content = await readFile(latexInputPath, 'utf8');
+  const sourceDir = dirname(latexInputPath);
+  const destinationDir = dirname(latexInputCopyPath);
+  const destinationRoot = resolve(destinationDir);
+
+  for (const reference of referencedGraphics(content)) {
+    const sourcePath = isAbsolute(reference) ? reference : resolve(sourceDir, reference);
+    const destinationPath = isAbsolute(reference) ? join(destinationDir, basename(reference)) : resolve(destinationDir, reference);
+    if (destinationPath !== destinationRoot && !destinationPath.startsWith(`${destinationRoot}${sep}`)) {
+      continue;
+    }
+    await mkdir(dirname(destinationPath), { recursive: true });
+    try {
+      await copyFile(sourcePath, destinationPath);
+    } catch (error) {
+      const missing = error instanceof Error && 'code' in error && error.code === 'ENOENT';
+      if (missing && basename(reference) === SAMPLE_FIGURE_FILENAME) {
+        await writeFile(destinationPath, Buffer.from(SAMPLE_FIGURE_PNG_BASE64, 'base64'));
+        continue;
+      }
+      if (missing) {
+        throw new Error(`LaTeX image asset is missing: ${reference}. Expected at ${sourcePath}.`);
+      }
+      throw error;
+    }
+  }
 }
 
 function moveTableOfContentsAfterAbstracts(documentXml: string): string {
@@ -160,7 +255,7 @@ function moveTableOfContentsAfterAbstracts(documentXml: string): string {
   return documentXml;
 }
 
-async function postProcessPandocDocx(outputPath: string): Promise<void> {
+async function postProcessPandocDocx(outputPath: string, schema: TemplateSchemaDraft): Promise<void> {
   const buffer = await readFile(outputPath);
   const zip = await JSZip.loadAsync(buffer);
   const documentXml = await zip.file('word/document.xml')?.async('string');
@@ -171,7 +266,12 @@ async function postProcessPandocDocx(outputPath: string): Promise<void> {
   let afterReferencesTitle = false;
   let seenChineseAbstractTitle = false;
   let inEnglishAbstract = false;
-  const nextDocumentXml = moveTableOfContentsAfterAbstracts(documentXml.replace(/<w:p\b[\s\S]*?<\/w:p>/g, (paragraphXml) => {
+  const documentWithTables = documentXml.replace(/<w:tbl\b[\s\S]*?<\/w:tbl>/g, (tableXml) => applySchemaTableFormatting(tableXml, schema));
+  const nextDocumentXml = moveTableOfContentsAfterAbstracts(documentWithTables.replace(/<w:p\b[\s\S]*?<\/w:p>/g, (paragraphXml) => {
+    if (/<m:oMath\b|<m:oMathPara\b/.test(paragraphXml)) {
+      return setParagraphStyle(paragraphXml, 'Equation');
+    }
+
     const text = paragraphText(paragraphXml);
     if (!text) {
       return paragraphXml;
@@ -202,6 +302,14 @@ async function postProcessPandocDocx(outputPath: string): Promise<void> {
 
     if (/^关键词[:：]/.test(normalized)) {
       return setParagraphStyle(next, 'Keywords');
+    }
+
+    if (/^图[\d一二三四五六七八九十Xx]+(?:[-－—.．][\d一二三四五六七八九十Xx]+)?/.test(normalized)) {
+      return setParagraphStyle(next, 'ImageCaption');
+    }
+
+    if (/^表[\d一二三四五六七八九十Xx]+(?:[-－—.．][\d一二三四五六七八九十Xx]+)?/.test(normalized)) {
+      return setParagraphStyle(next, 'TableCaption');
     }
 
     if (/^(Contents|Table of Contents)$/i.test(text)) {
@@ -243,6 +351,7 @@ export async function generateDeterministicLatexTemplate(summary: ImportedTempla
   const outputPath = join(versionDir, 'fixed-template.tex');
   const content = buildLatexDocument(summary.schema);
   await writeFile(outputPath, content, 'utf8');
+  await writeFile(join(versionDir, SAMPLE_FIGURE_FILENAME), Buffer.from(SAMPLE_FIGURE_PNG_BASE64, 'base64'));
 
   const existingAsset = findAsset(summary, 'latex-fixed-template');
   const asset: TemplateAsset = {
@@ -303,6 +412,7 @@ export async function convertLatexToDocx(options: {
 
   await mkdir(workingDirectory, { recursive: true });
   await copyFile(latexInputPath, latexInputCopyPath);
+  await copyLatexReferencedAssets(latexInputPath, latexInputCopyPath);
   jobRunner.markRunning(jobId);
 
   try {
@@ -341,7 +451,7 @@ export async function convertLatexToDocx(options: {
     if (outputStats.size <= 0) {
       throw new Error('Pandoc finished but output .docx is empty.');
     }
-    await postProcessPandocDocx(outputPath);
+    await postProcessPandocDocx(outputPath, summary.schema);
 
     const job = jobRunner.markSucceeded(jobId);
     return {

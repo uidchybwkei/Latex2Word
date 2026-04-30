@@ -11,6 +11,7 @@ import type {
   ExtractedParagraphInfo,
   ExtractedParagraphRunSummary,
   ExtractedStyleInfo,
+  ExtractedTableInfo,
   ImportedTemplateSummary,
   SchemaVersion,
   Template,
@@ -26,6 +27,7 @@ interface ExtractedDocumentFacts {
   sectionPropertiesXml?: string;
   styles: ExtractedStyleInfo[];
   paragraphs: ExtractedParagraphInfo[];
+  tables: ExtractedTableInfo[];
   sectionCount: number;
   headerFooterDetected: boolean;
   numberingDetected: boolean;
@@ -44,6 +46,7 @@ export interface TemplateImportLogger {
 
 const DOC_CONVERSION_TIMEOUT_MS = 20000;
 const TEXTUTIL_KILL_GRACE_MS = 3000;
+const SOFFICE_KILL_GRACE_MS = 5000;
 
 function sha256(content: Uint8Array | Buffer | string): string {
   return createHash('sha256').update(content).digest('hex');
@@ -364,6 +367,78 @@ function extractParagraphs(documentXml: string): ExtractedParagraphInfo[] {
   return paragraphs;
 }
 
+function extractTableTextSample(block: string): string {
+  return [...block.matchAll(/<w:t\b[^>]*>([\s\S]*?)<\/w:t>/g)]
+    .map((match) => decodeXmlText(match[1]))
+    .join('')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 240);
+}
+
+function extractTableBorders(tblPrXml: string): ExtractedTableInfo['borders'] | undefined {
+  const borderMatch = tblPrXml.match(/<w:tblBorders\b[\s\S]*?<\/w:tblBorders>/);
+  if (!borderMatch) {
+    return undefined;
+  }
+  const readBorder = (name: string) => borderMatch[0].match(new RegExp(`<w:${name}\\b[^>]*w:val="([^"]+)"`))?.[1];
+  return {
+    top: readBorder('top'),
+    left: readBorder('left'),
+    bottom: readBorder('bottom'),
+    right: readBorder('right'),
+    insideH: readBorder('insideH'),
+    insideV: readBorder('insideV'),
+  };
+}
+
+function extractTableCellMargins(tblPrXml: string): ExtractedTableInfo['cellMargins'] | undefined {
+  const marginsMatch = tblPrXml.match(/<w:tblCellMar\b[\s\S]*?<\/w:tblCellMar>/);
+  if (!marginsMatch) {
+    return undefined;
+  }
+  const readMargin = (name: string) => numberAttr(marginsMatch[0].match(new RegExp(`<w:${name}\\b([^>]*)\\/>`))?.[1] ?? '', 'w:w');
+  return {
+    top: readMargin('top'),
+    left: readMargin('left'),
+    bottom: readMargin('bottom'),
+    right: readMargin('right'),
+  };
+}
+
+function extractTables(documentXml: string): ExtractedTableInfo[] {
+  return [...documentXml.matchAll(/<w:tbl\b[\s\S]*?<\/w:tbl>/g)].map((match, index) => {
+    const block = match[0];
+    const tblPrXml = block.match(/<w:tblPr\b[\s\S]*?<\/w:tblPr>/)?.[0];
+    const widthAttrs = tblPrXml?.match(/<w:tblW\b([^>]*)\/>/)?.[1] ?? '';
+    return {
+      index,
+      textSample: extractTableTextSample(block),
+      styleId: tblPrXml?.match(/<w:tblStyle\b[^>]*w:val="([^"]+)"/)?.[1],
+      alignment: tblPrXml?.match(/<w:jc\b[^>]*w:val="([^"]+)"/)?.[1],
+      width: widthAttrs
+        ? {
+            value: numberAttr(widthAttrs, 'w:w'),
+            type: readAttr(widthAttrs, 'w:type'),
+          }
+        : undefined,
+      layout: tblPrXml?.match(/<w:tblLayout\b[^>]*w:type="([^"]+)"/)?.[1],
+      borders: tblPrXml ? extractTableBorders(tblPrXml) : undefined,
+      cellMargins: tblPrXml ? extractTableCellMargins(tblPrXml) : undefined,
+      gridColumnWidths: [...block.matchAll(/<w:gridCol\b[^>]*w:w="([^"]+)"/g)].map((gridMatch) => Number(gridMatch[1])).filter(Number.isFinite),
+      tblPrXml,
+    };
+  });
+}
+
+function selectBodyTable(tables: ExtractedTableInfo[]): ExtractedTableInfo | undefined {
+  return (
+    tables.find((table) => Object.values(table.borders ?? {}).some((value) => value && value !== 'nil' && value !== 'none')) ??
+    tables.find((table) => table.width?.type === 'dxa') ??
+    tables[0]
+  );
+}
+
 function extractPageSettings(documentXml: string): ExtractedPageSettings | undefined {
   const sectionMatch = extractLastSectionPropertiesXml(documentXml) ?? documentXml;
   if (!sectionMatch.includes('w:pgSz') && !sectionMatch.includes('w:pgMar')) {
@@ -422,6 +497,7 @@ async function extractDocumentFacts(filePath: string, logger?: TemplateImportLog
   const stylesXml = (await zip.file('word/styles.xml')?.async('string')) ?? '';
   const styles = extractStyles(stylesXml);
   const paragraphs = extractParagraphs(documentXml);
+  const tables = extractTables(documentXml);
   await logger?.mark('paragraphs extracted', 'finished', {
     filePath,
     paragraphCount: paragraphs.length,
@@ -433,6 +509,7 @@ async function extractDocumentFacts(filePath: string, logger?: TemplateImportLog
     sectionPropertiesXml: extractLastSectionPropertiesXml(documentXml),
     styles,
     paragraphs,
+    tables,
     sectionCount: (documentXml.match(/<w:sectPr\b/g) ?? []).length || 1,
     headerFooterDetected: packageFiles.some((file) => /^word\/(?:header|footer)\d*\.xml$/.test(file)),
     numberingDetected: packageFiles.includes('word/numbering.xml') || paragraphs.some((paragraph) => paragraph.numbering),
@@ -453,7 +530,8 @@ async function buildRenderReferenceDocx(input: {
     throw new Error('Cannot build render-reference.docx: source DOCX is missing [Content_Types].xml.');
   }
 
-  const parts = buildRenderReferenceXmlParts(input);
+  const existingStylesXml = await zip.file('word/styles.xml')?.async('string');
+  const parts = buildRenderReferenceXmlParts({ ...input, existingStylesXml });
   zip.file('word/document.xml', parts.documentXml);
   zip.file('word/styles.xml', parts.stylesXml);
   zip.file('[Content_Types].xml', ensureStylesContentType(contentTypesXml));
@@ -465,6 +543,80 @@ async function buildRenderReferenceDocx(input: {
   });
   await writeFile(input.outputPath, outputBuffer);
   await writeFile(input.manifestPath, JSON.stringify(parts.manifest, null, 2), 'utf8');
+}
+
+async function runSofficeConversion(inputPath: string, outputDir: string): Promise<{ stdout: string; stderr: string }> {
+  return new Promise((resolve, reject) => {
+    const child = spawn(
+      'soffice',
+      [
+        `-env:UserInstallation=file://${join(outputDir, 'lo-profile')}`,
+        '--headless',
+        '--convert-to',
+        'docx',
+        '--outdir',
+        outputDir,
+        inputPath,
+      ],
+      {
+        stdio: ['ignore', 'pipe', 'pipe'],
+      },
+    );
+    const stdoutChunks: Buffer[] = [];
+    const stderrChunks: Buffer[] = [];
+    let timedOut = false;
+    let settled = false;
+
+    const forceKillTimeout = setTimeout(() => {
+      if (!settled && timedOut) {
+        child.kill('SIGKILL');
+        settled = true;
+        reject(new Error(`soffice did not exit within ${SOFFICE_KILL_GRACE_MS}ms after timeout.`));
+      }
+    }, DOC_CONVERSION_TIMEOUT_MS + SOFFICE_KILL_GRACE_MS);
+
+    const timeout = setTimeout(() => {
+      timedOut = true;
+      child.kill('SIGTERM');
+      setTimeout(() => {
+        if (!settled) {
+          child.kill('SIGKILL');
+        }
+      }, 1000).unref();
+    }, DOC_CONVERSION_TIMEOUT_MS);
+
+    child.stdout.on('data', (chunk: Buffer) => stdoutChunks.push(chunk));
+    child.stderr.on('data', (chunk: Buffer) => stderrChunks.push(chunk));
+    child.on('error', (error) => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      clearTimeout(timeout);
+      clearTimeout(forceKillTimeout);
+      reject(error);
+    });
+    child.on('close', (code, signal) => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      clearTimeout(timeout);
+      clearTimeout(forceKillTimeout);
+
+      const stdout = Buffer.concat(stdoutChunks).toString('utf8');
+      const stderr = Buffer.concat(stderrChunks).toString('utf8');
+      if (timedOut) {
+        reject(new Error(`soffice conversion exceeded ${DOC_CONVERSION_TIMEOUT_MS / 1000} seconds and was terminated. signal=${signal ?? 'none'} stdout=${stdout} stderr=${stderr}`));
+        return;
+      }
+      if (code !== 0) {
+        reject(new Error(`soffice exited with code ${code ?? 'null'} signal=${signal ?? 'none'} stdout=${stdout} stderr=${stderr}`));
+        return;
+      }
+      resolve({ stdout, stderr });
+    });
+  });
 }
 
 async function runTextutilConversion(inputPath: string, outputPath: string): Promise<{ stdout: string; stderr: string }> {
@@ -545,20 +697,39 @@ async function ensureAnalysisDocx(filePath: string, versionDir: string, logger?:
 
   const convertedPath = join(versionDir, 'converted-source-template.docx');
   await logger?.mark('doc conversion started', 'started', { filePath, fileSizeBytes: await fileSize(filePath) });
-  const result = await runTextutilConversion(filePath, convertedPath);
+  let result: { stdout: string; stderr: string };
+  let converter = 'soffice';
+  try {
+    const sofficeOutDir = join(versionDir, 'soffice-conversion');
+    await mkdir(sofficeOutDir, { recursive: true });
+    result = await runSofficeConversion(filePath, sofficeOutDir);
+    const sofficeOutputPath = join(sofficeOutDir, `${basename(filePath, extname(filePath))}.docx`);
+    const sofficeOutputSize = await fileSize(sofficeOutputPath);
+    if (!sofficeOutputSize) {
+      throw new Error(`soffice conversion finished but output is missing or empty. stdout=${result.stdout} stderr=${result.stderr}`);
+    }
+    await copyFile(sofficeOutputPath, convertedPath);
+  } catch (sofficeError) {
+    converter = 'textutil';
+    result = await runTextutilConversion(filePath, convertedPath);
+    result = {
+      stdout: result.stdout,
+      stderr: [result.stderr, `soffice fallback reason: ${sofficeError instanceof Error ? sofficeError.message : String(sofficeError)}`].filter(Boolean).join('\n'),
+    };
+  }
   const convertedSize = await fileSize(convertedPath);
   if (!convertedSize) {
-    throw new Error(`textutil conversion finished but output is missing or empty. stdout=${result.stdout} stderr=${result.stderr}`);
+    throw new Error(`${converter} conversion finished but output is missing or empty. stdout=${result.stdout} stderr=${result.stderr}`);
   }
   await logger?.mark('doc conversion finished', 'finished', {
     filePath: convertedPath,
     fileSizeBytes: convertedSize,
-    message: [result.stdout, result.stderr].filter(Boolean).join('\n') || undefined,
+    message: [`converter=${converter}`, result.stdout, result.stderr].filter(Boolean).join('\n') || undefined,
   });
 
   return {
     analysisDocxPath: convertedPath,
-    cleanupPaths: [convertedPath],
+    cleanupPaths: [],
   };
 }
 
@@ -621,7 +792,13 @@ function semanticText(paragraph: ExtractedParagraphInfo): string {
 }
 
 function isTocEntry(paragraph: ExtractedParagraphInfo): boolean {
-  return Boolean(paragraph.isTocHyperlink) || /TOC\s+\\o|HYPERLINK\s+\\l/i.test(paragraph.rawText ?? paragraph.text);
+  const text = paragraph.visibleText || paragraph.text;
+  return (
+    Boolean(paragraph.isTocHyperlink) ||
+    /^TOC\d+$/i.test(paragraph.styleId ?? '') ||
+    /TOC\s+\\o|HYPERLINK\s+\\l/i.test(paragraph.rawText ?? paragraph.text) ||
+    /[.．。·…]{3,}\s*\d+\s*$/.test(text)
+  );
 }
 
 function isCoverTitlePageHeading(paragraph: ExtractedParagraphInfo): boolean {
@@ -637,11 +814,11 @@ function coverFieldKind(paragraph: ExtractedParagraphInfo):
   | 'supervisorField'
   | undefined {
   const text = semanticText(paragraph).replace(/:.*$/, '');
-  if (/^(题目|论文题目|毕业设计\(论文\)题目)$/.test(text)) return 'titleField';
+  if (/^(题目|论文题目|毕业设计\(论文\)题目)$/.test(text) || /题目$/.test(text)) return 'titleField';
   if (/^(学生姓名|姓名|作者|研究生姓名)$/.test(text)) return 'authorField';
   if (/^学号$/.test(text)) return 'studentIdField';
-  if (/^(学院|系|培养单位)$/.test(text)) return 'schoolField';
-  if (/^(专业|学科专业|专业名称)$/.test(text)) return 'majorField';
+  if (/^(学院|学院名称|系|培养单位|院系)$/.test(text)) return 'schoolField';
+  if (/^(专业|专业年级|学科专业|专业名称)$/.test(text)) return 'majorField';
   if (/^(指导教师|导师|校内指导教师|企业指导教师)$/.test(text)) return 'supervisorField';
   return undefined;
 }
@@ -658,19 +835,19 @@ function isCoverOrFrontMatter(paragraph: ExtractedParagraphInfo): boolean {
 
 function isChineseAbstractTitle(paragraph: ExtractedParagraphInfo): boolean {
   const text = semanticText(paragraph);
-  return /^(年月日)?(中文)?摘要$/.test(text) || /(中文)?摘要$/.test(text);
+  return /^(年月日)?(中文)?摘要(?:[（(].*)?$/.test(text) || /^(摘)?要(?:[（(].*)?$/.test(text);
 }
 
 function isEnglishAbstractTitle(paragraph: ExtractedParagraphInfo): boolean {
-  return /^abstract$/i.test(semanticText(paragraph));
+  return /^abstract(?:[（(].*)?$/i.test(semanticText(paragraph));
 }
 
 function isChineseKeywords(paragraph: ExtractedParagraphInfo): boolean {
-  return /^(关键词|关键字)(:|$)/.test(semanticText(paragraph));
+  return /^(关键词|关键字)(?:[（(].*)?(?::|$)/.test(semanticText(paragraph));
 }
 
 function isEnglishKeywords(paragraph: ExtractedParagraphInfo): boolean {
-  return /^(keywords?|key\s*words?)(:|$)/i.test(semanticText(paragraph));
+  return /^(keywords?|key\s*words?)(?:[（(].*)?(?::|$)/i.test(semanticText(paragraph));
 }
 
 function isKeywords(paragraph: ExtractedParagraphInfo): boolean {
@@ -678,11 +855,49 @@ function isKeywords(paragraph: ExtractedParagraphInfo): boolean {
 }
 
 function isTocTitle(paragraph: ExtractedParagraphInfo): boolean {
-  return /^(目录|contents)$/i.test(semanticText(paragraph));
+  return /^(目录|contents)(?:[（(].*)?$/i.test(semanticText(paragraph));
+}
+
+function isPlainTextTocEntry(paragraph: ExtractedParagraphInfo): boolean {
+  const text = semanticText(paragraph);
+  const visible = paragraph.visibleText || paragraph.text;
+  if (visible.length > 60) {
+    return false;
+  }
+  return (
+    /^(\d+(?:[.．]\d+)*|[一二三四五六七八九十]+)(?:[\u4e00-\u9fa5A-Za-z]|[.．]\d+)/.test(text) ||
+    /^(参考文献|参考资料|致谢|致謝|附录|附錄)(?:[A-ZＡ-Ｚ])?$/.test(text)
+  );
+}
+
+function collectPlainTextTocEntries(paragraphs: ExtractedParagraphInfo[], tocTitle: ExtractedParagraphInfo | undefined): ExtractedParagraphInfo[] {
+  if (!tocTitle) {
+    return [];
+  }
+
+  const entries: ExtractedParagraphInfo[] = [];
+  let lastIndex = tocTitle.index;
+  for (const paragraph of paragraphs) {
+    if (paragraph.index <= tocTitle.index) {
+      continue;
+    }
+    if (paragraph.index - lastIndex > 3) {
+      break;
+    }
+    if (!isPlainTextTocEntry(paragraph)) {
+      if ((paragraph.visibleText || paragraph.text).trim()) {
+        break;
+      }
+      continue;
+    }
+    entries.push(paragraph);
+    lastIndex = paragraph.index;
+  }
+  return entries;
 }
 
 function isReferencesTitle(paragraph: ExtractedParagraphInfo): boolean {
-  return /^(参考文献|参考资料|references|bibliography)$/i.test(semanticText(paragraph));
+  return /^(参考文献|参考资料|references|bibliography)(?:[（(].*)?$/i.test(semanticText(paragraph));
 }
 
 function isReferenceItem(paragraph: ExtractedParagraphInfo): boolean {
@@ -690,11 +905,11 @@ function isReferenceItem(paragraph: ExtractedParagraphInfo): boolean {
 }
 
 function isAcknowledgementTitle(paragraph: ExtractedParagraphInfo): boolean {
-  return /^(致谢|致謝|acknowledgements?)$/i.test(semanticText(paragraph));
+  return /^(致谢|致謝|acknowledgements?)(?:[（(].*)?$/i.test(semanticText(paragraph));
 }
 
 function isAppendixTitle(paragraph: ExtractedParagraphInfo): boolean {
-  return /^(附录|附錄|appendix)$/i.test(semanticText(paragraph));
+  return /^(附录|附錄|appendix)(?:[A-ZＡ-Ｚ])?(?:[（(].*)?$/i.test(semanticText(paragraph));
 }
 
 function isTemplateInstruction(paragraph: ExtractedParagraphInfo): boolean {
@@ -716,8 +931,11 @@ function isHeading1(paragraph: ExtractedParagraphInfo, heading1Style?: Extracted
 
   const formatLooksStrong = isMostlyBold(paragraph) || paragraph.alignment === 'center' || maxRunSize(paragraph) >= 30;
   return (
+    /^(绪论|引言|前言|结论与展望|结语)(?:[（(].*)?$/.test(text) && formatLooksStrong ||
+    (/^\d+[\u4e00-\u9fa5A-Za-z]/.test(text) && text.length <= 30 && !/[，,。；;]/.test(text)) ||
     /^(第[一二三四五六七八九十\d]+[章节篇]|[一二三四五六七八九十]+、)/.test(text) ||
     (/^[一二三四五六七八九十]+(?:[\(（]|[\u4e00-\u9fa5])/.test(text) && paragraph.alignment === 'center') ||
+    (/^\d+\s+[^\d.．]/.test(text) && formatLooksStrong) ||
     (/^\d+[.．、][^\d.．]/.test(text) && formatLooksStrong && !(paragraph.indentation?.firstLine && paragraph.alignment !== 'center'))
   );
 }
@@ -739,6 +957,7 @@ function isHeading2(paragraph: ExtractedParagraphInfo, heading2Style?: Extracted
     return false;
   }
   return (
+    (/^\d+[.．]\d+(?:[.．]\d+)?[\u4e00-\u9fa5A-Za-z]/.test(text) && text.length <= 40 && !/[，,。；;]/.test(text)) ||
     /^(\d+[.．]\d+(?:[.．]\d+)?|[（(][一二三四五六七八九十]+[）)]|\d+[.．][（(])/.test(text) &&
     formatLooksStrong
   );
@@ -815,8 +1034,8 @@ function inferSchema(
 ): { schema: TemplateSchemaDraft; roleCandidates: Record<string, TemplateRoleBinding[]> } {
   const nonEmptyParagraphs = facts.paragraphs.filter((paragraph) => paragraph.visibleText || paragraph.text);
   const titleStyle = findStyle(facts.styles, /(^|\b)(title)(\b|$)/i);
-  const heading1Style = findStyle(facts.styles, /heading\s*1|heading1/i);
-  const heading2Style = findStyle(facts.styles, /heading\s*2|heading2/i);
+  const heading1Style = findStyle(facts.styles, /heading\s*1|heading1|1st|标题\s*1|一级/i);
+  const heading2Style = findStyle(facts.styles, /heading\s*2|heading2|2nd|标题\s*2|二级/i);
   const cover: NonNullable<TemplateSchemaDraft['semanticMapping']['cover']> = {};
 
   for (const paragraph of nonEmptyParagraphs) {
@@ -843,7 +1062,10 @@ function inferSchema(
   );
   const englishKeywords = nonEmptyParagraphs.find((paragraph) => !isTocEntry(paragraph) && isEnglishKeywords(paragraph));
   const tocTitle = nonEmptyParagraphs.find((paragraph) => !isTocEntry(paragraph) && isTocTitle(paragraph));
-  const tocEntries = nonEmptyParagraphs.filter(isTocEntry);
+  const fieldTocEntries = nonEmptyParagraphs.filter(isTocEntry);
+  const plainTextTocEntries = collectPlainTextTocEntries(nonEmptyParagraphs, tocTitle);
+  const tocEntries = fieldTocEntries.length ? fieldTocEntries : plainTextTocEntries;
+  const contentStartIndex = tocEntries.length ? Math.max(...tocEntries.map((paragraph) => paragraph.index)) + 1 : (tocTitle?.index ?? -1) + 1;
   const heading1Candidates = nonEmptyParagraphs.filter((paragraph) => isHeading1(paragraph, heading1Style));
   const heading2Candidates = nonEmptyParagraphs.filter((paragraph) => isHeading2(paragraph, heading2Style));
   const figureCaptionParagraph = nonEmptyParagraphs.find((paragraph) => !isTocEntry(paragraph) && isFigureCaption(paragraph));
@@ -860,8 +1082,25 @@ function inferSchema(
   const appendixParagraph = nonEmptyParagraphs.find((paragraph) => !isTocEntry(paragraph) && isAppendixTitle(paragraph));
   const appendixBody = firstAfterUntil(nonEmptyParagraphs, appendixParagraph, () => false, (paragraph) => !isTocEntry(paragraph) && !isTemplateInstruction(paragraph));
 
-  const heading1Paragraph = heading1Candidates[0];
-  const heading2Paragraph = heading2Candidates[0];
+  if (!cover.titleField) {
+    const titleLikeParagraph = nonEmptyParagraphs.find((paragraph) => {
+      const text = paragraph.visibleText || paragraph.text;
+      return (
+        paragraph.index < (chineseAbstractTitle?.index ?? tocTitle?.index ?? 80) &&
+        !isCoverTitlePageHeading(paragraph) &&
+        !coverFieldKind(paragraph) &&
+        paragraph.alignment === 'center' &&
+        maxRunSize(paragraph) >= 40 &&
+        text.length >= 8
+      );
+    });
+    if (titleLikeParagraph) {
+      cover.titleField = bindParagraph(titleLikeParagraph, 'Detected cover title text from large centered title-like paragraph.', 0.72, ['large centered paragraph before abstract/TOC']);
+    }
+  }
+
+  const heading1Paragraph = heading1Candidates.find((paragraph) => !tocTitle || paragraph.index >= contentStartIndex) ?? heading1Candidates[0];
+  const heading2Paragraph = heading2Candidates.find((paragraph) => !tocTitle || paragraph.index >= contentStartIndex) ?? heading2Candidates[0];
   const bodyParagraph = firstAfterUntil(
     nonEmptyParagraphs,
     heading1Paragraph,
@@ -955,10 +1194,12 @@ function inferSchema(
     rawExtraction: {
       styleCount: facts.styles.length,
       paragraphCount: facts.paragraphs.length,
+      tableCount: facts.tables.length,
       sectionCount: facts.sectionCount,
       page: facts.page,
       styles: facts.styles,
       paragraphSamples: nonEmptyParagraphs.slice(0, 120),
+      tableSamples: facts.tables.slice(0, 12),
     },
     semanticMapping: {
       titleStyleId: titleStyle?.styleId ?? cover.titleField?.styleId,
@@ -1022,6 +1263,12 @@ function inferSchema(
       },
       numbering: {
         detected: facts.numberingDetected,
+      },
+      tables: {
+        detected: facts.tables.length > 0,
+        count: facts.tables.length,
+        bodyTable: selectBodyTable(facts.tables),
+        samples: facts.tables.slice(0, 12),
       },
     },
     roles: {
@@ -1101,7 +1348,7 @@ export async function importTemplateFromFile(paths: AppPaths, filePath: string, 
     const schemaPath = join(versionDir, 'schema.json');
     const schemaJson = JSON.stringify(schema, null, 2);
     await writeFile(schemaPath, schemaJson, 'utf8');
-    await writeFile(join(versionDir, 'extraction-debug.json'), JSON.stringify({ packageFiles: facts.packageFiles, paragraphs: facts.paragraphs }, null, 2), 'utf8');
+    await writeFile(join(versionDir, 'extraction-debug.json'), JSON.stringify({ packageFiles: facts.packageFiles, paragraphs: facts.paragraphs, tables: facts.tables }, null, 2), 'utf8');
     await writeFile(join(versionDir, 'role-candidates.json'), JSON.stringify(roleCandidates, null, 2), 'utf8');
     await importLogger.mark('schema written', 'finished', {
       filePath: schemaPath,

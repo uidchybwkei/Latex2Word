@@ -77,11 +77,12 @@ export function buildRenderReferenceXmlParts(input: {
   schema: TemplateSchemaDraft;
   sourceDocxPath: string;
   outputPath: string;
+  existingStylesXml?: string;
 }): RenderReferenceXmlParts {
   const specs = specsFromSchema(input.schema);
   return {
     documentXml: documentXml(specs, input.schema.document.page, input.schema.document.sectionPropertiesXml),
-    stylesXml: stylesXml(specs),
+    stylesXml: stylesXml(specs, input.existingStylesXml),
     manifest: manifestFromSpecs(input, specs),
   };
 }
@@ -171,7 +172,19 @@ function styleXml(spec: ReferenceStyleSpec): string {
   ].join('');
 }
 
-function stylesXml(specs: ReferenceStyleSpec[]): string {
+function tableStylesXml(): string[] {
+  return [
+    '<w:style w:type="table" w:styleId="Table"><w:name w:val="Table"/><w:tblPr><w:jc w:val="center"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:left w:val="none" w:sz="0" w:space="0" w:color="auto"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:right w:val="none" w:sz="0" w:space="0" w:color="auto"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/></w:tblBorders><w:tblCellMar><w:top w:w="0" w:type="dxa"/><w:left w:w="108" w:type="dxa"/><w:bottom w:w="0" w:type="dxa"/><w:right w:w="108" w:type="dxa"/></w:tblCellMar></w:tblPr></w:style>',
+    '<w:style w:type="table" w:styleId="FigureTable"><w:name w:val="Figure Table"/><w:tblPr><w:jc w:val="center"/><w:tblBorders><w:top w:val="nil"/><w:left w:val="nil"/><w:bottom w:val="nil"/><w:right w:val="nil"/><w:insideH w:val="nil"/><w:insideV w:val="nil"/></w:tblBorders></w:tblPr></w:style>',
+  ];
+}
+
+function removeStyleById(styles: string, styleId: string): string {
+  const escaped = normalizeStyleId(styleId).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return styles.replace(new RegExp(`<w:style\\b(?=[^>]*w:styleId="${escaped}")[\\s\\S]*?<\\/w:style>`, 'g'), '');
+}
+
+function stylesXml(specs: ReferenceStyleSpec[], existingStylesXml?: string): string {
   const styleIds = new Set<string>();
   const uniqueSpecs = specs.filter((spec) => {
     const styleId = normalizeStyleId(spec.styleId);
@@ -179,12 +192,24 @@ function stylesXml(specs: ReferenceStyleSpec[]): string {
     styleIds.add(styleId);
     return true;
   });
+  const generatedStyles = [...uniqueSpecs.map(styleXml), ...tableStylesXml()];
+
+  if (existingStylesXml?.includes('</w:styles>')) {
+    const generatedStyleIds = [
+      ...uniqueSpecs.map((spec) => normalizeStyleId(spec.styleId)),
+      'Table',
+      'FigureTable',
+    ];
+    const mergedWithoutDuplicates = generatedStyleIds.reduce((styles, styleId) => removeStyleById(styles, styleId), existingStylesXml);
+    return mergedWithoutDuplicates.replace('</w:styles>', `${generatedStyles.join('')}</w:styles>`);
+  }
+
   return [
     '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>',
     `<w:styles ${WORD_NS}>`,
     '<w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体" w:cs="Times New Roman"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:rPrDefault></w:docDefaults>',
     '<w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/><w:qFormat/><w:pPr><w:spacing w:before="0" w:after="0" w:line="360" w:lineRule="auto"/></w:pPr><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体" w:cs="Times New Roman"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:style>',
-    ...uniqueSpecs.map(styleXml),
+    ...generatedStyles,
     '</w:styles>',
   ].join('');
 }
@@ -249,6 +274,8 @@ function specsFromSchema(schema: TemplateSchemaDraft): ReferenceStyleSpec[] {
     { role: 'compact-body', styleId: 'Compact', styleName: 'Compact', binding: mapping.body ?? schema.roles.body, basedOn: 'Normal', fixedSize: 24, sampleText: '表格正文样式。', ...plainParagraph, ...zhBody },
     { role: 'heading1', styleId: 'Heading1', styleName: 'Heading 1', binding: mapping.headings?.level1 ?? schema.roles.heading1, basedOn: 'Normal', fixedSize: 32, fallbackBold: true, fallbackAlignment: 'center', sampleText: '1. 一级标题', ...titleParagraph, ...zhHeading },
     { role: 'heading2', styleId: 'Heading2', styleName: 'Heading 2', binding: mapping.headings?.level2 ?? schema.roles.heading2, basedOn: 'Normal', fixedSize: 28, fallbackBold: true, sampleText: '1.1 二级标题', ...titleParagraph, ...zhHeading },
+    { role: 'equation', styleId: 'Equation', styleName: 'Equation', binding: mapping.body ?? schema.roles.body, basedOn: 'Normal', fixedSize: 24, fallbackAlignment: 'center', sampleText: 'E = mc^2', ...plainParagraph, ...zhBody },
+    { role: 'captioned-figure', styleId: 'CaptionedFigure', styleName: 'Captioned Figure', binding: mapping.captions?.figure ?? schema.roles.figureCaption, basedOn: 'Normal', fixedSize: 24, fallbackAlignment: 'center', sampleText: '图片对象样式', ...plainParagraph, ...zhBody },
     { role: 'figure-caption', styleId: 'ImageCaption', styleName: 'Image Caption', binding: mapping.captions?.figure ?? schema.roles.figureCaption, fixedSize: 21, fallbackAlignment: 'center', sampleText: '图1-1 图题样式', ...captionParagraph, ...zhBody },
     { role: 'figure-caption-compat', styleId: 'FigureCaption', styleName: 'Figure Caption', binding: mapping.captions?.figure ?? schema.roles.figureCaption, fixedSize: 21, fallbackAlignment: 'center', sampleText: '图1-1 图题样式', ...captionParagraph, ...zhBody },
     { role: 'table-caption', styleId: 'TableCaption', styleName: 'Table Caption', binding: mapping.captions?.table ?? schema.roles.tableCaption, fixedSize: 21, fallbackAlignment: 'center', sampleText: '表1-1 表题样式', ...captionParagraph, ...zhBody },

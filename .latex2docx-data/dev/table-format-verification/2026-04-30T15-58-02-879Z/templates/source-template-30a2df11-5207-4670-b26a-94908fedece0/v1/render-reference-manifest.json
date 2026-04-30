@@ -1,0 +1,297 @@
+{
+  "generatedAt": "2026-04-30T15:58:02.906Z",
+  "schemaVersion": "0.2.0",
+  "templateId": "30a2df11-5207-4670-b26a-94908fedece0",
+  "templateVersion": 1,
+  "sourceDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/table-format-verification/2026-04-30T15-58-02-879Z/templates/source-template-30a2df11-5207-4670-b26a-94908fedece0/v1/source-template.docx",
+  "outputPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/table-format-verification/2026-04-30T15-58-02-879Z/templates/source-template-30a2df11-5207-4670-b26a-94908fedece0/v1/render-reference.docx",
+  "strategy": "schema-driven-reference-docx",
+  "note": "render-reference.docx is generated from schema style bindings and uses the source DOCX only as an OOXML package shell.",
+  "styleBindings": [
+    {
+      "role": "title",
+      "styleId": "Title",
+      "styleName": "Title",
+      "sourceParagraphIndex": 9,
+      "sourceText": "论文题目：",
+      "evidence": [
+        "normalized cover label match",
+        "normalized=论文题目:"
+      ]
+    },
+    {
+      "role": "authors",
+      "styleId": "Author",
+      "styleName": "Author",
+      "sourceParagraphIndex": 11,
+      "sourceText": "姓 名：",
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名:"
+      ]
+    },
+    {
+      "role": "abstract-title",
+      "styleId": "AbstractTitle",
+      "styleName": "Abstract Title",
+      "sourceParagraphIndex": 41,
+      "sourceText": "摘 要（另起一页，首行，居中，黑体，小二号）",
+      "evidence": [
+        "matches 摘要/中文摘要 after normalization"
+      ]
+    },
+    {
+      "role": "abstract-body",
+      "styleId": "Abstract",
+      "styleName": "Abstract",
+      "sourceParagraphIndex": 42,
+      "sourceText": "（空一行）\n（空一行）",
+      "evidence": [
+        "after 摘要",
+        "before 关键词"
+      ]
+    },
+    {
+      "role": "keywords",
+      "styleId": "Keywords",
+      "styleName": "Keywords",
+      "sourceParagraphIndex": 45,
+      "sourceText": "关键词（左对齐，宋体，小四号，加粗）：中文关键词；中文关键词；……（宋体，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+      "evidence": [
+        "Chinese keyword label"
+      ]
+    },
+    {
+      "role": "english-abstract-title",
+      "styleId": "EnglishAbstractTitle",
+      "styleName": "English Abstract Title",
+      "sourceParagraphIndex": 48,
+      "sourceText": "Abstract（居中，Times New Roman，小二号，加粗）",
+      "evidence": [
+        "English abstract is secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "english-abstract-body",
+      "styleId": "EnglishAbstract",
+      "styleName": "English Abstract",
+      "sourceParagraphIndex": 49,
+      "sourceText": "（空一行）",
+      "evidence": [
+        "English abstract secondary detection"
+      ]
+    },
+    {
+      "role": "english-keywords",
+      "styleId": "EnglishKeywords",
+      "styleName": "English Keywords",
+      "sourceParagraphIndex": 52,
+      "sourceText": "KeyWords（左对齐，Times New Roman，小四号，加粗）: word; word; word; word（Times New Roman，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+      "evidence": [
+        "English keywords are secondary for zh-CN templates"
+      ]
+    },
+    {
+      "role": "toc-title",
+      "styleId": "TOCHeading",
+      "styleName": "TOC Heading",
+      "sourceParagraphIndex": 58,
+      "sourceText": "目 录（另起一页，首行，居中，黑体，小二号）",
+      "evidence": [
+        "matches 目录 after whitespace removal"
+      ]
+    },
+    {
+      "role": "toc-entry-level1",
+      "styleId": "TOC1",
+      "styleName": "TOC 1",
+      "sourceParagraphIndex": 60,
+      "sourceText": "1 一级标题……………………………………………………………………………………………1",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "toc-entry-level2",
+      "styleId": "TOC2",
+      "styleName": "TOC 2",
+      "sourceParagraphIndex": 61,
+      "sourceText": "1.1 二级标题 ……………………………………………………………………………………1",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "toc-entry-level3",
+      "styleId": "TOC3",
+      "styleName": "TOC 3",
+      "sourceParagraphIndex": 62,
+      "sourceText": "1.1.1 三级标题…………………………………………………………………………………1",
+      "evidence": [
+        "contains TOC/HYPERLINK field code"
+      ]
+    },
+    {
+      "role": "body-first-paragraph",
+      "styleId": "FirstParagraph",
+      "styleName": "First Paragraph",
+      "sourceParagraphIndex": 91,
+      "sourceText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "body",
+      "styleId": "BodyText",
+      "styleName": "Body Text",
+      "sourceParagraphIndex": 91,
+      "sourceText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "compact-body",
+      "styleId": "Compact",
+      "styleName": "Compact",
+      "sourceParagraphIndex": 91,
+      "sourceText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "heading1",
+      "styleId": "Heading1",
+      "styleName": "Heading 1",
+      "sourceParagraphIndex": 84,
+      "sourceText": "绪 论（另起一页，首行，居中，黑体，小二号）",
+      "evidence": [
+        "not TOC",
+        "heading1 regex",
+        "bold/center/large font evidence"
+      ]
+    },
+    {
+      "role": "heading2",
+      "styleId": "Heading2",
+      "styleName": "Heading 2",
+      "sourceParagraphIndex": 90,
+      "sourceText": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+      "evidence": [
+        "not TOC",
+        "heading2 regex",
+        "bold/spacing/font evidence"
+      ]
+    },
+    {
+      "role": "equation",
+      "styleId": "Equation",
+      "styleName": "Equation",
+      "sourceParagraphIndex": 91,
+      "sourceText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ]
+    },
+    {
+      "role": "captioned-figure",
+      "styleId": "CaptionedFigure",
+      "styleName": "Captioned Figure",
+      "sourceParagraphIndex": 102,
+      "sourceText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption",
+      "styleId": "ImageCaption",
+      "styleName": "Image Caption",
+      "sourceParagraphIndex": 102,
+      "sourceText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "figure-caption-compat",
+      "styleId": "FigureCaption",
+      "styleName": "Figure Caption",
+      "sourceParagraphIndex": 102,
+      "sourceText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+      "evidence": [
+        "Chinese figure caption pattern"
+      ]
+    },
+    {
+      "role": "table-caption",
+      "styleId": "TableCaption",
+      "styleName": "Table Caption",
+      "sourceParagraphIndex": 104,
+      "sourceText": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+      "evidence": [
+        "Chinese table caption pattern"
+      ]
+    },
+    {
+      "role": "references-title",
+      "styleId": "ReferencesTitle",
+      "styleName": "References Title",
+      "sourceParagraphIndex": 135,
+      "sourceText": "参考文献（另起一页，首行，居中，黑体，小二号）",
+      "evidence": [
+        "Chinese references title pattern"
+      ]
+    },
+    {
+      "role": "bibliography",
+      "styleId": "Bibliography",
+      "styleName": "Bibliography",
+      "sourceParagraphIndex": 137,
+      "sourceText": "[1] 杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330．",
+      "evidence": [
+        "reference item pattern"
+      ]
+    },
+    {
+      "role": "acknowledgement-title",
+      "styleId": "AcknowledgementTitle",
+      "styleName": "Acknowledgement Title",
+      "sourceParagraphIndex": 130,
+      "sourceText": "致 谢（另起一页，首行，居中，黑体，小二号）",
+      "evidence": [
+        "Chinese acknowledgement title pattern"
+      ]
+    },
+    {
+      "role": "appendix-title",
+      "styleId": "AppendixTitle",
+      "styleName": "Appendix Title",
+      "evidence": [
+        "Chinese appendix title pattern"
+      ]
+    },
+    {
+      "role": "header",
+      "styleId": "Header",
+      "styleName": "Header",
+      "evidence": []
+    },
+    {
+      "role": "footer",
+      "styleId": "Footer",
+      "styleName": "Footer",
+      "evidence": []
+    }
+  ]
+}

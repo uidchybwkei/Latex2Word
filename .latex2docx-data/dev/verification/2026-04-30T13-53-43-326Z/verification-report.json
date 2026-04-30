@@ -1,0 +1,432 @@
+{
+  "generatedAt": "2026-04-30T13:54:28.757Z",
+  "verificationDir": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z",
+  "results": [
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/07-理工类论文模板（自动生成目录版）.doc",
+      "templateId": "d1c8bf4d-1b1b-4b9c-af48-fe7486bd86a4",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/07-d1c8bf4d-1b1b-4b9c-af48-fe7486bd86a4/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/07-d1c8bf4d-1b1b-4b9c-af48-fe7486bd86a4/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/07-d1c8bf4d-1b1b-4b9c-af48-fe7486bd86a4/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/a75862dc-e154-4f41-821e-6d71ed52a72a/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/a75862dc-e154-4f41-821e-6d71ed52a72a/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [],
+        "paragraphCount": 589,
+        "styleCount": 31,
+        "sectionCount": 3,
+        "headerFooterDetected": true,
+        "numberingDetected": true,
+        "roles": {
+          "titleField": "题 目",
+          "authorField": "学生姓名",
+          "chineseAbstract": "摘 要",
+          "englishAbstract": "ABSTRACT",
+          "toc": "目 录",
+          "heading1": "1 引言",
+          "heading2": "2.1 激光打靶系统概述",
+          "body": "目前的射击打靶训练，基本以实弹训练为主，国防开支大，危险系数高。传统的报靶方法是人工报靶，由报靶员根据经验确定靶数，带有很大的个人主观因素，可靠性、公正性差，效率低。因此有必要研制一种切合部队实际的，在非实弹射击条件下进行射击精度训练的打靶训练器，这样既能保证部队训练质量又能减少弹药消耗、节约国防费用，具有重大的国防意义。",
+          "figureCaption": "图2-1 激光打靶系统原理图",
+          "tableCaption": "表3-1 靶位编码",
+          "references": "参考文献",
+          "acknowledgement": "致谢"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 40,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/image1.png",
+          "word/media/image10.png",
+          "word/media/image11.png",
+          "word/media/image12.png",
+          "word/media/image2.png",
+          "word/media/image3.png",
+          "word/media/image4.png",
+          "word/media/image5.png",
+          "word/media/image6.png",
+          "word/media/image7.png",
+          "word/media/image8.png",
+          "word/media/image9.png",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": false,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        },
+        "output": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/d2e0aaf1a390/output/fixed-template.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/d2e0aaf1a390/output/fixed-template\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/模板.docx",
+      "templateId": "1f1077c9-d587-4e02-9539-395651dc7292",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-1f1077c9-d587-4e02-9539-395651dc7292/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-1f1077c9-d587-4e02-9539-395651dc7292/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-1f1077c9-d587-4e02-9539-395651dc7292/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/da3979b3-a930-413d-8c79-44644219eff2/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/da3979b3-a930-413d-8c79-44644219eff2/pandoc.log",
+      "schema": {
+        "confidence": 0.74,
+        "warnings": [
+          "未识别到 中文摘要标题。",
+          "未识别到 中文关键词。",
+          "未识别到 目录标题。",
+          "未识别到 一级标题样例。",
+          "未识别到 正文样式样例。",
+          "未识别到 参考文献标题。",
+          "未识别到 致谢标题。",
+          "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+        ],
+        "paragraphCount": 146,
+        "styleCount": 34,
+        "sectionCount": 3,
+        "headerFooterDetected": true,
+        "numberingDetected": false,
+        "roles": {
+          "titleField": "论文题目：",
+          "authorField": "姓 名：",
+          "heading2": "1.1 二级标题 ……………………………………………………………………………………1",
+          "figureCaption": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+          "tableCaption": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 31,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/",
+          "word/media/image1.png",
+          "word/media/image2.png",
+          "word/media/image3.wmf",
+          "word/media/image4.wmf",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": false,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/c6a3cecfa805/source/模板.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/c6a3cecfa805/source/模板\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        },
+        "output": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/c6a3cecfa805/output/fixed-template.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/c6a3cecfa805/output/fixed-template\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/论文.docx",
+      "templateId": "4db91526-07bc-4f78-9dfa-0ea35f33d1ae",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-4db91526-07bc-4f78-9dfa-0ea35f33d1ae/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-4db91526-07bc-4f78-9dfa-0ea35f33d1ae/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-4db91526-07bc-4f78-9dfa-0ea35f33d1ae/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/009fb2d9-86e5-45d8-adef-1aea73f42e15/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/009fb2d9-86e5-45d8-adef-1aea73f42e15/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未识别到 封面题目字段。",
+          "未识别到 封面学院/系字段。",
+          "未识别到 致谢标题。"
+        ],
+        "paragraphCount": 339,
+        "styleCount": 18,
+        "sectionCount": 3,
+        "headerFooterDetected": true,
+        "numberingDetected": true,
+        "roles": {
+          "authorField": "姓　　名：",
+          "chineseAbstract": "摘要",
+          "toc": "目 录",
+          "heading1": "基于 Python 的广安职院学生成绩数据分析系统设计与实现",
+          "heading2": "系统可行性分析",
+          "body": "随着信息技术的快速发展，数据分析在教育管理中的应用日益重要。传统的学生成绩管理系统主仅仅只是实现了数据的存储、查询等基本功能，没有进行数据分析，无法充分的利用这些成绩数据。因此，本文设计并实现了一个基于 Python 的学生成绩数据分析管理系统，以帮助教师通过对学生成绩数据的进行分析来提高教学质量。",
+          "figureCaption": "图4.1 平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+          "tableCaption": "表3.1 班级表",
+          "references": "参考文献"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 25,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/",
+          "word/media/image1.jpeg",
+          "word/media/image2.png",
+          "word/media/image3.png",
+          "word/media/image4.png",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": false,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/347daab728a1/source/论文.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/347daab728a1/source/论文\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        },
+        "output": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/347daab728a1/output/fixed-template.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/347daab728a1/output/fixed-template\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/青岛工学院毕业论文（设计）撰写（范例）.docx",
+      "templateId": "3cf122cd-55c6-4cd5-90bb-31c08d5916a7",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-3cf122cd-55c6-4cd5-90bb-31c08d5916a7/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-3cf122cd-55c6-4cd5-90bb-31c08d5916a7/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/template-3cf122cd-55c6-4cd5-90bb-31c08d5916a7/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/ad74af30-f258-461b-ac8a-8d47d22a1eed/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/ad74af30-f258-461b-ac8a-8d47d22a1eed/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未识别到 封面题目字段。",
+          "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+        ],
+        "paragraphCount": 260,
+        "styleCount": 35,
+        "sectionCount": 9,
+        "headerFooterDetected": true,
+        "numberingDetected": false,
+        "roles": {
+          "authorField": "学生姓名",
+          "chineseAbstract": "摘 要",
+          "englishAbstract": "Abstract",
+          "toc": "目 录",
+          "heading1": "毕业论文（设计）题目",
+          "heading2": "1.1 题目背景及目的",
+          "body": "本人郑重声明：所呈交的毕业论文（设计）是本人在导师的指导下，独立进行研究工作所取得的成果，所有数据、图片资料均真实可靠。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品或成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全意识到本声明的法律结果由本人承担。",
+          "figureCaption": "图1-1 刺参形态",
+          "tableCaption": "表2-1 动物饲料配比",
+          "references": "参考文献",
+          "acknowledgement": "致谢"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 39,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/",
+          "word/media/image1.png",
+          "word/media/image2.png",
+          "word/media/image3.emf",
+          "word/media/image4.emf",
+          "word/media/image5.wmf",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": false,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        },
+        "output": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/a1c227d941c6/output/fixed-template.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/a1c227d941c6/output/fixed-template\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/（1）本科毕业设计（论文）文本模板.doc",
+      "templateId": "458f737d-98a5-4a86-9a47-f627cc3cfb50",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/1-458f737d-98a5-4a86-9a47-f627cc3cfb50/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/1-458f737d-98a5-4a86-9a47-f627cc3cfb50/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/templates/1-458f737d-98a5-4a86-9a47-f627cc3cfb50/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/196e602f-94d8-4c6f-86ca-3022fabbff74/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/jobs/196e602f-94d8-4c6f-86ca-3022fabbff74/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未识别到 一级标题样例。",
+          "未识别到 正文样式样例。",
+          "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+        ],
+        "paragraphCount": 207,
+        "styleCount": 39,
+        "sectionCount": 5,
+        "headerFooterDetected": true,
+        "numberingDetected": false,
+        "roles": {
+          "titleField": "题目：",
+          "authorField": "姓 名",
+          "chineseAbstract": "摘 要",
+          "englishAbstract": "Abstract",
+          "toc": "目 录",
+          "heading2": "2.1二级标题",
+          "figureCaption": "图X-X（空半字距离）XXX原理图",
+          "tableCaption": "表X-X（空半字距离）1995—1998年工商银行资产负债情况 单位：亿元",
+          "references": "参考文献",
+          "acknowledgement": "致 谢"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 33,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/image1.jpeg",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": false,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        },
+        "output": {
+          "ok": false,
+          "error": "Command failed: pdftoppm -png /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/0b64aba3b113/output/fixed-template.pdf /Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T13-53-43-326Z/renders/0b64aba3b113/output/fixed-template\npdftoppm version 4.05 [www.xpdfreader.com]\nCopyright 1996-2024 Glyph & Cog, LLC\nUsage: pdftoppm [options] <PDF-file> <PPM-root>\n  -f <int>          : first page to print\n  -l <int>          : last page to print\n  -r <number>       : resolution, in DPI (default is 150)\n  -mono             : generate a monochrome PBM file\n  -gray             : generate a grayscale PGM file\n  -rot <int>        : set page rotation: 0, 90, 180, or 270\n  -freetype <string>: enable FreeType font rasterizer: yes, no\n  -aa <string>      : enable font anti-aliasing: yes, no\n  -aaVector <string>: enable vector anti-aliasing: yes, no\n  -opw <string>     : owner password (for encrypted files)\n  -upw <string>     : user password (for encrypted files)\n  -verbose          : print per-page status information\n  -q                : don't print any messages or errors\n  -cfg <string>     : configuration file to use in place of .xpdfrc\n  -v                : print copyright and version info\n  -h                : print usage information\n  -help             : print usage information\n  --help            : print usage information\n  -?                : print usage information\n",
+          "pageImages": [],
+          "pageCount": 0
+        }
+      }
+    }
+  ]
+}

@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "pnpm --filter @latex2docx/desktop dev",
     "build": "pnpm --filter @latex2docx/desktop build",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r typecheck",
+    "verify:examples": "pnpm --filter @latex2docx/desktop verify:examples"
   }
 }

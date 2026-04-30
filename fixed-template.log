@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.17)  30 APR 2026 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.17)  30 APR 2026 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,7 +464,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�文。摘要环境会映射到 schema 中
-                                                  的中文摘要样式。 �...
+                                                  的中文摘要样式。 �...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -477,7 +477,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�。摘要环境会映射到 schema 中的
-                                                  中文摘要样式。 是�...
+                                                  中文摘要样式。 发�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -490,7 +490,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�摘要环境会映射到 schema 中的中
-                                                  文摘要样式。 是大�...
+                                                  文摘要样式。 发生�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -503,7 +503,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�要环境会映射到 schema 中的中文
-                                                  摘要样式。 是大部�...
+                                                  摘要样式。 发生的�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -516,7 +516,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�环境会映射到 schema 中的中文摘
-                                                  要样式。 是大部分�...
+                                                  要样式。 发生的发�...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -529,7 +529,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�境会映射到 schema 中的中文摘要
-                                                  样式。 是大部分感�...
+                                                  样式。 发生的发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -542,7 +542,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�会映射到 schema 中的中文摘要样
-                                                  式。 是大部分感觉�...
+                                                  式。 发生的发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -555,7 +555,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�映射到 schema 中的中文摘要样式
-                                                  。 是大部分感觉阿�...
+                                                  。 发生的发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -568,189 +568,85 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.13 ...�射到 schema 中的中文摘要样式。
-                                                   是大部分感觉阿斯�...
+                                                   发生的发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 是 (U+662F)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 发 (U+53D1)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...到 schema 中的中文摘要样式。 是
-                                                  大部分感觉阿斯蒂�...
+l.13 ...到 schema 中的中文摘要样式。 发
+                                                  生的发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 大 (U+5927)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 生 (U+751F)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... schema 中的中文摘要样式。 是大
-                                                  部分感觉阿斯蒂芬�...
+l.13 ... schema 中的中文摘要样式。 发生
+                                                  的发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 部 (U+90E8)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 的 (U+7684)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...hema 中的中文摘要样式。 是大部
-                                                  分感觉阿斯蒂芬报�...
+l.13 ...hema 中的中文摘要样式。 发生的
+                                                  发的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 分 (U+5206)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 发 (U+53D1)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...a 中的中文摘要样式。 是大部分
-                                                  感觉阿斯蒂芬报告�...
+l.13 ...a 中的中文摘要样式。 发生的发
+                                                  的深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 感 (U+611F)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 的 (U+7684)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...��的中文摘要样式。 是大部分感
-                                                  觉阿斯蒂芬报告爸�...
+l.13 ...��的中文摘要样式。 发生的发的
+                                                  深
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 觉 (U+89C9)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 深 (U+6DF1)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...��中文摘要样式。 是大部分感觉
-                                                  阿斯蒂芬报告爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 阿 (U+963F)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+l.13 ...��中文摘要样式。 发生的发的深
                                                   
-l.13 ...��文摘要样式。 是大部分感觉阿
-                                                  斯蒂芬报告爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 斯 (U+65AF)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...��摘要样式。 是大部分感觉阿斯
-                                                  蒂芬报告爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 蒂 (U+8482)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...��要样式。 是大部分感觉阿斯蒂
-                                                  芬报告爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 芬 (U+82AC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...��样式。 是大部分感觉阿斯蒂芬
-                                                  报告爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 报 (U+62A5)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...��式。 是大部分感觉阿斯蒂芬报
-                                                  告爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 告 (U+544A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...��。 是大部分感觉阿斯蒂芬报告
-                                                  爸爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 爸 (U+7238)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...�� 是大部分感觉阿斯蒂芬报告爸
-                                                  爸 FVG
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:13: LaTeX Error: Unicode character 爸 (U+7238)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...是大部分感觉阿斯蒂芬报告爸爸
-                                                   FVG
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1387,7 +1283,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这
-        里填写二级标题下的正文内容。 你的说法那是的不�...
+        里填写二级标题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1400,7 +1296,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里
-           填写二级标题下的正文内容。 你的说法那是的不�...
+           填写二级标题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1413,7 +1309,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填
-              写二级标题下的正文内容。 你的说法那是的不�...
+              写二级标题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1426,7 +1322,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写
-                 二级标题下的正文内容。 你的说法那是的不�...
+                 二级标题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1439,7 +1335,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二
-                    级标题下的正文内容。 你的说法那是的不�...
+                    级标题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1452,7 +1348,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级
-                       标题下的正文内容。 你的说法那是的不�...
+                       标题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1465,7 +1361,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标
-                          题下的正文内容。 你的说法那是的不�...
+                          题下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1478,7 +1374,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题
-                             下的正文内容。 你的说法那是的不�...
+                             下的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1491,7 +1387,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下
-                                的正文内容。 你的说法那是的不�...
+                                的正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1504,7 +1400,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下的
-                                   正文内容。 你的说法那是的不�...
+                                   正文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1517,7 +1413,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下的正
-                                      文内容。 你的说法那是的不�...
+                                      文内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1530,7 +1426,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下的正文
-                                         内容。 你的说法那是的不�...
+                                         内容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1543,7 +1439,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下的正文内
-                                            容。 你的说法那是的不�...
+                                            容。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1556,7 +1452,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下的正文内容
-                                               。 你的说法那是的不�...
+                                               。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1569,727 +1465,729 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.26 这里填写二级标题下的正文内容。
-                                                   你的说法那是的不�...
+                                                  
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 你 (U+4F60)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:28: LaTeX Error: Unicode character 公 (U+516C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��写二级标题下的正文内容。 你
-                                                  的说法那是的不能�...
+l.28 \subsection{公式示例}
+                              
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 的 (U+7684)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:28: LaTeX Error: Unicode character 式 (U+5F0F)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��二级标题下的正文内容。 你的
-                                                  说法那是的不能付�...
+l.28 \subsection{公式示例}
+                              
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 说 (U+8BF4)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:28: LaTeX Error: Unicode character 示 (U+793A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��级标题下的正文内容。 你的说
-                                                  法那是的不能付款就
+l.28 \subsection{公式示例}
+                              
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 法 (U+6CD5)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:28: LaTeX Error: Unicode character 例 (U+4F8B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��标题下的正文内容。 你的说法
-                                                  那是的不能付款就
+l.28 \subsection{公式示例}
+                              
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 那 (U+90A3)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 这 (U+8FD9)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��题下的正文内容。 你的说法那
-                                                  是的不能付款就
+l.29 这
+        里填写公式前后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 是 (U+662F)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 里 (U+91CC)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��下的正文内容。 你的说法那是
-                                                  的不能付款就
+l.29 这里
+           填写公式前后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 的 (U+7684)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 填 (U+586B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��的正文内容。 你的说法那是的
-                                                  不能付款就
+l.29 这里填
+              写公式前后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 不 (U+4E0D)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 写 (U+5199)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��正文内容。 你的说法那是的不
-                                                  能付款就
+l.29 这里填写
+                 公式前后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 能 (U+80FD)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 公 (U+516C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��文内容。 你的说法那是的不能
-                                                  付款就
+l.29 这里填写公
+                    式前后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 付 (U+4ED8)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 式 (U+5F0F)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��内容。 你的说法那是的不能付
-                                                  款就
+l.29 这里填写公式
+                       前后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 款 (U+6B3E)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 前 (U+524D)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��容。 你的说法那是的不能付款
-                                                  就
+l.29 这里填写公式前
+                          后的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:26: LaTeX Error: Unicode character 就 (U+5C31)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 后 (U+540E)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...��。 你的说法那是的不能付款就
-                                                  
+l.29 这里填写公式前后
+                             的说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 图 (U+56FE)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 的 (U+7684)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
+l.29 这里填写公式前后的
+                                说明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 示 (U+793A)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 说 (U+8BF4)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
+l.29 这里填写公式前后的说
+                                   明文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 例 (U+4F8B)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 明 (U+660E)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
+l.29 这里填写公式前后的说明
+                                      文字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 图 (U+56FE)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 文 (U+6587)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
+l.29 这里填写公式前后的说明文
+                                         字。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 你 (U+4F60)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 字 (U+5B57)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
+l.29 这里填写公式前后的说明文字
+                                            。
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 的 (U+7684)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:29: LaTeX Error: Unicode character 。 (U+3002)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 说 (U+8BF4)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 法 (U+6CD5)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 耐 (U+8010)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 克 (U+514B)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 森 (U+68EE)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:31: LaTeX Error: Unicode character 题 (U+9898)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...1-1 示例图你的说法耐克森 DNF题}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:36: LaTeX Error: Unicode character 表 (U+8868)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption{表1-1 示例表题}
-                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:36: LaTeX Error: Unicode character 示 (U+793A)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption{表1-1 示例表题}
-                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:36: LaTeX Error: Unicode character 例 (U+4F8B)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption{表1-1 示例表题}
-                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:36: LaTeX Error: Unicode character 表 (U+8868)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption{表1-1 示例表题}
-                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:36: LaTeX Error: Unicode character 题 (U+9898)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \caption{表1-1 示例表题}
-                                  
+l.29 这里填写公式前后的说明文字。
+                                               
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 37.
+(Font)              <12> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 37.
+(Font)              <8> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 37.
+(Font)              <6> on input line 30.
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:39: LaTeX Error: Unicode character 列 (U+5217)
+LaTeX Warning: File `latex2docx-sample-figure.png' not found on input line 36.
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:36: Package pdftex.def Error: File `latex2docx-sample-figure.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...5\linewidth]{latex2docx-sample-figure.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:37: LaTeX Error: Unicode character 图 (U+56FE)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 列
+l.37 \caption{图1-1 示例图题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:37: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \caption{图1-1 示例图题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:37: LaTeX Error: Unicode character 例 (U+4F8B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \caption{图1-1 示例图题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:37: LaTeX Error: Unicode character 图 (U+56FE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \caption{图1-1 示例图题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:37: LaTeX Error: Unicode character 题 (U+9898)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \caption{图1-1 示例图题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:42: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \caption{表1-1 示例表题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:42: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \caption{表1-1 示例表题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:42: LaTeX Error: Unicode character 例 (U+4F8B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \caption{表1-1 示例表题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:42: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \caption{表1-1 示例表题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:42: LaTeX Error: Unicode character 题 (U+9898)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \caption{表1-1 示例表题}
+                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:45: LaTeX Error: Unicode character 列 (U+5217)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 列
         1 & 列2 \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:39: LaTeX Error: Unicode character 列 (U+5217)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:45: LaTeX Error: Unicode character 列 (U+5217)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 列1 & 列
+l.45 列1 & 列
                2 \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:41: LaTeX Error: Unicode character 示 (U+793A)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:47: LaTeX Error: Unicode character 示 (U+793A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 示
+l.47 示
         例 & 内容 \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:41: LaTeX Error: Unicode character 例 (U+4F8B)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:47: LaTeX Error: Unicode character 例 (U+4F8B)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 示例
+l.47 示例
             & 内容 \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:41: LaTeX Error: Unicode character 内 (U+5185)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:47: LaTeX Error: Unicode character 内 (U+5185)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 示例 & 内
+l.47 示例 & 内
                  容 \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:41: LaTeX Error: Unicode character 容 (U+5BB9)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:47: LaTeX Error: Unicode character 容 (U+5BB9)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 示例 & 内容
+l.47 示例 & 内容
                      \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:46: LaTeX Error: Unicode character 参 (U+53C2)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:52: LaTeX Error: Unicode character 参 (U+53C2)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \section*{参考文献}
+l.52 \section*{参考文献}
                             
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:46: LaTeX Error: Unicode character 考 (U+8003)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:52: LaTeX Error: Unicode character 考 (U+8003)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \section*{参考文献}
+l.52 \section*{参考文献}
                             
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:46: LaTeX Error: Unicode character 文 (U+6587)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:52: LaTeX Error: Unicode character 文 (U+6587)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \section*{参考文献}
+l.52 \section*{参考文献}
                             
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:46: LaTeX Error: Unicode character 献 (U+732E)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:52: LaTeX Error: Unicode character 献 (U+732E)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \section*{参考文献}
+l.52 \section*{参考文献}
                             
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 作 (U+4F5C)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 作 (U+4F5C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作
+l.54 \bibitem{ref1} 作
                        者. 文献题名[M]. 出版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 者 (U+8005)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 者 (U+8005)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作者
+l.54 \bibitem{ref1} 作者
                           . 文献题名[M]. 出版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 文 (U+6587)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 文 (U+6587)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作者. 文
+l.54 \bibitem{ref1} 作者. 文
                                献题名[M]. 出版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 献 (U+732E)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 献 (U+732E)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作者. 文献
+l.54 \bibitem{ref1} 作者. 文献
                                   题名[M]. 出版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 题 (U+9898)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 题 (U+9898)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作者. 文献题
+l.54 \bibitem{ref1} 作者. 文献题
                                      名[M]. 出版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 名 (U+540D)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 名 (U+540D)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作者. 文献题名
+l.54 \bibitem{ref1} 作者. 文献题名
                                         [M]. 出版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 出 (U+51FA)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 出 (U+51FA)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \bibitem{ref1} 作者. 文献题名[M]. 出
+l.54 \bibitem{ref1} 作者. 文献题名[M]. 出
                                                 版地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 版 (U+7248)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 版 (U+7248)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...item{ref1} 作者. 文献题名[M]. 出版
+l.54 ...item{ref1} 作者. 文献题名[M]. 出版
                                                   地：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 地 (U+5730)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 地 (U+5730)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...m{ref1} 作者. 文献题名[M]. 出版地
+l.54 ...m{ref1} 作者. 文献题名[M]. 出版地
                                                   ：出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character ： (U+FF1A)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character ： (U+FF1A)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...ef1} 作者. 文献题名[M]. 出版地：
+l.54 ...ef1} 作者. 文献题名[M]. 出版地：
                                                   出版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 出 (U+51FA)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 出 (U+51FA)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...} 作者. 文献题名[M]. 出版地：出
+l.54 ...} 作者. 文献题名[M]. 出版地：出
                                                   版社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 版 (U+7248)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 版 (U+7248)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...��者. 文献题名[M]. 出版地：出版
+l.54 ...��者. 文献题名[M]. 出版地：出版
                                                   社，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 社 (U+793E)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 社 (U+793E)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...��. 文献题名[M]. 出版地：出版社
+l.54 ...��. 文献题名[M]. 出版地：出版社
                                                   ，年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character ， (U+FF0C)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character ， (U+FF0C)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ... 文献题名[M]. 出版地：出版社，
+l.54 ... 文献题名[M]. 出版地：出版社，
                                                   年份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 年 (U+5E74)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 年 (U+5E74)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...�献题名[M]. 出版地：出版社，年
+l.54 ...�献题名[M]. 出版地：出版社，年
                                                   份.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:48: LaTeX Error: Unicode character 份 (U+4EFD)
+/Users/elijah/Desktop/pet_proj/LATEX2DOCX/fixed-template.tex:54: LaTeX Error: Unicode character 份 (U+4EFD)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...�题名[M]. 出版地：出版社，年份
+l.54 ...�题名[M]. 出版地：出版社，年份
                                                   .
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2302,18 +2200,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 1467 strings out of 476025
- 23644 string characters out of 5790017
+ 1498 strings out of 476025
+ 24804 string characters out of 5790017
  1853388 words of memory out of 5000000
- 21954 multiletter control sequences out of 15000+600000
- 518063 words of font info for 51 fonts, out of 8000000 for 9000
+ 21970 multiletter control sequences out of 15000+600000
+ 518232 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,62p,254b,231s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on fixed-template.pdf (2 pages, 50723 bytes).
+ 57i,8n,62p,254b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on fixed-template.pdf (2 pages, 72127 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,3499 @@
+{
+  "coverTitleField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "题 目",
+      "normalizedText": "题目",
+      "paragraphIndex": 7,
+      "paragraphIndexes": [
+        7
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=题目"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field titleField."
+    }
+  ],
+  "coverAuthorField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "学生姓名",
+      "normalizedText": "学生姓名",
+      "paragraphIndex": 17,
+      "paragraphIndexes": [
+        17
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学生姓名"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field authorField."
+    }
+  ],
+  "coverStudentIdField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "学 号",
+      "normalizedText": "学号",
+      "paragraphIndex": 15,
+      "paragraphIndexes": [
+        15
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学号"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field studentIdField."
+    }
+  ],
+  "coverSchoolField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "学 院",
+      "normalizedText": "学院",
+      "paragraphIndex": 9,
+      "paragraphIndexes": [
+        9
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学院"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field schoolField."
+    }
+  ],
+  "coverMajorField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "专 业",
+      "normalizedText": "专业",
+      "paragraphIndex": 11,
+      "paragraphIndexes": [
+        11
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=专业"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field majorField."
+    }
+  ],
+  "coverSupervisorField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "指导教师",
+      "normalizedText": "指导教师",
+      "paragraphIndex": 19,
+      "paragraphIndexes": [
+        19
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=指导教师"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field supervisorField."
+    }
+  ],
+  "chineseAbstractTitle": [
+    {
+      "styleId": "BodyText",
+      "sampleText": "摘 要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 35,
+      "paragraphIndexes": [
+        35
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "matches 摘要/中文摘要"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 480,
+          "after": 480
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract title candidate."
+    }
+  ],
+  "chineseAbstractBody": [
+    {
+      "styleId": "Normal",
+      "sampleText": "本毕业设计主要设计自主研发的激光打靶系统的信号处理过程，继而实现整个打靶系统。激光打靶系统主要包括半导体激光枪、光电探测器和信号处理电路，信号处理过程是整个系统的关键。激光打靶的打靶过程，由激光枪发射激光脉冲信号，光电靶接收激光脉冲信号，经过系列信号处理过程最终得到打靶的结果。光电靶由许多块的光电探测器组成，每块不同位置的光电探测器对应不同编号，从打靶的实际情况出发，确定了相应的编号规则。打靶的成绩由激光所击中的光电探测器的编号来判定。",
+      "normalizedText": "本毕业设计主要设计自主研发的激光打靶系统的信号处理过程,继而实现整个打靶系统.激光打靶系统主要包括半导体激光枪、光电探测器和信号处理电路,信号处理过程是整个系统的关键.激光打靶的打靶过程,由激光枪发射激光脉冲信号,光电靶接收激光脉冲信号,经过系列信号处理过程最终得到打靶的结果.光电靶由许多块的光电探测器组成,每块不同位置的光电探测器对应不同编号,从打靶的实际情况出发,确定了相应的编号规则.打靶的成绩由激光所击中的光电探测器的编号来判定.",
+      "paragraphIndex": 36,
+      "paragraphIndexes": [
+        36
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "楷体_GB2312;楷体",
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312;楷体"
+          ],
+          "dominantFont": "楷体_GB2312;楷体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "激光打靶系统的主要信号处理过程包括：信号的放大、编码和数据传输。信号由光电探测器检测后传送到相应的放大电路，放大电路采用集成运算放大器。按原先对光电探测器的编码规则采用多路优先编码器对信号进行编码。最后把编码值以串口的形式传送到计算机，利用计算机的强大功能对打靶结果进行各种处理。与计算机之间的串行数据传输由89C2051单片机实现。89C2051单片机的程序，使用keil编译器进行设计和调试完成，其主要功能是控制数据的串行传送，实现与计算机的串口通信。",
+      "normalizedText": "激光打靶系统的主要信号处理过程包括:信号的放大、编码和数据传输.信号由光电探测器检测后传送到相应的放大电路,放大电路采用集成运算放大器.按原先对光电探测器的编码规则采用多路优先编码器对信号进行编码.最后把编码值以串口的形式传送到计算机,利用计算机的强大功能对打靶结果进行各种处理.与计算机之间的串行数据传输由89C2051单片机实现.89C2051单片机的程序,使用keil编译器进行设计和调试完成,其主要功能是控制数据的串行传送,实现与计算机的串口通信.",
+      "paragraphIndex": 37,
+      "paragraphIndexes": [
+        37
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    },
+    {
+      "styleId": "21",
+      "sampleText": "该信号处理系统实现了对信号的良好检测。与计算机之间的串口通信可以实现数据在计算机上的显示、统计、储存等功能，为打靶者提供非常直接、准确的打靶结果，有利于提高打靶效果。",
+      "normalizedText": "该信号处理系统实现了对信号的良好检测.与计算机之间的串口通信可以实现数据在计算机上的显示、统计、储存等功能,为打靶者提供非常直接、准确的打靶结果,有利于提高打靶效果.",
+      "paragraphIndex": 38,
+      "paragraphIndexes": [
+        38
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    }
+  ],
+  "chineseKeywords": [
+    {
+      "styleId": "Normal",
+      "sampleText": "关键词：激光打靶；信号处理；信号编码；串行传输",
+      "normalizedText": "关键词:激光打靶;信号处理;信号编码;串行传输",
+      "paragraphIndex": 40,
+      "paragraphIndexes": [
+        40
+      ],
+      "confidence": 0.94,
+      "evidence": [
+        "matches 关键词/关键字 label"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 840
+        },
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体",
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese keywords candidate."
+    }
+  ],
+  "tocTitle": [
+    {
+      "styleId": "Normal",
+      "sampleText": "目 录",
+      "normalizedText": "目录",
+      "paragraphIndex": 59,
+      "paragraphIndexes": [
+        59
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 目录/目 录"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 480,
+          "after": 480
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC title candidate."
+    }
+  ],
+  "tocEntries": [
+    {
+      "styleId": "TOC1",
+      "sampleText": "1 引言",
+      "normalizedText": "1引言",
+      "paragraphIndex": 60,
+      "paragraphIndexes": [
+        60
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "2 概述",
+      "normalizedText": "2概述",
+      "paragraphIndex": 61,
+      "paragraphIndexes": [
+        61
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "2.1 激光打靶系统概述",
+      "normalizedText": "2.1激光打靶系统概述",
+      "paragraphIndex": 62,
+      "paragraphIndexes": [
+        62
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "2.2 本设计方案思路",
+      "normalizedText": "2.2本设计方案思路",
+      "paragraphIndex": 63,
+      "paragraphIndexes": [
+        63
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "2.3 研发方向和技术关键",
+      "normalizedText": "2.3研发方向和技术关键",
+      "paragraphIndex": 64,
+      "paragraphIndexes": [
+        64
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "2.4 主要技术指标",
+      "normalizedText": "2.4主要技术指标",
+      "paragraphIndex": 65,
+      "paragraphIndexes": [
+        65
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "3 总体设计",
+      "normalizedText": "3总体设计",
+      "paragraphIndex": 66,
+      "paragraphIndexes": [
+        66
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.1 激光的检测",
+      "normalizedText": "3.1激光的检测",
+      "paragraphIndex": 67,
+      "paragraphIndexes": [
+        67
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.2 靶位的划分",
+      "normalizedText": "3.2靶位的划分",
+      "paragraphIndex": 68,
+      "paragraphIndexes": [
+        68
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.3 编码标准",
+      "normalizedText": "3.3编码标准",
+      "paragraphIndex": 69,
+      "paragraphIndexes": [
+        69
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.4 成绩的传送和处理",
+      "normalizedText": "3.4成绩的传送和处理",
+      "paragraphIndex": 70,
+      "paragraphIndexes": [
+        70
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.5 其他说明",
+      "normalizedText": "3.5其他说明",
+      "paragraphIndex": 71,
+      "paragraphIndexes": [
+        71
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "4 硬件设计",
+      "normalizedText": "4硬件设计",
+      "paragraphIndex": 72,
+      "paragraphIndexes": [
+        72
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "4.1 信号放大电路",
+      "normalizedText": "4.1信号放大电路",
+      "paragraphIndex": 73,
+      "paragraphIndexes": [
+        73
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "4.2 整形电路",
+      "normalizedText": "4.2整形电路",
+      "paragraphIndex": 74,
+      "paragraphIndexes": [
+        74
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "4.3 编码电路",
+      "normalizedText": "4.3编码电路",
+      "paragraphIndex": 75,
+      "paragraphIndexes": [
+        75
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "4.4 串行传送",
+      "normalizedText": "4.4串行传送",
+      "paragraphIndex": 76,
+      "paragraphIndexes": [
+        76
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "4.5 电平转换",
+      "normalizedText": "4.5电平转换",
+      "paragraphIndex": 77,
+      "paragraphIndexes": [
+        77
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "5 软件设计",
+      "normalizedText": "5软件设计",
+      "paragraphIndex": 78,
+      "paragraphIndexes": [
+        78
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "5.1 总体方案",
+      "normalizedText": "5.1总体方案",
+      "paragraphIndex": 79,
+      "paragraphIndexes": [
+        79
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "5.2 程序流图",
+      "normalizedText": "5.2程序流图",
+      "paragraphIndex": 80,
+      "paragraphIndexes": [
+        80
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "5.3 模块说明",
+      "normalizedText": "5.3模块说明",
+      "paragraphIndex": 81,
+      "paragraphIndexes": [
+        81
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "6 制作与调试",
+      "normalizedText": "6制作与调试",
+      "paragraphIndex": 82,
+      "paragraphIndexes": [
+        82
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "6.1 硬件电路的布线与焊接",
+      "normalizedText": "6.1硬件电路的布线与焊接",
+      "paragraphIndex": 83,
+      "paragraphIndexes": [
+        83
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "6.2 调试",
+      "normalizedText": "6.2调试",
+      "paragraphIndex": 84,
+      "paragraphIndexes": [
+        84
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "7 结论",
+      "normalizedText": "7结论",
+      "paragraphIndex": 85,
+      "paragraphIndexes": [
+        85
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "致谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 86,
+      "paragraphIndexes": [
+        86
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 87,
+      "paragraphIndexes": [
+        87
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "附录",
+      "normalizedText": "附录",
+      "paragraphIndex": 88,
+      "paragraphIndexes": [
+        88
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    }
+  ],
+  "heading1": [
+    {
+      "styleId": "Normal",
+      "sampleText": "2026年4月",
+      "normalizedText": "2026年4月",
+      "paragraphIndex": 22,
+      "paragraphIndexes": [
+        22
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "30"
+          ],
+          "fontSizes": [
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "楷体_GB2312;楷体"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312;楷体"
+          ],
+          "dominantFont": "楷体_GB2312;楷体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "1 引言",
+      "normalizedText": "1引言",
+      "paragraphIndex": 90,
+      "paragraphIndexes": [
+        90
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "2 概述",
+      "normalizedText": "2概述",
+      "paragraphIndex": 97,
+      "paragraphIndexes": [
+        97
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "3 总体设计",
+      "normalizedText": "3总体设计",
+      "paragraphIndex": 136,
+      "paragraphIndexes": [
+        136
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "10环",
+      "normalizedText": "10环",
+      "paragraphIndex": 210,
+      "paragraphIndexes": [
+        210
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "9环",
+      "normalizedText": "9环",
+      "paragraphIndex": 212,
+      "paragraphIndexes": [
+        212
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "8环",
+      "normalizedText": "8环",
+      "paragraphIndex": 221,
+      "paragraphIndexes": [
+        221
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "7环",
+      "normalizedText": "7环",
+      "paragraphIndex": 230,
+      "paragraphIndexes": [
+        230
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "6环",
+      "normalizedText": "6环",
+      "paragraphIndex": 239,
+      "paragraphIndexes": [
+        239
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "5环",
+      "normalizedText": "5环",
+      "paragraphIndex": 248,
+      "paragraphIndexes": [
+        248
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 0,
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "4 硬件设计",
+      "normalizedText": "4硬件设计",
+      "paragraphIndex": 263,
+      "paragraphIndexes": [
+        263
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "5 软件设计",
+      "normalizedText": "5软件设计",
+      "paragraphIndex": 362,
+      "paragraphIndexes": [
+        362
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "6 制作与调试",
+      "normalizedText": "6制作与调试",
+      "paragraphIndex": 498,
+      "paragraphIndexes": [
+        498
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "7 结论",
+      "normalizedText": "7结论",
+      "paragraphIndex": 529,
+      "paragraphIndexes": [
+        529
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "致谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 541,
+      "paragraphIndexes": [
+        541
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 555,
+      "paragraphIndexes": [
+        555
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "styleId": "Heading1",
+      "sampleText": "附录",
+      "normalizedText": "附录",
+      "paragraphIndex": 580,
+      "paragraphIndexes": [
+        580
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 1 candidate."
+    }
+  ],
+  "heading2": [
+    {
+      "styleId": "Heading2",
+      "sampleText": "2.1 激光打靶系统概述",
+      "normalizedText": "2.1激光打靶系统概述",
+      "paragraphIndex": 98,
+      "paragraphIndexes": [
+        98
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "2.2 本设计方案思路",
+      "normalizedText": "2.2本设计方案思路",
+      "paragraphIndex": 120,
+      "paragraphIndexes": [
+        120
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "2.3 研发方向和技术关键",
+      "normalizedText": "2.3研发方向和技术关键",
+      "paragraphIndex": 123,
+      "paragraphIndexes": [
+        123
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "2.4 主要技术指标",
+      "normalizedText": "2.4主要技术指标",
+      "paragraphIndex": 128,
+      "paragraphIndexes": [
+        128
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "3.1 激光的检测[7,8]",
+      "normalizedText": "3.1激光的检测[7,8]",
+      "paragraphIndex": 187,
+      "paragraphIndexes": [
+        187
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "start",
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "3.2 靶位的划分",
+      "normalizedText": "3.2靶位的划分",
+      "paragraphIndex": 189,
+      "paragraphIndexes": [
+        189
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "3.3 编码标准",
+      "normalizedText": "3.3编码标准",
+      "paragraphIndex": 198,
+      "paragraphIndexes": [
+        198
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "3.4 成绩的传送和处理",
+      "normalizedText": "3.4成绩的传送和处理",
+      "paragraphIndex": 257,
+      "paragraphIndexes": [
+        257
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "3.5 其他说明",
+      "normalizedText": "3.5其他说明",
+      "paragraphIndex": 259,
+      "paragraphIndexes": [
+        259
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "4.1 信号放大电路",
+      "normalizedText": "4.1信号放大电路",
+      "paragraphIndex": 264,
+      "paragraphIndexes": [
+        264
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.1.1 集成运算放大器（LM324）",
+      "normalizedText": "4.1.1集成运算放大器(LM324)",
+      "paragraphIndex": 268,
+      "paragraphIndexes": [
+        268
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.1.2 放大电路图",
+      "normalizedText": "4.1.2放大电路图",
+      "paragraphIndex": 279,
+      "paragraphIndexes": [
+        279
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.1.3 电路原理",
+      "normalizedText": "4.1.3电路原理",
+      "paragraphIndex": 283,
+      "paragraphIndexes": [
+        283
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.1.4 电路参数",
+      "normalizedText": "4.1.4电路参数",
+      "paragraphIndex": 298,
+      "paragraphIndexes": [
+        298
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "4.2 整形电路[11]",
+      "normalizedText": "4.2整形电路[11]",
+      "paragraphIndex": 305,
+      "paragraphIndexes": [
+        305
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "start",
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "4.3 编码电路[11]",
+      "normalizedText": "4.3编码电路[11]",
+      "paragraphIndex": 312,
+      "paragraphIndexes": [
+        312
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "start",
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.3.1 编码电路图",
+      "normalizedText": "4.3.1编码电路图",
+      "paragraphIndex": 315,
+      "paragraphIndexes": [
+        315
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.3.2 电路原理",
+      "normalizedText": "4.3.2电路原理",
+      "paragraphIndex": 319,
+      "paragraphIndexes": [
+        319
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "4.4 串行传送",
+      "normalizedText": "4.4串行传送",
+      "paragraphIndex": 338,
+      "paragraphIndexes": [
+        338
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "4.4.2 电路原理",
+      "normalizedText": "4.4.2电路原理",
+      "paragraphIndex": 344,
+      "paragraphIndexes": [
+        344
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Normal",
+      "sampleText": "4.4.3 AT89C2051单片机[12]",
+      "normalizedText": "4.4.3AT89C2051单片机[12]",
+      "paragraphIndex": 352,
+      "paragraphIndexes": [
+        352
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "4.5 电平转换",
+      "normalizedText": "4.5电平转换",
+      "paragraphIndex": 356,
+      "paragraphIndexes": [
+        356
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "5.1 总体方案",
+      "normalizedText": "5.1总体方案",
+      "paragraphIndex": 363,
+      "paragraphIndexes": [
+        363
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "5.2 程序流图",
+      "normalizedText": "5.2程序流图",
+      "paragraphIndex": 366,
+      "paragraphIndexes": [
+        366
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "5.3 模块说明",
+      "normalizedText": "5.3模块说明",
+      "paragraphIndex": 407,
+      "paragraphIndexes": [
+        407
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "6.1 硬件电路的布线与焊接",
+      "normalizedText": "6.1硬件电路的布线与焊接",
+      "paragraphIndex": 499,
+      "paragraphIndexes": [
+        499
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "6.1.1 总体特点",
+      "normalizedText": "6.1.1总体特点",
+      "paragraphIndex": 500,
+      "paragraphIndexes": [
+        500
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "6.1.2 电路划分",
+      "normalizedText": "6.1.2电路划分",
+      "paragraphIndex": 505,
+      "paragraphIndexes": [
+        505
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading3",
+      "sampleText": "6.1.3 焊接",
+      "normalizedText": "6.1.3焊接",
+      "paragraphIndex": 509,
+      "paragraphIndexes": [
+        509
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "Heading2",
+      "sampleText": "6.2 调试",
+      "normalizedText": "6.2调试",
+      "paragraphIndex": 513,
+      "paragraphIndexes": [
+        513
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    }
+  ],
+  "body": [
+    {
+      "styleId": "21",
+      "sampleText": "目前的射击打靶训练，基本以实弹训练为主，国防开支大，危险系数高。传统的报靶方法是人工报靶，由报靶员根据经验确定靶数，带有很大的个人主观因素，可靠性、公正性差，效率低。因此有必要研制一种切合部队实际的，在非实弹射击条件下进行射击精度训练的打靶训练器，这样既能保证部队训练质量又能减少弹药消耗、节约国防费用，具有重大的国防意义。",
+      "normalizedText": "目前的射击打靶训练,基本以实弹训练为主,国防开支大,危险系数高.传统的报靶方法是人工报靶,由报靶员根据经验确定靶数,带有很大的个人主观因素,可靠性、公正性差,效率低.因此有必要研制一种切合部队实际的,在非实弹射击条件下进行射击精度训练的打靶训练器,这样既能保证部队训练质量又能减少弹药消耗、节约国防费用,具有重大的国防意义.",
+      "paragraphIndex": 91,
+      "paragraphIndexes": [
+        91
+      ],
+      "confidence": 0.78,
+      "evidence": [
+        "after heading and excluded front matter/TOC/instructions"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Body candidate."
+    }
+  ],
+  "figureCaption": [
+    {
+      "styleId": "Normal",
+      "sampleText": "图2-1 激光打靶系统原理图",
+      "normalizedText": "图2-1激光打靶系统原理图",
+      "paragraphIndex": 113,
+      "paragraphIndexes": [
+        113
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 图 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 8,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Figure caption candidate."
+    }
+  ],
+  "tableCaption": [
+    {
+      "styleId": "Normal",
+      "sampleText": "表3-1 靶位编码",
+      "normalizedText": "表3-1靶位编码",
+      "paragraphIndex": 200,
+      "paragraphIndexes": [
+        200
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 表 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Table caption candidate."
+    }
+  ],
+  "references": [
+    {
+      "styleId": "Heading1",
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 555,
+      "paragraphIndexes": [
+        555
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "matches 参考文献/参考资料"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "References title candidate."
+    }
+  ],
+  "acknowledgement": [
+    {
+      "styleId": "Heading1",
+      "sampleText": "致谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 541,
+      "paragraphIndexes": [
+        541
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 致谢"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Acknowledgement title candidate."
+    }
+  ],
+  "appendix": [
+    {
+      "styleId": "Heading1",
+      "sampleText": "附录",
+      "normalizedText": "附录",
+      "paragraphIndex": 580,
+      "paragraphIndexes": [
+        580
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        "matches 附录"
+      ],
+      "formatting": {
+        "indentation": {
+          "hanging": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Appendix title candidate."
+    }
+  ]
+}

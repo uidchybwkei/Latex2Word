@@ -1,0 +1,537 @@
+{
+  "generatedAt": "2026-04-30T15:59:47.115Z",
+  "verificationDir": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z",
+  "results": [
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/07-理工类论文模板（自动生成目录版）.doc",
+      "templateId": "fac7e711-dec7-4400-b1ff-9b55a9961205",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/07-fac7e711-dec7-4400-b1ff-9b55a9961205/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/07-fac7e711-dec7-4400-b1ff-9b55a9961205/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/07-fac7e711-dec7-4400-b1ff-9b55a9961205/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/bbbf84a5-c638-4d22-bb0b-4989bf6d6b6a/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/bbbf84a5-c638-4d22-bb0b-4989bf6d6b6a/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [],
+        "paragraphCount": 589,
+        "styleCount": 31,
+        "sectionCount": 3,
+        "headerFooterDetected": true,
+        "numberingDetected": true,
+        "roles": {
+          "titleField": "题 目",
+          "authorField": "学生姓名",
+          "chineseAbstract": "摘 要",
+          "englishAbstract": "ABSTRACT",
+          "toc": "目 录",
+          "heading1": "1 引言",
+          "heading2": "2.1 激光打靶系统概述",
+          "body": "目前的射击打靶训练，基本以实弹训练为主，国防开支大，危险系数高。传统的报靶方法是人工报靶，由报靶员根据经验确定靶数，带有很大的个人主观因素，可靠性、公正性差，效率低。因此有必要研制一种切合部队实际的，在非实弹射击条件下进行射击精度训练的打靶训练器，这样既能保证部队训练质量又能减少弹药消耗、节约国防费用，具有重大的国防意义。",
+          "figureCaption": "图2-1 激光打靶系统原理图",
+          "tableCaption": "表3-1 靶位编码",
+          "references": "参考文献",
+          "acknowledgement": "致谢"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 40,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/image1.png",
+          "word/media/image10.png",
+          "word/media/image11.png",
+          "word/media/image12.png",
+          "word/media/image2.png",
+          "word/media/image3.png",
+          "word/media/image4.png",
+          "word/media/image5.png",
+          "word/media/image6.png",
+          "word/media/image7.png",
+          "word/media/image8.png",
+          "word/media/image9.png",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": true,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "CaptionedFigure",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000002.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000003.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000004.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000005.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000006.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000007.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000008.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000009.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000010.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000011.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000012.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000013.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000014.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000015.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000016.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000017.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000018.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000019.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000020.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000021.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000022.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000023.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000024.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000025.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000026.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000027.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/source/07-理工类论文模板（自动生成目录版）-000028.ppm"
+          ],
+          "pageCount": 28
+        },
+        "output": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/output/fixed-template.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/output/fixed-template-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/d2e0aaf1a390/output/fixed-template-000002.ppm"
+          ],
+          "pageCount": 2
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/模板.docx",
+      "templateId": "e0cebec6-a097-40ed-8705-71934452ddf1",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-e0cebec6-a097-40ed-8705-71934452ddf1/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-e0cebec6-a097-40ed-8705-71934452ddf1/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-e0cebec6-a097-40ed-8705-71934452ddf1/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/f994c875-1be5-4ac4-b7f4-960c0270b087/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/f994c875-1be5-4ac4-b7f4-960c0270b087/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+        ],
+        "paragraphCount": 146,
+        "styleCount": 34,
+        "sectionCount": 3,
+        "headerFooterDetected": true,
+        "numberingDetected": false,
+        "roles": {
+          "titleField": "论文题目：",
+          "authorField": "姓 名：",
+          "chineseAbstract": "摘 要（另起一页，首行，居中，黑体，小二号）",
+          "englishAbstract": "Abstract（居中，Times New Roman，小二号，加粗）",
+          "toc": "目 录（另起一页，首行，居中，黑体，小二号）",
+          "heading1": "绪 论（另起一页，首行，居中，黑体，小二号）",
+          "heading2": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+          "body": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+          "figureCaption": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+          "tableCaption": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+          "references": "参考文献（另起一页，首行，居中，黑体，小二号）",
+          "acknowledgement": "致 谢（另起一页，首行，居中，黑体，小二号）"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 31,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/",
+          "word/media/image1.png",
+          "word/media/image2.png",
+          "word/media/image3.wmf",
+          "word/media/image4.wmf",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": true,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "CaptionedFigure",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000002.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000003.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000004.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000005.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000006.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000007.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000008.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000009.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000010.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/source/模板-000011.ppm"
+          ],
+          "pageCount": 11
+        },
+        "output": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/output/fixed-template.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/output/fixed-template-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/c6a3cecfa805/output/fixed-template-000002.ppm"
+          ],
+          "pageCount": 2
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/论文.docx",
+      "templateId": "e6f17722-0c37-40fc-b3a9-6c9c561b6a99",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-e6f17722-0c37-40fc-b3a9-6c9c561b6a99/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-e6f17722-0c37-40fc-b3a9-6c9c561b6a99/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-e6f17722-0c37-40fc-b3a9-6c9c561b6a99/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/253e0455-b908-4052-a167-675e465f2516/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/253e0455-b908-4052-a167-675e465f2516/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未识别到 致谢标题。"
+        ],
+        "paragraphCount": 339,
+        "styleCount": 18,
+        "sectionCount": 3,
+        "headerFooterDetected": true,
+        "numberingDetected": true,
+        "roles": {
+          "titleField": "基于 Python 的广安职院学生成绩数据分析系统设计与实现",
+          "authorField": "姓　　名：",
+          "chineseAbstract": "摘要",
+          "toc": "目 录",
+          "heading1": "引言",
+          "heading2": "系统可行性分析",
+          "body": "随着信息技术的高速发展，数据分析在各行各业中的越来越普遍了。在教育领域中，信息化建设已逐渐成为提升教学质量和管理效率的重要方法。在高校教学管理环节中，学生的学习成绩是一项判定教学成效和引导老师进行自我教学质量考察的重要的数据资源，大部分时候，成绩的好坏意味着教学决策的有效性。但传统的成绩管理系统大多只停留在最基本的成绩信息存储和成绩的调取查询上，缺少对其数据信息资源的进一步挖掘和开发利用。如何对高校学生的学习成绩进行数据挖掘以实现教学质量提升，现已成为高校教育信息化建设中的重要问题。",
+          "figureCaption": "图4.1 平均分、最高分、最低分、标准差、及格率和优秀率及可视化展示",
+          "tableCaption": "表3.1 班级表",
+          "references": "参考文献"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 25,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/",
+          "word/media/image1.jpeg",
+          "word/media/image2.png",
+          "word/media/image3.png",
+          "word/media/image4.png",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": true,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "CaptionedFigure",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000002.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000003.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000004.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000005.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000006.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000007.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000008.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000009.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000010.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000011.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000012.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000013.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000014.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000015.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000016.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000017.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/source/论文-000018.ppm"
+          ],
+          "pageCount": 18
+        },
+        "output": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/output/fixed-template.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/output/fixed-template-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/347daab728a1/output/fixed-template-000002.ppm"
+          ],
+          "pageCount": 2
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/青岛工学院毕业论文（设计）撰写（范例）.docx",
+      "templateId": "0dc85ec4-64f2-414d-a3b8-b078ecc4596a",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-0dc85ec4-64f2-414d-a3b8-b078ecc4596a/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-0dc85ec4-64f2-414d-a3b8-b078ecc4596a/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/template-0dc85ec4-64f2-414d-a3b8-b078ecc4596a/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/a663107d-5096-496c-9576-2a15d86e7429/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/a663107d-5096-496c-9576-2a15d86e7429/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+        ],
+        "paragraphCount": 260,
+        "styleCount": 35,
+        "sectionCount": 9,
+        "headerFooterDetected": true,
+        "numberingDetected": false,
+        "roles": {
+          "titleField": "毕业论文（设计）题目",
+          "authorField": "学生姓名",
+          "chineseAbstract": "摘 要",
+          "englishAbstract": "Abstract",
+          "toc": "目 录",
+          "heading1": "1 前言",
+          "heading2": "1.1 海参的简介",
+          "body": "海参（Holothurian，sea cucumber）属于无脊椎动物、棘皮动物门、海参纲。广义的海参包括海参纲所有的种类。水产上的海参系指那些可供食用的干海参。别名又叫刺参，海瓜，海鼠。世界各大洋均有海参分布，栖息于温带或亚热带波静水稳、海藻茂密的岩礁海域[1]。",
+          "figureCaption": "图1-1 刺参形态",
+          "tableCaption": "表2-1 动物饲料配比",
+          "references": "参考文献",
+          "acknowledgement": "致谢"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 39,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/",
+          "word/media/image1.png",
+          "word/media/image2.png",
+          "word/media/image3.emf",
+          "word/media/image4.emf",
+          "word/media/image5.wmf",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": true,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "CaptionedFigure",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000002.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000003.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000004.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000005.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000006.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000007.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000008.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000009.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000010.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000011.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000012.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/source/青岛工学院毕业论文（设计）撰写（范例）-000013.ppm"
+          ],
+          "pageCount": 13
+        },
+        "output": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/output/fixed-template.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/output/fixed-template-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/a1c227d941c6/output/fixed-template-000002.ppm"
+          ],
+          "pageCount": 2
+        }
+      }
+    },
+    {
+      "example": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/（1）本科毕业设计（论文）文本模板.doc",
+      "templateId": "13205804-0098-443d-a10c-f34523571692",
+      "schemaPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/1-13205804-0098-443d-a10c-f34523571692/v1/schema.json",
+      "renderReferencePath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/1-13205804-0098-443d-a10c-f34523571692/v1/render-reference.docx",
+      "fixedLatexPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/templates/1-13205804-0098-443d-a10c-f34523571692/v1/fixed-template.tex",
+      "outputDocxPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/4d1036c6-4a80-4fbb-98d0-e4b04cb66121/fixed-template.docx",
+      "pandocLogPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/jobs/4d1036c6-4a80-4fbb-98d0-e4b04cb66121/pandoc.log",
+      "schema": {
+        "confidence": 0.98,
+        "warnings": [
+          "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+        ],
+        "paragraphCount": 207,
+        "styleCount": 39,
+        "sectionCount": 5,
+        "headerFooterDetected": true,
+        "numberingDetected": false,
+        "roles": {
+          "titleField": "题目：",
+          "authorField": "姓 名",
+          "chineseAbstract": "摘 要",
+          "englishAbstract": "Abstract",
+          "toc": "目 录",
+          "heading1": "1.（空一字距离）引言",
+          "heading2": "1.1（空半字距离）XXXXXX",
+          "body": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+          "figureCaption": "图X-X（空半字距离）XXX原理图",
+          "tableCaption": "表X-X（空半字距离）1995—1998年工商银行资产负债情况 单位：亿元",
+          "references": "参考文献",
+          "acknowledgement": "致 谢"
+        }
+      },
+      "outputAnalysis": {
+        "packageFileCount": 33,
+        "hasStylesXml": true,
+        "hasNumberingXml": true,
+        "hasHeaderFooter": true,
+        "mediaFiles": [
+          "word/media/image1.jpeg",
+          "word/media/rId22.png"
+        ],
+        "hasMath": true,
+        "hasImage": true,
+        "hasTable": true,
+        "hasToc": true,
+        "hasEquationStyle": true,
+        "requiredStylesPresent": [
+          "Title",
+          "Author",
+          "AbstractTitle",
+          "Abstract",
+          "Keywords",
+          "EnglishAbstractTitle",
+          "EnglishAbstract",
+          "EnglishKeywords",
+          "TOCHeading",
+          "Heading1",
+          "Heading2",
+          "FirstParagraph",
+          "Equation",
+          "CaptionedFigure",
+          "ImageCaption",
+          "TableCaption",
+          "Bibliography"
+        ]
+      },
+      "render": {
+        "source": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000002.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000003.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000004.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000005.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000006.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000007.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000008.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000009.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000010.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/source/（1）本科毕业设计（论文）文本模板-000011.ppm"
+          ],
+          "pageCount": 11
+        },
+        "output": {
+          "ok": true,
+          "pdfPath": "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/output/fixed-template.pdf",
+          "pageImages": [
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/output/fixed-template-000001.ppm",
+            "/Users/elijah/Desktop/pet_proj/LATEX2DOCX/.latex2docx-data/dev/verification/2026-04-30T15-59-05-683Z/renders/0b64aba3b113/output/fixed-template-000002.ppm"
+          ],
+          "pageCount": 2
+        }
+      }
+    }
+  ]
+}

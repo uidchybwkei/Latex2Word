@@ -1,0 +1,5788 @@
+{
+  "schemaVersion": "0.2.0",
+  "generatedAt": "2026-04-30T15:59:16.409Z",
+  "templateId": "e0cebec6-a097-40ed-8705-71934452ddf1",
+  "templateVersion": 1,
+  "sourceTemplateAssetId": "4f6f2f13-f79a-4f6e-b058-1269a34f8442",
+  "rawExtraction": {
+    "styleCount": 34,
+    "paragraphCount": 146,
+    "tableCount": 2,
+    "sectionCount": 3,
+    "page": {
+      "widthTwips": 11906,
+      "heightTwips": 16838,
+      "orientation": "portrait",
+      "margins": {
+        "top": 1134,
+        "right": 1418,
+        "bottom": 1134,
+        "left": 1418,
+        "header": 680,
+        "footer": 567,
+        "gutter": 0
+      }
+    },
+    "styles": [
+      {
+        "styleId": "1",
+        "type": "paragraph",
+        "name": "Normal"
+      },
+      {
+        "styleId": "14",
+        "type": "character",
+        "name": "Default Paragraph Font"
+      },
+      {
+        "styleId": "12",
+        "type": "table",
+        "name": "Normal Table"
+      },
+      {
+        "styleId": "2",
+        "type": "paragraph",
+        "name": "annotation text"
+      },
+      {
+        "styleId": "3",
+        "type": "paragraph",
+        "name": "Body Text"
+      },
+      {
+        "styleId": "4",
+        "type": "paragraph",
+        "name": "Body Text Indent 2"
+      },
+      {
+        "styleId": "5",
+        "type": "paragraph",
+        "name": "Balloon Text"
+      },
+      {
+        "styleId": "6",
+        "type": "paragraph",
+        "name": "footer"
+      },
+      {
+        "styleId": "7",
+        "type": "paragraph",
+        "name": "header"
+      },
+      {
+        "styleId": "8",
+        "type": "paragraph",
+        "name": "Body Text 2"
+      },
+      {
+        "styleId": "9",
+        "type": "paragraph",
+        "name": "Normal (Web)"
+      },
+      {
+        "styleId": "10",
+        "type": "paragraph",
+        "name": "annotation subject"
+      },
+      {
+        "styleId": "11",
+        "type": "paragraph",
+        "name": "Body Text First Indent"
+      },
+      {
+        "styleId": "13",
+        "type": "table",
+        "name": "Table Grid"
+      },
+      {
+        "styleId": "15",
+        "type": "character",
+        "name": "page number"
+      },
+      {
+        "styleId": "16",
+        "type": "character",
+        "name": "annotation reference"
+      },
+      {
+        "styleId": "17",
+        "type": "character",
+        "name": "页眉 字符"
+      },
+      {
+        "styleId": "18",
+        "type": "character",
+        "name": "页脚 字符"
+      },
+      {
+        "styleId": "19",
+        "type": "character",
+        "name": "正文文本缩进 2 字符"
+      },
+      {
+        "styleId": "20",
+        "type": "character",
+        "name": "批注框文本 字符"
+      },
+      {
+        "styleId": "21",
+        "type": "paragraph",
+        "name": "_Style 12"
+      },
+      {
+        "styleId": "22",
+        "type": "paragraph",
+        "name": "List Paragraph"
+      },
+      {
+        "styleId": "23",
+        "type": "character",
+        "name": "正文文本 2 字符"
+      },
+      {
+        "styleId": "24",
+        "type": "character",
+        "name": "正文文本 字符"
+      },
+      {
+        "styleId": "25",
+        "type": "paragraph",
+        "name": "_Style 31"
+      },
+      {
+        "styleId": "26",
+        "type": "character",
+        "name": "正文文本首行缩进 字符"
+      },
+      {
+        "styleId": "27",
+        "type": "character",
+        "name": "批注文字 字符"
+      },
+      {
+        "styleId": "28",
+        "type": "character",
+        "name": "批注主题 字符"
+      },
+      {
+        "styleId": "29",
+        "type": "paragraph",
+        "name": "修订1"
+      },
+      {
+        "styleId": "30",
+        "type": "paragraph",
+        "name": "修订2"
+      },
+      {
+        "styleId": "31",
+        "type": "paragraph",
+        "name": "修订3"
+      },
+      {
+        "styleId": "32",
+        "type": "paragraph",
+        "name": "修订4"
+      },
+      {
+        "styleId": "33",
+        "type": "paragraph",
+        "name": "修订5"
+      },
+      {
+        "styleId": "34",
+        "type": "paragraph",
+        "name": "Revision"
+      }
+    ],
+    "paragraphSamples": [
+      {
+        "index": 0,
+        "rawText": "附件学号：",
+        "visibleText": "附件学号：",
+        "normalizedText": "附件学号:",
+        "text": "附件学号：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "left",
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "24",
+            "32"
+          ],
+          "fontSizes": [
+            24,
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 1,
+        "rawText": "学号：",
+        "visibleText": "学号：",
+        "normalizedText": "学号:",
+        "text": "学号：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "left",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 5,
+        "rawText": "本科毕业论文（设计）（宋体，小初，加粗）",
+        "visibleText": "本科毕业论文（设计）（宋体，小初，加粗）",
+        "normalizedText": "本科毕业论文(设计)(宋体,小初,加粗)",
+        "text": "本科毕业论文（设计）（宋体，小初，加粗）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "72"
+          ],
+          "fontSizes": [
+            72
+          ],
+          "maxFontSize": 72,
+          "minFontSize": 72,
+          "dominantFontSize": 72,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 9,
+        "rawText": "论文题目：",
+        "visibleText": "论文题目：",
+        "normalizedText": "论文题目:",
+        "text": "论文题目：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "4",
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 10,
+        "rawText": "（宋体，三号，下同）",
+        "visibleText": "（宋体，三号，下同）",
+        "normalizedText": "(宋体,三号,下同)",
+        "text": "（宋体，三号，下同）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "left",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 11,
+        "rawText": "姓    名：",
+        "visibleText": "姓 名：",
+        "normalizedText": "姓名:",
+        "text": "姓 名：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "4",
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 13,
+        "rawText": "学    院",
+        "visibleText": "学 院",
+        "normalizedText": "学院",
+        "text": "学 院",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 15,
+        "rawText": "专    业：",
+        "visibleText": "专 业：",
+        "normalizedText": "专业:",
+        "text": "专 业：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "4",
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 17,
+        "rawText": "班    级：",
+        "visibleText": "班 级：",
+        "normalizedText": "班级:",
+        "text": "班 级：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 19,
+        "rawText": "指导教师：",
+        "visibleText": "指导教师：",
+        "normalizedText": "指导教师:",
+        "text": "指导教师：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "4",
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 21,
+        "rawText": "完成时间：",
+        "visibleText": "完成时间：",
+        "normalizedText": "完成时间:",
+        "text": "完成时间：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "4",
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 22,
+        "rawText": "年      月",
+        "visibleText": "年 月",
+        "normalizedText": "年月",
+        "text": "年 月",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "left",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 24,
+        "rawText": "论文独创性声明",
+        "visibleText": "论文独创性声明",
+        "normalizedText": "论文独创性声明",
+        "text": "论文独创性声明",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 26,
+        "rawText": "本论文是我个人在导师指导下进行的研究工作及取得的研究成果。论文中除了特别加以标注和致谢的地方外，不包含其他人或者其他机构已经发表或撰写过的研究成果。其他同志对本研究的启发和所做的贡献均已在论文中作了明确的声明并表示了感谢。",
+        "visibleText": "本论文是我个人在导师指导下进行的研究工作及取得的研究成果。论文中除了特别加以标注和致谢的地方外，不包含其他人或者其他机构已经发表或撰写过的研究成果。其他同志对本研究的启发和所做的贡献均已在论文中作了明确的声明并表示了感谢。",
+        "normalizedText": "本论文是我个人在导师指导下进行的研究工作及取得的研究成果.论文中除了特别加以标注和致谢的地方外,不包含其他人或者其他机构已经发表或撰写过的研究成果.其他同志对本研究的启发和所做的贡献均已在论文中作了明确的声明并表示了感谢.",
+        "text": "本论文是我个人在导师指导下进行的研究工作及取得的研究成果。论文中除了特别加以标注和致谢的地方外，不包含其他人或者其他机构已经发表或撰写过的研究成果。其他同志对本研究的启发和所做的贡献均已在论文中作了明确的声明并表示了感谢。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "left",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 27,
+        "rawText": "作者签名：__________日期：__________",
+        "visibleText": "作者签名：__________日期：__________",
+        "normalizedText": "作者签名:__________日期:__________",
+        "text": "作者签名：__________日期：__________",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "right",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 33,
+        "rawText": "论文版权使用授权书",
+        "visibleText": "论文版权使用授权书",
+        "normalizedText": "论文版权使用授权书",
+        "text": "论文版权使用授权书",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 35,
+        "rawText": "本论文作者完全了解学校有关保留、使用论文的规定，即：学校有权保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。本人授权上海海事大学可以将本论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本论文。",
+        "visibleText": "本论文作者完全了解学校有关保留、使用论文的规定，即：学校有权保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。本人授权上海海事大学可以将本论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本论文。",
+        "normalizedText": "本论文作者完全了解学校有关保留、使用论文的规定,即:学校有权保留并向国家有关部门或机构送交论文的复印件和电子版,允许论文被查阅和借阅.本人授权上海海事大学可以将本论文的全部或部分内容编入有关数据库进行检索,可以采用影印、缩印或扫描等复制手段保存和汇编本论文.",
+        "text": "本论文作者完全了解学校有关保留、使用论文的规定，即：学校有权保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。本人授权上海海事大学可以将本论文的全部或部分内容编入有关数据库进行检索，可以采用影印、缩印或扫描等复制手段保存和汇编本论文。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 36,
+        "rawText": "本论文属于（请在以下相应方框内打“√”）：",
+        "visibleText": "本论文属于（请在以下相应方框内打“√”）：",
+        "normalizedText": "本论文属于(请在以下相应方框内打“√”):",
+        "text": "本论文属于（请在以下相应方框内打“√”）：",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 37,
+        "rawText": "□ 保密，在      年解密后适用本使用授权书。",
+        "visibleText": "□ 保密，在 年解密后适用本使用授权书。",
+        "normalizedText": "□保密,在年解密后适用本使用授权书.",
+        "text": "□ 保密，在 年解密后适用本使用授权书。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 38,
+        "rawText": "□ 不保密。",
+        "visibleText": "□ 不保密。",
+        "normalizedText": "□不保密.",
+        "text": "□ 不保密。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 39,
+        "rawText": "作者签名：__________导师签名：__________日期：__________",
+        "visibleText": "作者签名：__________导师签名：__________日期：__________",
+        "normalizedText": "作者签名:__________导师签名:__________日期:__________",
+        "text": "作者签名：__________导师签名：__________日期：__________",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "right",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 41,
+        "rawText": "摘  要（另起一页，首行，居中，黑体，小二号）",
+        "visibleText": "摘 要（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "摘要(另起一页,首行,居中,黑体,小二号)",
+        "text": "摘 要（另起一页，首行，居中，黑体，小二号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36"
+          ],
+          "fontSizes": [
+            36
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 36,
+          "dominantFontSize": 36,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 42,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 43,
+        "rawText": "中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容。（摘要内容300字左右，首行缩进两字符，宋体，非汉字用Times New Roman，小四号，行距22磅）",
+        "visibleText": "中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容。（摘要内容300字左右，首行缩进两字符，宋体，非汉字用Times New Roman，小四号，行距22磅）",
+        "normalizedText": "中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容.(摘要内容300字左右,首行缩进两字符,宋体,非汉字用TimesNewRoman,小四号,行距22磅)",
+        "text": "中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容中文摘要内容。（摘要内容300字左右，首行缩进两字符，宋体，非汉字用Times New Roman，小四号，行距22磅）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24",
+            "18"
+          ],
+          "fontSizes": [
+            24,
+            18
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 18,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "楷体_GB2312"
+          ],
+          "eastAsiaFonts": [
+            "楷体_GB2312"
+          ],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 44,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 45,
+        "rawText": "关键词（左对齐，宋体，小四号，加粗）：中文关键词；中文关键词；……（宋体，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+        "visibleText": "关键词（左对齐，宋体，小四号，加粗）：中文关键词；中文关键词；……（宋体，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+        "normalizedText": "关键词(左对齐,宋体,小四号,加粗):中文关键词;中文关键词;......(宋体,小四号,含3~5个字或词组,分号隔开,结束无标点符号)",
+        "text": "关键词（左对齐，宋体，小四号，加粗）：中文关键词；中文关键词；……（宋体，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 18,
+          "runCount": 18,
+          "textRunCount": 18,
+          "boldRuns": 7,
+          "boldRunCount": 7,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体",
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 46,
+        "rawText": "（空二行）",
+        "visibleText": "（空二行）",
+        "normalizedText": "(空二行)",
+        "text": "（空二行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 48,
+        "rawText": "Abstract（居中，Times New Roman，小二号，加粗）",
+        "visibleText": "Abstract（居中，Times New Roman，小二号，加粗）",
+        "normalizedText": "Abstract(居中,TimesNewRoman,小二号,加粗)",
+        "text": "Abstract（居中，Times New Roman，小二号，加粗）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 8,
+          "boldRunCount": 8,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "Times New Roman",
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 49,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 50,
+        "rawText": "abstract abstract abstract abstract abstract abstract abstract, abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract.（摘要内容300字左右，首行缩进两字符，Times New Roman，小四号，行距22磅）",
+        "visibleText": "abstract abstract abstract abstract abstract abstract abstract, abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract.（摘要内容300字左右，首行缩进两字符，Times New Roman，小四号，行距22磅）",
+        "normalizedText": "abstractabstractabstractabstractabstractabstractabstract,abstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstractabstract.(摘要内容300字左右,首行缩进两字符,TimesNewRoman,小四号,行距22磅)",
+        "text": "abstract abstract abstract abstract abstract abstract abstract, abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract.（摘要内容300字左右，首行缩进两字符，Times New Roman，小四号，行距22磅）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 9,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 52,
+        "rawText": "KeyWords（左对齐，Times New Roman，小四号，加粗）: word; word; word; word（Times New Roman，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+        "visibleText": "KeyWords（左对齐，Times New Roman，小四号，加粗）: word; word; word; word（Times New Roman，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+        "normalizedText": "KeyWords(左对齐,TimesNewRoman,小四号,加粗):word;word;word;word(TimesNewRoman,小四号,含3~5个字或词组,分号隔开,结束无标点符号)",
+        "text": "KeyWords（左对齐，Times New Roman，小四号，加粗）: word; word; word; word（Times New Roman，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 17,
+          "runCount": 17,
+          "textRunCount": 17,
+          "boldRuns": 8,
+          "boldRunCount": 8,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": true,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 58,
+        "rawText": "目  录（另起一页，首行，居中，黑体，小二号）",
+        "visibleText": "目 录（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "目录(另起一页,首行,居中,黑体,小二号)",
+        "text": "目 录（另起一页，首行，居中，黑体，小二号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 10,
+          "runCount": 10,
+          "textRunCount": 10,
+          "boldRuns": 7,
+          "boldRunCount": 7,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 59,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 60,
+        "rawText": "1  一级标题……………………………………………………………………………………………1",
+        "visibleText": "1 一级标题……………………………………………………………………………………………1",
+        "normalizedText": "1一级标题.........................................................................................................1",
+        "text": "1 一级标题……………………………………………………………………………………………1",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "left",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 61,
+        "rawText": "1.1  二级标题 ……………………………………………………………………………………1",
+        "visibleText": "1.1 二级标题 ……………………………………………………………………………………1",
+        "normalizedText": "1.1二级标题................................................................................................1",
+        "text": "1.1 二级标题 ……………………………………………………………………………………1",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "indentation": {
+          "left": 210
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 62,
+        "rawText": "1.1.1  三级标题…………………………………………………………………………………1",
+        "visibleText": "1.1.1 三级标题…………………………………………………………………………………1",
+        "normalizedText": "1.1.1三级标题.............................................................................................1",
+        "text": "1.1.1 三级标题…………………………………………………………………………………1",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "indentation": {
+          "left": 420
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 63,
+        "rawText": "（列出一、二、三级标题，编号方法可改为方法2，一级标题左对齐、二级标题缩进一个字符、三级标题缩进两个字符；宋体、非汉字用Times New Roman，小四号，标题与页码用“……”联接，页码右对齐，行距22磅）",
+        "visibleText": "（列出一、二、三级标题，编号方法可改为方法2，一级标题左对齐、二级标题缩进一个字符、三级标题缩进两个字符；宋体、非汉字用Times New Roman，小四号，标题与页码用“……”联接，页码右对齐，行距22磅）",
+        "normalizedText": "(列出一、二、三级标题,编号方法可改为方法2,一级标题左对齐、二级标题缩进一个字符、三级标题缩进两个字符;宋体、非汉字用TimesNewRoman,小四号,标题与页码用“......”联接,页码右对齐,行距22磅)",
+        "text": "（列出一、二、三级标题，编号方法可改为方法2，一级标题左对齐、二级标题缩进一个字符、三级标题缩进两个字符；宋体、非汉字用Times New Roman，小四号，标题与页码用“……”联接，页码右对齐，行距22磅）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "left",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 64,
+        "rawText": ".",
+        "visibleText": ".",
+        "normalizedText": ".",
+        "text": ".",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 84,
+        "rawText": "绪  论（另起一页，首行，居中，黑体，小二号）",
+        "visibleText": "绪 论（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "绪论(另起一页,首行,居中,黑体,小二号)",
+        "text": "绪 论（另起一页，首行，居中，黑体，小二号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 5,
+          "boldRunCount": 5,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 85,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 86,
+        "rawText": "正文正文正文，正文正文正文[1]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。（首行缩进两个字符，宋体，小四号，非汉字用Times New Roman，行距22磅；参考文献标注采用顺序编码制，并将序号置于方括号中）",
+        "visibleText": "正文正文正文，正文正文正文[1]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。（首行缩进两个字符，宋体，小四号，非汉字用Times New Roman，行距22磅；参考文献标注采用顺序编码制，并将序号置于方括号中）",
+        "normalizedText": "正文正文正文,正文正文正文[1].正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文.(首行缩进两个字符,宋体,小四号,非汉字用TimesNewRoman,行距22磅;参考文献标注采用顺序编码制,并将序号置于方括号中)",
+        "text": "正文正文正文，正文正文正文[1]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。（首行缩进两个字符，宋体，小四号，非汉字用Times New Roman，行距22磅；参考文献标注采用顺序编码制，并将序号置于方括号中）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 9,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 88,
+        "rawText": "1  一级标题（另起一页，居中，黑体，小二号）",
+        "visibleText": "1 一级标题（另起一页，居中，黑体，小二号）",
+        "normalizedText": "1一级标题(另起一页,居中,黑体,小二号)",
+        "text": "1 一级标题（另起一页，居中，黑体，小二号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 7,
+          "boldRunCount": 7,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 90,
+        "rawText": "1.1  二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+        "visibleText": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+        "normalizedText": "1.1二级标题(左对齐,黑体,四号,序号后空一字符接标题,末尾无标点)",
+        "text": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "left",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 91,
+        "rawText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "visibleText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "normalizedText": "正文正文正文,正文正文正文正[2].正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文.",
+        "text": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 92,
+        "rawText": "1.1.1  三级标题（左对齐，黑体，小四号，序号后空一字符接标题，末尾无标点）",
+        "visibleText": "1.1.1 三级标题（左对齐，黑体，小四号，序号后空一字符接标题，末尾无标点）",
+        "normalizedText": "1.1.1三级标题(左对齐,黑体,小四号,序号后空一字符接标题,末尾无标点)",
+        "text": "1.1.1 三级标题（左对齐，黑体，小四号，序号后空一字符接标题，末尾无标点）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "left",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 93,
+        "rawText": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "visibleText": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "normalizedText": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文.",
+        "text": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 94,
+        "rawText": "（1.1）",
+        "visibleText": "（1.1）",
+        "normalizedText": "(1.1)",
+        "text": "（1.1）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 95,
+        "rawText": "（公式、算式和方程式编号靠右对齐，单倍行距）",
+        "visibleText": "（公式、算式和方程式编号靠右对齐，单倍行距）",
+        "normalizedText": "(公式、算式和方程式编号靠右对齐,单倍行距)",
+        "text": "（公式、算式和方程式编号靠右对齐，单倍行距）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 96,
+        "rawText": "（1）标题（第四级以下单独占行标题顺序用（1）（2）（3）序号，缩进两个字符，宋体，小四号，末尾无标点）",
+        "visibleText": "（1）标题（第四级以下单独占行标题顺序用（1）（2）（3）序号，缩进两个字符，宋体，小四号，末尾无标点）",
+        "normalizedText": "(1)标题(第四级以下单独占行标题顺序用(1)(2)(3)序号,缩进两个字符,宋体,小四号,末尾无标点)",
+        "text": "（1）标题（第四级以下单独占行标题顺序用（1）（2）（3）序号，缩进两个字符，宋体，小四号，末尾无标点）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 97,
+        "rawText": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "visibleText": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "normalizedText": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文.",
+        "text": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 98,
+        "rawText": "Cp/(J.kg-1.K-1)",
+        "visibleText": "Cp/(J.kg-1.K-1)",
+        "normalizedText": "Cp/(J.kg-1.K-1)",
+        "text": "Cp/(J.kg-1.K-1)",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 420
+        },
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 9,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 1,
+          "italicRunCount": 1,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": true,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 99,
+        "rawText": "Cp/(J.kg-1.K-1)",
+        "visibleText": "Cp/(J.kg-1.K-1)",
+        "normalizedText": "Cp/(J.kg-1.K-1)",
+        "text": "Cp/(J.kg-1.K-1)",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 9,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 1,
+          "italicRunCount": 1,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": true,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 100,
+        "rawText": "t/ms",
+        "visibleText": "t/ms",
+        "normalizedText": "t/ms",
+        "text": "t/ms",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 101,
+        "rawText": "t/ms",
+        "visibleText": "t/ms",
+        "normalizedText": "t/ms",
+        "text": "t/ms",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 102,
+        "rawText": "图1.1  图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+        "visibleText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+        "normalizedText": "图1.1图题名(图题名置于图下方,居中,宋体,小四号,图序号后空一字符)",
+        "text": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 104,
+        "rawText": "表1.1  表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+        "visibleText": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+        "normalizedText": "表1.1表题名(表题名置于表上方,居中,宋体,小四号,图序号后空一字符)",
+        "text": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 105,
+        "rawText": "样品",
+        "visibleText": "样品",
+        "normalizedText": "样品",
+        "text": "样品",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 106,
+        "rawText": "厚度（μ度）",
+        "visibleText": "厚度（μ度）",
+        "normalizedText": "厚度(μ度)",
+        "text": "厚度（μ度）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 107,
+        "rawText": "吸收率（％）",
+        "visibleText": "吸收率（％）",
+        "normalizedText": "吸收率(%)",
+        "text": "吸收率（％）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 108,
+        "rawText": "功率（W.m-2）",
+        "visibleText": "功率（W.m-2）",
+        "normalizedText": "功率(W.m-2)",
+        "text": "功率（W.m-2）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 109,
+        "rawText": "时间常数（ms）",
+        "visibleText": "时间常数（ms）",
+        "normalizedText": "时间常数(ms)",
+        "text": "时间常数（ms）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 110,
+        "rawText": "样品1",
+        "visibleText": "样品1",
+        "normalizedText": "样品1",
+        "text": "样品1",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 111,
+        "rawText": "0.13",
+        "visibleText": "0.13",
+        "normalizedText": "0.13",
+        "text": "0.13",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 112,
+        "rawText": "46.75",
+        "visibleText": "46.75",
+        "normalizedText": "46.75",
+        "text": "46.75",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 113,
+        "rawText": "1600",
+        "visibleText": "1600",
+        "normalizedText": "1600",
+        "text": "1600",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 114,
+        "rawText": "2",
+        "visibleText": "2",
+        "normalizedText": "2",
+        "text": "2",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 115,
+        "rawText": "样品2",
+        "visibleText": "样品2",
+        "normalizedText": "样品2",
+        "text": "样品2",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 116,
+        "rawText": "0.13",
+        "visibleText": "0.13",
+        "normalizedText": "0.13",
+        "text": "0.13",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 117,
+        "rawText": "51.20",
+        "visibleText": "51.20",
+        "normalizedText": "51.20",
+        "text": "51.20",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 118,
+        "rawText": "1360",
+        "visibleText": "1360",
+        "normalizedText": "1360",
+        "text": "1360",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 119,
+        "rawText": "6",
+        "visibleText": "6",
+        "normalizedText": "6",
+        "text": "6",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 120,
+        "rawText": "样品3",
+        "visibleText": "样品3",
+        "normalizedText": "样品3",
+        "text": "样品3",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 121,
+        "rawText": "0.13",
+        "visibleText": "0.13",
+        "normalizedText": "0.13",
+        "text": "0.13",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 122,
+        "rawText": "50.04",
+        "visibleText": "50.04",
+        "normalizedText": "50.04",
+        "text": "50.04",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 123,
+        "rawText": "1460",
+        "visibleText": "1460",
+        "normalizedText": "1460",
+        "text": "1460",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 124,
+        "rawText": "5",
+        "visibleText": "5",
+        "normalizedText": "5",
+        "text": "5",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "25",
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 130,
+        "rawText": "致  谢（另起一页，首行，居中，黑体，小二号）",
+        "visibleText": "致 谢（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "致谢(另起一页,首行,居中,黑体,小二号)",
+        "text": "致 谢（另起一页，首行，居中，黑体，小二号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 9,
+          "runCount": 9,
+          "textRunCount": 8,
+          "boldRuns": 5,
+          "boldRunCount": 5,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 131,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 132,
+        "rawText": "致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容。（同正文）",
+        "visibleText": "致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容。（同正文）",
+        "normalizedText": "致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容.(同正文)",
+        "text": "致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容致谢内容。（同正文）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "styleId": "3",
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 135,
+        "rawText": "参考文献（另起一页，首行，居中，黑体，小二号）",
+        "visibleText": "参考文献（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "参考文献(另起一页,首行,居中,黑体,小二号)",
+        "text": "参考文献（另起一页，首行，居中，黑体，小二号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 5,
+          "boldRunCount": 5,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 136,
+        "rawText": "（空一行）",
+        "visibleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "text": "（空一行）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 137,
+        "rawText": "[1] 杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330．",
+        "visibleText": "[1] 杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330．",
+        "normalizedText": "[1]杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330.",
+        "text": "[1] 杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330．",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "left": 1
+        },
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 10,
+          "runCount": 10,
+          "textRunCount": 10,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 138,
+        "rawText": "[2] 刘国钧,陈绍业.图书馆目录[M].北京:高等教育出版社,1957:15-18．",
+        "visibleText": "[2] 刘国钧,陈绍业.图书馆目录[M].北京:高等教育出版社,1957:15-18．",
+        "normalizedText": "[2]刘国钧,陈绍业.图书馆目录[M].北京:高等教育出版社,1957:15-18.",
+        "text": "[2] 刘国钧,陈绍业.图书馆目录[M].北京:高等教育出版社,1957:15-18．",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "left": 1
+        },
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 139,
+        "rawText": "[3] WU Z F, LI J, CAI M Y, et al. On Membership of Black-Box or White-Box of Artificial Neural Network Models[C]//Industrial Electronics and Applications.IEEE,2016:1400-1404.",
+        "visibleText": "[3] WU Z F, LI J, CAI M Y, et al. On Membership of Black-Box or White-Box of Artificial Neural Network Models[C]//Industrial Electronics and Applications.IEEE,2016:1400-1404.",
+        "normalizedText": "[3]WUZF,LIJ,CAIMY,etal.OnMembershipofBlack-BoxorWhite-BoxofArtificialNeuralNetworkModels[C]//IndustrialElectronicsandApplications.IEEE,2016:1400-1404.",
+        "text": "[3] WU Z F, LI J, CAI M Y, et al. On Membership of Black-Box or White-Box of Artificial Neural Network Models[C]//Industrial Electronics and Applications.IEEE,2016:1400-1404.",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 1,
+          "italicRunCount": 1,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 140,
+        "rawText": "[4] Hewitt J A . Technical services in 1983[J]. Library Resources and Technical Services, 1984, 28(3): 205-218．",
+        "visibleText": "[4] Hewitt J A . Technical services in 1983[J]. Library Resources and Technical Services, 1984, 28(3): 205-218．",
+        "normalizedText": "[4]HewittJA.Technicalservicesin1983[J].LibraryResourcesandTechnicalServices,1984,28(3):205-218.",
+        "text": "[4] Hewitt J A . Technical services in 1983[J]. Library Resources and Technical Services, 1984, 28(3): 205-218．",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "indentation": {
+          "left": 1
+        },
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 141,
+        "rawText": "[5] 刘加林.多功能一次性压舌板:92214985.2[P].1993-04-14.",
+        "visibleText": "[5] 刘加林.多功能一次性压舌板:92214985.2[P].1993-04-14.",
+        "normalizedText": "[5]刘加林.多功能一次性压舌板:92214985.2[P].1993-04-14.",
+        "text": "[5] 刘加林.多功能一次性压舌板:92214985.2[P].1993-04-14.",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 143,
+        "rawText": "（左对齐，宋体，小四号，非汉字用Times New Roman，行距22磅；按顺序编码，并将序号置于方括号中）",
+        "visibleText": "（左对齐，宋体，小四号，非汉字用Times New Roman，行距22磅；按顺序编码，并将序号置于方括号中）",
+        "normalizedText": "(左对齐,宋体,小四号,非汉字用TimesNewRoman,行距22磅;按顺序编码,并将序号置于方括号中)",
+        "text": "（左对齐，宋体，小四号，非汉字用Times New Roman，行距22磅；按顺序编码，并将序号置于方括号中）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      },
+      {
+        "index": 145,
+        "rawText": "（论文定稿前应删除本附件所有括号中的格式要求，包括括号）",
+        "visibleText": "（论文定稿前应删除本附件所有括号中的格式要求，包括括号）",
+        "normalizedText": "(论文定稿前应删除本附件所有括号中的格式要求,包括括号)",
+        "text": "（论文定稿前应删除本附件所有括号中的格式要求，包括括号）",
+        "isFieldCode": false,
+        "isTocHyperlink": false,
+        "spacing": {
+          "line": 300,
+          "lineRule": "auto"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        },
+        "pageBreakBefore": false,
+        "containsPageBreak": false
+      }
+    ],
+    "tableSamples": [
+      {
+        "index": 0,
+        "textSample": "论文题目： （宋体，三号，下同）姓 名： 学 院 专 业： 班 级： 指导教师： 完成时间： 年 月",
+        "styleId": "12",
+        "alignment": "center",
+        "width": {
+          "value": 0,
+          "type": "auto"
+        },
+        "layout": "autofit",
+        "cellMargins": {
+          "top": 0,
+          "left": 108,
+          "bottom": 0,
+          "right": 108
+        },
+        "gridColumnWidths": [
+          1795,
+          4301
+        ],
+        "tblPrXml": "<w:tblPr><w:tblStyle w:val=\"12\"/><w:tblW w:w=\"0\" w:type=\"auto\"/><w:jc w:val=\"center\"/><w:tblLayout w:type=\"autofit\"/><w:tblCellMar><w:top w:w=\"0\" w:type=\"dxa\"/><w:left w:w=\"108\" w:type=\"dxa\"/><w:bottom w:w=\"0\" w:type=\"dxa\"/><w:right w:w=\"108\" w:type=\"dxa\"/></w:tblCellMar></w:tblPr>"
+      },
+      {
+        "index": 1,
+        "textSample": "样品厚度（μ度）吸收率（％）功率（W.m-2）时间常数（ms）样品10.1346.7516002样品20.1351.2013606样品30.1350.0414605",
+        "styleId": "12",
+        "alignment": "center",
+        "width": {
+          "value": 8364,
+          "type": "dxa"
+        },
+        "layout": "fixed",
+        "borders": {
+          "top": "single",
+          "left": "none",
+          "bottom": "single",
+          "right": "none",
+          "insideH": "single",
+          "insideV": "single"
+        },
+        "cellMargins": {
+          "top": 0,
+          "left": 108,
+          "bottom": 0,
+          "right": 108
+        },
+        "gridColumnWidths": [
+          1290,
+          1620,
+          1620,
+          1849,
+          1985
+        ],
+        "tblPrXml": "<w:tblPr><w:tblStyle w:val=\"12\"/><w:tblW w:w=\"8364\" w:type=\"dxa\"/><w:jc w:val=\"center\"/><w:tblBorders><w:top w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:left w:val=\"none\" w:color=\"auto\" w:sz=\"0\" w:space=\"0\"/><w:bottom w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:right w:val=\"none\" w:color=\"auto\" w:sz=\"0\" w:space=\"0\"/><w:insideH w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:insideV w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/></w:tblBorders><w:tblLayout w:type=\"fixed\"/><w:tblCellMar><w:top w:w=\"0\" w:type=\"dxa\"/><w:left w:w=\"108\" w:type=\"dxa\"/><w:bottom w:w=\"0\" w:type=\"dxa\"/><w:right w:w=\"108\" w:type=\"dxa\"/></w:tblCellMar></w:tblPr>"
+      }
+    ]
+  },
+  "semanticMapping": {
+    "titleStyleId": "4",
+    "abstractParagraphIndex": 42,
+    "referencesParagraphIndex": 135,
+    "language": "zh-CN",
+    "confidence": 0.98,
+    "warnings": [
+      "未检测到 numbering.xml 或段落编号信息，标题层级主要来自文本模式。"
+    ],
+    "cover": {
+      "studentIdField": {
+        "sampleText": "学号：",
+        "normalizedText": "学号:",
+        "paragraphIndex": 1,
+        "paragraphIndexes": [
+          1
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "normalized cover label match",
+          "normalized=学号:"
+        ],
+        "formatting": {
+          "alignment": "left",
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 1,
+            "boldRunCount": 1,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "32"
+            ],
+            "fontSizes": [
+              32
+            ],
+            "maxFontSize": 32,
+            "minFontSize": 32,
+            "dominantFontSize": 32,
+            "fonts": [
+              "宋体"
+            ],
+            "eastAsiaFonts": [],
+            "dominantFont": "宋体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected Chinese cover field studentIdField."
+      },
+      "titleField": {
+        "styleId": "4",
+        "sampleText": "论文题目：",
+        "normalizedText": "论文题目:",
+        "paragraphIndex": 9,
+        "paragraphIndexes": [
+          9
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "normalized cover label match",
+          "normalized=论文题目:"
+        ],
+        "formatting": {
+          "indentation": {
+            "firstLine": 0
+          },
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 1,
+            "boldRunCount": 1,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "32"
+            ],
+            "fontSizes": [
+              32
+            ],
+            "maxFontSize": 32,
+            "minFontSize": 32,
+            "dominantFontSize": 32,
+            "fonts": [
+              "宋体"
+            ],
+            "eastAsiaFonts": [
+              "宋体"
+            ],
+            "dominantFont": "宋体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected Chinese cover field titleField."
+      },
+      "authorField": {
+        "styleId": "4",
+        "sampleText": "姓 名：",
+        "normalizedText": "姓名:",
+        "paragraphIndex": 11,
+        "paragraphIndexes": [
+          11
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "normalized cover label match",
+          "normalized=姓名:"
+        ],
+        "formatting": {
+          "indentation": {
+            "firstLine": 0
+          },
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 1,
+            "boldRunCount": 1,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "32"
+            ],
+            "fontSizes": [
+              32
+            ],
+            "maxFontSize": 32,
+            "minFontSize": 32,
+            "dominantFontSize": 32,
+            "fonts": [
+              "宋体"
+            ],
+            "eastAsiaFonts": [
+              "宋体"
+            ],
+            "dominantFont": "宋体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected Chinese cover field authorField."
+      },
+      "schoolField": {
+        "sampleText": "学 院",
+        "normalizedText": "学院",
+        "paragraphIndex": 13,
+        "paragraphIndexes": [
+          13
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "normalized cover label match",
+          "normalized=学院"
+        ],
+        "formatting": {
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 1,
+            "boldRunCount": 1,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "32"
+            ],
+            "fontSizes": [
+              32
+            ],
+            "maxFontSize": 32,
+            "minFontSize": 32,
+            "dominantFontSize": 32,
+            "fonts": [
+              "宋体"
+            ],
+            "eastAsiaFonts": [],
+            "dominantFont": "宋体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected Chinese cover field schoolField."
+      },
+      "majorField": {
+        "styleId": "4",
+        "sampleText": "专 业：",
+        "normalizedText": "专业:",
+        "paragraphIndex": 15,
+        "paragraphIndexes": [
+          15
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "normalized cover label match",
+          "normalized=专业:"
+        ],
+        "formatting": {
+          "indentation": {
+            "firstLine": 0
+          },
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 1,
+            "boldRunCount": 1,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "32"
+            ],
+            "fontSizes": [
+              32
+            ],
+            "maxFontSize": 32,
+            "minFontSize": 32,
+            "dominantFontSize": 32,
+            "fonts": [
+              "宋体"
+            ],
+            "eastAsiaFonts": [
+              "宋体"
+            ],
+            "dominantFont": "宋体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected Chinese cover field majorField."
+      },
+      "supervisorField": {
+        "styleId": "4",
+        "sampleText": "指导教师：",
+        "normalizedText": "指导教师:",
+        "paragraphIndex": 19,
+        "paragraphIndexes": [
+          19
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "normalized cover label match",
+          "normalized=指导教师:"
+        ],
+        "formatting": {
+          "indentation": {
+            "firstLine": 0
+          },
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 1,
+            "boldRunCount": 1,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "32"
+            ],
+            "fontSizes": [
+              32
+            ],
+            "maxFontSize": 32,
+            "minFontSize": 32,
+            "dominantFontSize": 32,
+            "fonts": [
+              "宋体"
+            ],
+            "eastAsiaFonts": [
+              "宋体"
+            ],
+            "dominantFont": "宋体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected Chinese cover field supervisorField."
+      }
+    },
+    "abstracts": {
+      "zh": {
+        "title": {
+          "sampleText": "摘 要（另起一页，首行，居中，黑体，小二号）",
+          "normalizedText": "摘要(另起一页,首行,居中,黑体,小二号)",
+          "paragraphIndex": 41,
+          "paragraphIndexes": [
+            41
+          ],
+          "confidence": 0.92,
+          "evidence": [
+            "matches 摘要/中文摘要 after normalization"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "spacing": {
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 4,
+              "runCount": 4,
+              "textRunCount": 4,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "36"
+              ],
+              "fontSizes": [
+                36
+              ],
+              "maxFontSize": 36,
+              "minFontSize": 36,
+              "dominantFontSize": 36,
+              "fonts": [
+                "黑体"
+              ],
+              "eastAsiaFonts": [
+                "黑体"
+              ],
+              "dominantFont": "黑体",
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "Detected from Chinese 摘要 title text, allowing date contamination."
+        },
+        "body": {
+          "sampleText": "（空一行）\n（空一行）",
+          "normalizedText": "(空一行)|(空一行)",
+          "paragraphIndex": 42,
+          "paragraphIndexes": [
+            42,
+            44
+          ],
+          "confidence": 0.84,
+          "evidence": [
+            "after 摘要",
+            "before 关键词"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "spacing": {
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 1,
+              "runCount": 1,
+              "textRunCount": 1,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "24"
+              ],
+              "fontSizes": [
+                24
+              ],
+              "maxFontSize": 24,
+              "minFontSize": 24,
+              "dominantFontSize": 24,
+              "fonts": [],
+              "eastAsiaFonts": [],
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "Paragraphs between Chinese abstract title and keywords."
+        },
+        "keywords": {
+          "label": {
+            "styleId": "3",
+            "sampleText": "关键词（左对齐，宋体，小四号，加粗）：中文关键词；中文关键词；……（宋体，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+            "normalizedText": "关键词(左对齐,宋体,小四号,加粗):中文关键词;中文关键词;......(宋体,小四号,含3~5个字或词组,分号隔开,结束无标点符号)",
+            "paragraphIndex": 45,
+            "paragraphIndexes": [
+              45
+            ],
+            "confidence": 0.94,
+            "evidence": [
+              "Chinese keyword label"
+            ],
+            "formatting": {
+              "spacing": {
+                "after": 0,
+                "line": 440,
+                "lineRule": "exact"
+              },
+              "runSummary": {
+                "runs": 18,
+                "runCount": 18,
+                "textRunCount": 18,
+                "boldRuns": 7,
+                "boldRunCount": 7,
+                "italicRuns": 0,
+                "italicRunCount": 0,
+                "underlineRunCount": 0,
+                "sizes": [
+                  "24"
+                ],
+                "fontSizes": [
+                  24
+                ],
+                "maxFontSize": 24,
+                "minFontSize": 24,
+                "dominantFontSize": 24,
+                "fonts": [
+                  "宋体",
+                  "黑体"
+                ],
+                "eastAsiaFonts": [
+                  "黑体"
+                ],
+                "dominantFont": "宋体",
+                "hasBold": true,
+                "mostlyBold": false
+              }
+            },
+            "notes": "Detected from 关键词/关键字 label."
+          }
+        }
+      },
+      "en": {
+        "title": {
+          "sampleText": "Abstract（居中，Times New Roman，小二号，加粗）",
+          "normalizedText": "Abstract(居中,TimesNewRoman,小二号,加粗)",
+          "paragraphIndex": 48,
+          "paragraphIndexes": [
+            48
+          ],
+          "confidence": 0.65,
+          "evidence": [
+            "English abstract is secondary for zh-CN templates"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "runSummary": {
+              "runs": 8,
+              "runCount": 8,
+              "textRunCount": 8,
+              "boldRuns": 8,
+              "boldRunCount": 8,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "36",
+                "30"
+              ],
+              "fontSizes": [
+                36,
+                30
+              ],
+              "maxFontSize": 36,
+              "minFontSize": 30,
+              "dominantFontSize": 30,
+              "fonts": [
+                "Times New Roman",
+                "宋体"
+              ],
+              "eastAsiaFonts": [],
+              "dominantFont": "宋体",
+              "hasBold": true,
+              "mostlyBold": true
+            }
+          },
+          "notes": "Detected from Abstract title."
+        },
+        "body": {
+          "sampleText": "（空一行）",
+          "normalizedText": "(空一行)",
+          "paragraphIndex": 49,
+          "paragraphIndexes": [
+            49
+          ],
+          "confidence": 0.6,
+          "evidence": [
+            "English abstract secondary detection"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "spacing": {
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 1,
+              "runCount": 1,
+              "textRunCount": 1,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "24"
+              ],
+              "fontSizes": [
+                24
+              ],
+              "maxFontSize": 24,
+              "minFontSize": 24,
+              "dominantFontSize": 24,
+              "fonts": [],
+              "eastAsiaFonts": [],
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "Paragraphs between Abstract and Key Words."
+        },
+        "keywords": {
+          "label": {
+            "styleId": "3",
+            "sampleText": "KeyWords（左对齐，Times New Roman，小四号，加粗）: word; word; word; word（Times New Roman，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+            "normalizedText": "KeyWords(左对齐,TimesNewRoman,小四号,加粗):word;word;word;word(TimesNewRoman,小四号,含3~5个字或词组,分号隔开,结束无标点符号)",
+            "paragraphIndex": 52,
+            "paragraphIndexes": [
+              52
+            ],
+            "confidence": 0.65,
+            "evidence": [
+              "English keywords are secondary for zh-CN templates"
+            ],
+            "formatting": {
+              "spacing": {
+                "line": 300,
+                "lineRule": "auto"
+              },
+              "runSummary": {
+                "runs": 17,
+                "runCount": 17,
+                "textRunCount": 17,
+                "boldRuns": 8,
+                "boldRunCount": 8,
+                "italicRuns": 0,
+                "italicRunCount": 0,
+                "underlineRunCount": 0,
+                "sizes": [
+                  "24"
+                ],
+                "fontSizes": [
+                  24
+                ],
+                "maxFontSize": 24,
+                "minFontSize": 24,
+                "dominantFontSize": 24,
+                "fonts": [],
+                "eastAsiaFonts": [],
+                "hasBold": true,
+                "mostlyBold": false
+              }
+            },
+            "notes": "Detected from Key Words label."
+          }
+        }
+      }
+    },
+    "toc": {
+      "title": {
+        "styleId": "3",
+        "sampleText": "目 录（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "目录(另起一页,首行,居中,黑体,小二号)",
+        "paragraphIndex": 58,
+        "paragraphIndexes": [
+          58
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "matches 目录 after whitespace removal"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "after": 0,
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 10,
+            "runCount": 10,
+            "textRunCount": 10,
+            "boldRuns": 7,
+            "boldRunCount": 7,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "36",
+              "30"
+            ],
+            "fontSizes": [
+              36,
+              30
+            ],
+            "maxFontSize": 36,
+            "minFontSize": 30,
+            "dominantFontSize": 30,
+            "fonts": [
+              "黑体"
+            ],
+            "eastAsiaFonts": [
+              "黑体"
+            ],
+            "dominantFont": "黑体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected from 目录 title."
+      },
+      "entries": [
+        {
+          "styleId": "3",
+          "sampleText": "1 一级标题……………………………………………………………………………………………1",
+          "normalizedText": "1一级标题.........................................................................................................1",
+          "paragraphIndex": 60,
+          "paragraphIndexes": [
+            60
+          ],
+          "confidence": 0.9,
+          "evidence": [
+            "contains TOC/HYPERLINK field code"
+          ],
+          "formatting": {
+            "alignment": "left",
+            "spacing": {
+              "after": 0,
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 4,
+              "runCount": 4,
+              "textRunCount": 4,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "24"
+              ],
+              "fontSizes": [
+                24
+              ],
+              "maxFontSize": 24,
+              "minFontSize": 24,
+              "dominantFontSize": 24,
+              "fonts": [
+                "黑体"
+              ],
+              "eastAsiaFonts": [
+                "黑体"
+              ],
+              "dominantFont": "黑体",
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "TOC field/hyperlink paragraph. Excluded from body and headings."
+        },
+        {
+          "styleId": "3",
+          "sampleText": "1.1 二级标题 ……………………………………………………………………………………1",
+          "normalizedText": "1.1二级标题................................................................................................1",
+          "paragraphIndex": 61,
+          "paragraphIndexes": [
+            61
+          ],
+          "confidence": 0.9,
+          "evidence": [
+            "contains TOC/HYPERLINK field code"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "indentation": {
+              "left": 210
+            },
+            "spacing": {
+              "after": 0,
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 3,
+              "runCount": 3,
+              "textRunCount": 3,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "24"
+              ],
+              "fontSizes": [
+                24
+              ],
+              "maxFontSize": 24,
+              "minFontSize": 24,
+              "dominantFontSize": 24,
+              "fonts": [],
+              "eastAsiaFonts": [],
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "TOC field/hyperlink paragraph. Excluded from body and headings."
+        },
+        {
+          "styleId": "3",
+          "sampleText": "1.1.1 三级标题…………………………………………………………………………………1",
+          "normalizedText": "1.1.1三级标题.............................................................................................1",
+          "paragraphIndex": 62,
+          "paragraphIndexes": [
+            62
+          ],
+          "confidence": 0.9,
+          "evidence": [
+            "contains TOC/HYPERLINK field code"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "indentation": {
+              "left": 420
+            },
+            "spacing": {
+              "after": 0,
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 4,
+              "runCount": 4,
+              "textRunCount": 4,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "24"
+              ],
+              "fontSizes": [
+                24
+              ],
+              "maxFontSize": 24,
+              "minFontSize": 24,
+              "dominantFontSize": 24,
+              "fonts": [
+                "黑体"
+              ],
+              "eastAsiaFonts": [
+                "黑体"
+              ],
+              "dominantFont": "黑体",
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "TOC field/hyperlink paragraph. Excluded from body and headings."
+        }
+      ]
+    },
+    "headings": {
+      "level1": {
+        "sampleText": "绪 论（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "绪论(另起一页,首行,居中,黑体,小二号)",
+        "paragraphIndex": 84,
+        "paragraphIndexes": [
+          84
+        ],
+        "confidence": 0.88,
+        "evidence": [
+          "not TOC",
+          "heading1 regex",
+          "bold/center/large font evidence"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 8,
+            "runCount": 8,
+            "textRunCount": 8,
+            "boldRuns": 5,
+            "boldRunCount": 5,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "36",
+              "30"
+            ],
+            "fontSizes": [
+              36,
+              30
+            ],
+            "maxFontSize": 36,
+            "minFontSize": 30,
+            "dominantFontSize": 30,
+            "fonts": [
+              "黑体"
+            ],
+            "eastAsiaFonts": [
+              "黑体"
+            ],
+            "dominantFont": "黑体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected from Chinese level 1 heading pattern and direct formatting."
+      },
+      "level2": {
+        "styleId": "3",
+        "sampleText": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+        "normalizedText": "1.1二级标题(左对齐,黑体,四号,序号后空一字符接标题,末尾无标点)",
+        "paragraphIndex": 90,
+        "paragraphIndexes": [
+          90
+        ],
+        "confidence": 0.88,
+        "evidence": [
+          "not TOC",
+          "heading2 regex",
+          "bold/spacing/font evidence"
+        ],
+        "formatting": {
+          "alignment": "left",
+          "spacing": {
+            "after": 0,
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 2,
+            "runCount": 2,
+            "textRunCount": 2,
+            "boldRuns": 0,
+            "boldRunCount": 0,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "28"
+            ],
+            "fontSizes": [
+              28
+            ],
+            "maxFontSize": 28,
+            "minFontSize": 28,
+            "dominantFontSize": 28,
+            "fonts": [
+              "黑体"
+            ],
+            "eastAsiaFonts": [
+              "黑体"
+            ],
+            "dominantFont": "黑体",
+            "hasBold": false,
+            "mostlyBold": false
+          }
+        },
+        "notes": "Detected from Chinese level 2 heading pattern and direct formatting."
+      },
+      "level1Candidates": [
+        {
+          "sampleText": "绪 论（另起一页，首行，居中，黑体，小二号）",
+          "normalizedText": "绪论(另起一页,首行,居中,黑体,小二号)",
+          "paragraphIndex": 84,
+          "paragraphIndexes": [
+            84
+          ],
+          "confidence": 0.85,
+          "evidence": [
+            "Chinese heading 1 pattern plus direct formatting"
+          ],
+          "formatting": {
+            "alignment": "center",
+            "spacing": {
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 8,
+              "runCount": 8,
+              "textRunCount": 8,
+              "boldRuns": 5,
+              "boldRunCount": 5,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "36",
+                "30"
+              ],
+              "fontSizes": [
+                36,
+                30
+              ],
+              "maxFontSize": 36,
+              "minFontSize": 30,
+              "dominantFontSize": 30,
+              "fonts": [
+                "黑体"
+              ],
+              "eastAsiaFonts": [
+                "黑体"
+              ],
+              "dominantFont": "黑体",
+              "hasBold": true,
+              "mostlyBold": true
+            }
+          },
+          "notes": "Heading 1 candidate."
+        }
+      ],
+      "level2Candidates": [
+        {
+          "styleId": "3",
+          "sampleText": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+          "normalizedText": "1.1二级标题(左对齐,黑体,四号,序号后空一字符接标题,末尾无标点)",
+          "paragraphIndex": 90,
+          "paragraphIndexes": [
+            90
+          ],
+          "confidence": 0.85,
+          "evidence": [
+            "Chinese heading 2 pattern plus direct formatting"
+          ],
+          "formatting": {
+            "alignment": "left",
+            "spacing": {
+              "after": 0,
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 2,
+              "runCount": 2,
+              "textRunCount": 2,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "28"
+              ],
+              "fontSizes": [
+                28
+              ],
+              "maxFontSize": 28,
+              "minFontSize": 28,
+              "dominantFontSize": 28,
+              "fonts": [
+                "黑体"
+              ],
+              "eastAsiaFonts": [
+                "黑体"
+              ],
+              "dominantFont": "黑体",
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "Heading 2 candidate."
+        },
+        {
+          "styleId": "3",
+          "sampleText": "1.1.1 三级标题（左对齐，黑体，小四号，序号后空一字符接标题，末尾无标点）",
+          "normalizedText": "1.1.1三级标题(左对齐,黑体,小四号,序号后空一字符接标题,末尾无标点)",
+          "paragraphIndex": 92,
+          "paragraphIndexes": [
+            92
+          ],
+          "confidence": 0.85,
+          "evidence": [
+            "Chinese heading 2 pattern plus direct formatting"
+          ],
+          "formatting": {
+            "alignment": "left",
+            "spacing": {
+              "after": 0,
+              "line": 440,
+              "lineRule": "exact"
+            },
+            "runSummary": {
+              "runs": 2,
+              "runCount": 2,
+              "textRunCount": 2,
+              "boldRuns": 0,
+              "boldRunCount": 0,
+              "italicRuns": 0,
+              "italicRunCount": 0,
+              "underlineRunCount": 0,
+              "sizes": [
+                "24"
+              ],
+              "fontSizes": [
+                24
+              ],
+              "maxFontSize": 24,
+              "minFontSize": 24,
+              "dominantFontSize": 24,
+              "fonts": [
+                "黑体"
+              ],
+              "eastAsiaFonts": [
+                "黑体"
+              ],
+              "dominantFont": "黑体",
+              "hasBold": false,
+              "mostlyBold": false
+            }
+          },
+          "notes": "Heading 2 candidate."
+        }
+      ]
+    },
+    "body": {
+      "styleId": "3",
+      "sampleText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+      "normalizedText": "正文正文正文,正文正文正文正[2].正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文.",
+      "paragraphIndex": 91,
+      "paragraphIndexes": [
+        91
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        "after first heading1",
+        "front matter excluded",
+        "not a heading/caption"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected after main heading while excluding cover, TOC, abstracts, keywords, captions, references, acknowledgements, appendix, and formatting instructions."
+    },
+    "captions": {
+      "figure": {
+        "styleId": "3",
+        "sampleText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+        "normalizedText": "图1.1图题名(图题名置于图下方,居中,宋体,小四号,图序号后空一字符)",
+        "paragraphIndex": 102,
+        "paragraphIndexes": [
+          102
+        ],
+        "confidence": 0.86,
+        "evidence": [
+          "Chinese figure caption pattern"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "after": 0,
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 6,
+            "runCount": 6,
+            "textRunCount": 6,
+            "boldRuns": 0,
+            "boldRunCount": 0,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "24"
+            ],
+            "fontSizes": [
+              24
+            ],
+            "maxFontSize": 24,
+            "minFontSize": 24,
+            "dominantFontSize": 24,
+            "fonts": [],
+            "eastAsiaFonts": [],
+            "hasBold": false,
+            "mostlyBold": false
+          }
+        },
+        "notes": "Detected from 图 caption pattern."
+      },
+      "table": {
+        "styleId": "3",
+        "sampleText": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+        "normalizedText": "表1.1表题名(表题名置于表上方,居中,宋体,小四号,图序号后空一字符)",
+        "paragraphIndex": 104,
+        "paragraphIndexes": [
+          104
+        ],
+        "confidence": 0.86,
+        "evidence": [
+          "Chinese table caption pattern"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "after": 0,
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 8,
+            "runCount": 8,
+            "textRunCount": 8,
+            "boldRuns": 0,
+            "boldRunCount": 0,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "24"
+            ],
+            "fontSizes": [
+              24
+            ],
+            "maxFontSize": 24,
+            "minFontSize": 24,
+            "dominantFontSize": 24,
+            "fonts": [],
+            "eastAsiaFonts": [],
+            "hasBold": false,
+            "mostlyBold": false
+          }
+        },
+        "notes": "Detected from 表 caption pattern."
+      }
+    },
+    "references": {
+      "title": {
+        "sampleText": "参考文献（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "参考文献(另起一页,首行,居中,黑体,小二号)",
+        "paragraphIndex": 135,
+        "paragraphIndexes": [
+          135
+        ],
+        "confidence": 0.95,
+        "evidence": [
+          "Chinese references title pattern"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 6,
+            "runCount": 6,
+            "textRunCount": 6,
+            "boldRuns": 5,
+            "boldRunCount": 5,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "36",
+              "30"
+            ],
+            "fontSizes": [
+              36,
+              30
+            ],
+            "maxFontSize": 36,
+            "minFontSize": 30,
+            "dominantFontSize": 30,
+            "fonts": [
+              "黑体"
+            ],
+            "eastAsiaFonts": [
+              "黑体"
+            ],
+            "dominantFont": "黑体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected from 参考文献/参考资料 title."
+      },
+      "firstItem": {
+        "sampleText": "[1] 杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330．",
+        "normalizedText": "[1]杜黎明,范哲锋,张瑞凤.荷移反应—荧光光谱法测定氟罗沙星.光谱学与光谱分析[J].2003,23(2):328-330.",
+        "paragraphIndex": 137,
+        "paragraphIndexes": [
+          137
+        ],
+        "confidence": 0.7,
+        "evidence": [
+          "reference item pattern"
+        ],
+        "formatting": {
+          "indentation": {
+            "left": 1
+          },
+          "spacing": {
+            "line": 300,
+            "lineRule": "auto"
+          },
+          "runSummary": {
+            "runs": 10,
+            "runCount": 10,
+            "textRunCount": 10,
+            "boldRuns": 0,
+            "boldRunCount": 0,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "24"
+            ],
+            "fontSizes": [
+              24
+            ],
+            "maxFontSize": 24,
+            "minFontSize": 24,
+            "dominantFontSize": 24,
+            "fonts": [
+              "Times New Roman"
+            ],
+            "eastAsiaFonts": [],
+            "dominantFont": "Times New Roman",
+            "hasBold": false,
+            "mostlyBold": false
+          }
+        },
+        "notes": "First likely reference item after references title."
+      }
+    },
+    "acknowledgement": {
+      "title": {
+        "sampleText": "致 谢（另起一页，首行，居中，黑体，小二号）",
+        "normalizedText": "致谢(另起一页,首行,居中,黑体,小二号)",
+        "paragraphIndex": 130,
+        "paragraphIndexes": [
+          130
+        ],
+        "confidence": 0.92,
+        "evidence": [
+          "Chinese acknowledgement title pattern"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 9,
+            "runCount": 9,
+            "textRunCount": 8,
+            "boldRuns": 5,
+            "boldRunCount": 5,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "36",
+              "30"
+            ],
+            "fontSizes": [
+              36,
+              30
+            ],
+            "maxFontSize": 36,
+            "minFontSize": 30,
+            "dominantFontSize": 30,
+            "fonts": [
+              "黑体"
+            ],
+            "eastAsiaFonts": [
+              "黑体"
+            ],
+            "dominantFont": "黑体",
+            "hasBold": true,
+            "mostlyBold": true
+          }
+        },
+        "notes": "Detected from 致谢 title."
+      },
+      "body": {
+        "sampleText": "（空一行）",
+        "normalizedText": "(空一行)",
+        "paragraphIndex": 131,
+        "paragraphIndexes": [
+          131
+        ],
+        "confidence": 0.72,
+        "evidence": [
+          "after 致谢"
+        ],
+        "formatting": {
+          "alignment": "center",
+          "spacing": {
+            "line": 440,
+            "lineRule": "exact"
+          },
+          "runSummary": {
+            "runs": 1,
+            "runCount": 1,
+            "textRunCount": 1,
+            "boldRuns": 0,
+            "boldRunCount": 0,
+            "italicRuns": 0,
+            "italicRunCount": 0,
+            "underlineRunCount": 0,
+            "sizes": [
+              "24"
+            ],
+            "fontSizes": [
+              24
+            ],
+            "maxFontSize": 24,
+            "minFontSize": 24,
+            "dominantFontSize": 24,
+            "fonts": [],
+            "eastAsiaFonts": [],
+            "hasBold": false,
+            "mostlyBold": false
+          }
+        },
+        "notes": "First acknowledgement body paragraph after 致谢."
+      }
+    },
+    "appendix": {
+      "title": {
+        "confidence": 0,
+        "evidence": [
+          "Chinese appendix title pattern"
+        ],
+        "notes": "Detected from 附录 title."
+      },
+      "body": {
+        "confidence": 0,
+        "evidence": [
+          "after 附录"
+        ],
+        "notes": "First appendix body paragraph after 附录."
+      }
+    }
+  },
+  "document": {
+    "page": {
+      "widthTwips": 11906,
+      "heightTwips": 16838,
+      "orientation": "portrait",
+      "margins": {
+        "top": 1134,
+        "right": 1418,
+        "bottom": 1134,
+        "left": 1418,
+        "header": 680,
+        "footer": 567,
+        "gutter": 0
+      }
+    },
+    "sectionPropertiesXml": "<w:sectPr><w:headerReference r:id=\"rId5\" w:type=\"default\"/><w:footerReference r:id=\"rId6\" w:type=\"default\"/><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1134\" w:right=\"1418\" w:bottom=\"1134\" w:left=\"1418\" w:header=\"680\" w:footer=\"567\" w:gutter=\"0\"/><w:pgNumType w:start=\"1\"/><w:cols w:space=\"425\" w:num=\"1\"/><w:docGrid w:type=\"lines\" w:linePitch=\"312\" w:charSpace=\"0\"/></w:sectPr>",
+    "headerFooter": {
+      "detected": true
+    },
+    "numbering": {
+      "detected": false
+    },
+    "tables": {
+      "detected": true,
+      "count": 2,
+      "bodyTable": {
+        "index": 1,
+        "textSample": "样品厚度（μ度）吸收率（％）功率（W.m-2）时间常数（ms）样品10.1346.7516002样品20.1351.2013606样品30.1350.0414605",
+        "styleId": "12",
+        "alignment": "center",
+        "width": {
+          "value": 8364,
+          "type": "dxa"
+        },
+        "layout": "fixed",
+        "borders": {
+          "top": "single",
+          "left": "none",
+          "bottom": "single",
+          "right": "none",
+          "insideH": "single",
+          "insideV": "single"
+        },
+        "cellMargins": {
+          "top": 0,
+          "left": 108,
+          "bottom": 0,
+          "right": 108
+        },
+        "gridColumnWidths": [
+          1290,
+          1620,
+          1620,
+          1849,
+          1985
+        ],
+        "tblPrXml": "<w:tblPr><w:tblStyle w:val=\"12\"/><w:tblW w:w=\"8364\" w:type=\"dxa\"/><w:jc w:val=\"center\"/><w:tblBorders><w:top w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:left w:val=\"none\" w:color=\"auto\" w:sz=\"0\" w:space=\"0\"/><w:bottom w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:right w:val=\"none\" w:color=\"auto\" w:sz=\"0\" w:space=\"0\"/><w:insideH w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:insideV w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/></w:tblBorders><w:tblLayout w:type=\"fixed\"/><w:tblCellMar><w:top w:w=\"0\" w:type=\"dxa\"/><w:left w:w=\"108\" w:type=\"dxa\"/><w:bottom w:w=\"0\" w:type=\"dxa\"/><w:right w:w=\"108\" w:type=\"dxa\"/></w:tblCellMar></w:tblPr>"
+      },
+      "samples": [
+        {
+          "index": 0,
+          "textSample": "论文题目： （宋体，三号，下同）姓 名： 学 院 专 业： 班 级： 指导教师： 完成时间： 年 月",
+          "styleId": "12",
+          "alignment": "center",
+          "width": {
+            "value": 0,
+            "type": "auto"
+          },
+          "layout": "autofit",
+          "cellMargins": {
+            "top": 0,
+            "left": 108,
+            "bottom": 0,
+            "right": 108
+          },
+          "gridColumnWidths": [
+            1795,
+            4301
+          ],
+          "tblPrXml": "<w:tblPr><w:tblStyle w:val=\"12\"/><w:tblW w:w=\"0\" w:type=\"auto\"/><w:jc w:val=\"center\"/><w:tblLayout w:type=\"autofit\"/><w:tblCellMar><w:top w:w=\"0\" w:type=\"dxa\"/><w:left w:w=\"108\" w:type=\"dxa\"/><w:bottom w:w=\"0\" w:type=\"dxa\"/><w:right w:w=\"108\" w:type=\"dxa\"/></w:tblCellMar></w:tblPr>"
+        },
+        {
+          "index": 1,
+          "textSample": "样品厚度（μ度）吸收率（％）功率（W.m-2）时间常数（ms）样品10.1346.7516002样品20.1351.2013606样品30.1350.0414605",
+          "styleId": "12",
+          "alignment": "center",
+          "width": {
+            "value": 8364,
+            "type": "dxa"
+          },
+          "layout": "fixed",
+          "borders": {
+            "top": "single",
+            "left": "none",
+            "bottom": "single",
+            "right": "none",
+            "insideH": "single",
+            "insideV": "single"
+          },
+          "cellMargins": {
+            "top": 0,
+            "left": 108,
+            "bottom": 0,
+            "right": 108
+          },
+          "gridColumnWidths": [
+            1290,
+            1620,
+            1620,
+            1849,
+            1985
+          ],
+          "tblPrXml": "<w:tblPr><w:tblStyle w:val=\"12\"/><w:tblW w:w=\"8364\" w:type=\"dxa\"/><w:jc w:val=\"center\"/><w:tblBorders><w:top w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:left w:val=\"none\" w:color=\"auto\" w:sz=\"0\" w:space=\"0\"/><w:bottom w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:right w:val=\"none\" w:color=\"auto\" w:sz=\"0\" w:space=\"0\"/><w:insideH w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:insideV w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/></w:tblBorders><w:tblLayout w:type=\"fixed\"/><w:tblCellMar><w:top w:w=\"0\" w:type=\"dxa\"/><w:left w:w=\"108\" w:type=\"dxa\"/><w:bottom w:w=\"0\" w:type=\"dxa\"/><w:right w:w=\"108\" w:type=\"dxa\"/></w:tblCellMar></w:tblPr>"
+        }
+      ]
+    }
+  },
+  "roles": {
+    "title": {
+      "styleId": "4",
+      "sampleText": "论文题目：",
+      "normalizedText": "论文题目:",
+      "paragraphIndex": 9,
+      "paragraphIndexes": [
+        9
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=论文题目:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field titleField."
+    },
+    "authors": {
+      "styleId": "4",
+      "sampleText": "姓 名：",
+      "normalizedText": "姓名:",
+      "paragraphIndex": 11,
+      "paragraphIndexes": [
+        11
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名:"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field authorField."
+    },
+    "abstract": {
+      "sampleText": "（空一行）",
+      "normalizedText": "(空一行)",
+      "paragraphIndex": 42,
+      "paragraphIndexes": [
+        42
+      ],
+      "confidence": 0.84,
+      "evidence": [
+        "abstract body range"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected as body after Chinese abstract title and before keywords."
+    },
+    "keywords": {
+      "styleId": "3",
+      "sampleText": "关键词（左对齐，宋体，小四号，加粗）：中文关键词；中文关键词；……（宋体，小四号，含3~5个字或词组，分号隔开，结束无标点符号）",
+      "normalizedText": "关键词(左对齐,宋体,小四号,加粗):中文关键词;中文关键词;......(宋体,小四号,含3~5个字或词组,分号隔开,结束无标点符号)",
+      "paragraphIndex": 45,
+      "paragraphIndexes": [
+        45
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "keyword label"
+      ],
+      "formatting": {
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 18,
+          "runCount": 18,
+          "textRunCount": 18,
+          "boldRuns": 7,
+          "boldRunCount": 7,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体",
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected from Keywords/关键词 marker."
+    },
+    "body": {
+      "styleId": "3",
+      "sampleText": "正文正文正文，正文正文正文正[2]。正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文。",
+      "normalizedText": "正文正文正文,正文正文正文正[2].正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文.",
+      "paragraphIndex": 91,
+      "paragraphIndexes": [
+        91
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        "body exclusion rules"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 480
+        },
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected after main heading while excluding front matter, TOC, instructions, references, and acknowledgements."
+    },
+    "heading1": {
+      "sampleText": "绪 论（另起一页，首行，居中，黑体，小二号）",
+      "normalizedText": "绪论(另起一页,首行,居中,黑体,小二号)",
+      "paragraphIndex": 84,
+      "paragraphIndexes": [
+        84
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        "heading1 candidate score"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 5,
+          "boldRunCount": 5,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected from Heading 1 style, outline level, or Chinese thesis heading pattern."
+    },
+    "heading2": {
+      "styleId": "3",
+      "sampleText": "1.1 二级标题（左对齐，黑体，四号，序号后空一字符接标题，末尾无标点）",
+      "normalizedText": "1.1二级标题(左对齐,黑体,四号,序号后空一字符接标题,末尾无标点)",
+      "paragraphIndex": 90,
+      "paragraphIndexes": [
+        90
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        "heading2 candidate score"
+      ],
+      "formatting": {
+        "alignment": "left",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected from Heading 2 style, outline level, or numbered secondary heading pattern."
+    },
+    "figureCaption": {
+      "styleId": "3",
+      "sampleText": "图1.1 图题名（图题名置于图下方，居中，宋体，小四号，图序号后空一字符）",
+      "normalizedText": "图1.1图题名(图题名置于图下方,居中,宋体,小四号,图序号后空一字符)",
+      "paragraphIndex": 102,
+      "paragraphIndexes": [
+        102
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected from Chinese/English figure caption text."
+    },
+    "tableCaption": {
+      "styleId": "3",
+      "sampleText": "表1.1 表题名（表题名置于表上方，居中，宋体，小四号，图序号后空一字符）",
+      "normalizedText": "表1.1表题名(表题名置于表上方,居中,宋体,小四号,图序号后空一字符)",
+      "paragraphIndex": 104,
+      "paragraphIndexes": [
+        104
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "after": 0,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected from Chinese/English table caption text."
+    },
+    "references": {
+      "sampleText": "参考文献（另起一页，首行，居中，黑体，小二号）",
+      "normalizedText": "参考文献(另起一页,首行,居中,黑体,小二号)",
+      "paragraphIndex": 135,
+      "paragraphIndexes": [
+        135
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "references title pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 5,
+          "boldRunCount": 5,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "36",
+            "30"
+          ],
+          "fontSizes": [
+            36,
+            30
+          ],
+          "maxFontSize": 36,
+          "minFontSize": 30,
+          "dominantFontSize": 30,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected from References/参考文献 heading text."
+    }
+  },
+  "editableFields": [
+    "semanticMapping.cover",
+    "semanticMapping.abstracts.zh",
+    "semanticMapping.toc",
+    "semanticMapping.headings",
+    "semanticMapping.body",
+    "semanticMapping.captions",
+    "semanticMapping.references",
+    "semanticMapping.acknowledgement",
+    "semanticMapping.appendix",
+    "roles.title",
+    "roles.authors",
+    "roles.abstract",
+    "roles.keywords",
+    "roles.body",
+    "roles.heading1",
+    "roles.heading2",
+    "roles.figureCaption",
+    "roles.tableCaption",
+    "roles.references",
+    "document.page"
+  ]
+}

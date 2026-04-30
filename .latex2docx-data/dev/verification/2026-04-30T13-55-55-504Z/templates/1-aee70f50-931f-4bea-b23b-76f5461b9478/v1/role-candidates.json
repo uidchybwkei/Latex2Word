@@ -1,0 +1,2126 @@
+{
+  "coverTitleField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "题目：",
+      "normalizedText": "题目:",
+      "paragraphIndex": 5,
+      "paragraphIndexes": [
+        5
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=题目:"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "36",
+            "52"
+          ],
+          "fontSizes": [
+            36,
+            52
+          ],
+          "maxFontSize": 52,
+          "minFontSize": 36,
+          "dominantFontSize": 36,
+          "fonts": [
+            "华文新魏"
+          ],
+          "eastAsiaFonts": [
+            "华文新魏"
+          ],
+          "dominantFont": "华文新魏",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field titleField."
+    }
+  ],
+  "coverAuthorField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "姓 名",
+      "normalizedText": "姓名",
+      "paragraphIndex": 14,
+      "paragraphIndexes": [
+        14
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "华文新魏"
+          ],
+          "eastAsiaFonts": [
+            "华文新魏"
+          ],
+          "dominantFont": "华文新魏",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field authorField."
+    }
+  ],
+  "coverStudentIdField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "学 号",
+      "normalizedText": "学号",
+      "paragraphIndex": 13,
+      "paragraphIndexes": [
+        13
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学号"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "华文新魏"
+          ],
+          "eastAsiaFonts": [
+            "华文新魏"
+          ],
+          "dominantFont": "华文新魏",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field studentIdField."
+    }
+  ],
+  "coverSchoolField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "学 院",
+      "normalizedText": "学院",
+      "paragraphIndex": 10,
+      "paragraphIndexes": [
+        10
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学院"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "华文新魏"
+          ],
+          "eastAsiaFonts": [
+            "华文新魏"
+          ],
+          "dominantFont": "华文新魏",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field schoolField."
+    }
+  ],
+  "coverMajorField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "专 业",
+      "normalizedText": "专业",
+      "paragraphIndex": 12,
+      "paragraphIndexes": [
+        12
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=专业"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "华文新魏"
+          ],
+          "eastAsiaFonts": [
+            "华文新魏"
+          ],
+          "dominantFont": "华文新魏",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field majorField."
+    }
+  ],
+  "coverSupervisorField": [
+    {
+      "styleId": "Normal",
+      "sampleText": "指导教师",
+      "normalizedText": "指导教师",
+      "paragraphIndex": 16,
+      "paragraphIndexes": [
+        16
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=指导教师"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "华文新魏"
+          ],
+          "eastAsiaFonts": [
+            "华文新魏"
+          ],
+          "dominantFont": "华文新魏",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field supervisorField."
+    }
+  ],
+  "chineseAbstractTitle": [
+    {
+      "styleId": "Normal",
+      "sampleText": "摘 要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 41,
+      "paragraphIndexes": [
+        41
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "matches 摘要/中文摘要"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "黑体"
+          ],
+          "eastAsiaFonts": [
+            "黑体"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Chinese abstract title candidate."
+    }
+  ],
+  "chineseAbstractBody": [
+    {
+      "styleId": "Normal",
+      "sampleText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "normalizedText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.",
+      "paragraphIndex": 42,
+      "paragraphIndexes": [
+        42
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "alignment": "start",
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    }
+  ],
+  "chineseKeywords": [
+    {
+      "styleId": "Normal",
+      "sampleText": "关键词： 本页为中文摘要样版",
+      "normalizedText": "关键词:本页为中文摘要样版",
+      "paragraphIndex": 44,
+      "paragraphIndexes": [
+        44
+      ],
+      "confidence": 0.94,
+      "evidence": [
+        "matches 关键词/关键字 label"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "line": 400,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24",
+            "44"
+          ],
+          "fontSizes": [
+            24,
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "黑体",
+            "楷体_GB2312"
+          ],
+          "eastAsiaFonts": [
+            "黑体",
+            "楷体_GB2312"
+          ],
+          "dominantFont": "黑体",
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese keywords candidate."
+    }
+  ],
+  "tocTitle": [
+    {
+      "styleId": "1st",
+      "sampleText": "目 录",
+      "normalizedText": "目录",
+      "paragraphIndex": 52,
+      "paragraphIndexes": [
+        52
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 目录/目 录"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC title candidate."
+    }
+  ],
+  "tocEntries": [
+    {
+      "styleId": "TOC1",
+      "sampleText": "摘 要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 53,
+      "paragraphIndexes": [
+        53
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "styleId": "TOC1",
+      "sampleText": "摘 要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 84,
+      "paragraphIndexes": [
+        84
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    }
+  ],
+  "heading1": [],
+  "heading2": [
+    {
+      "styleId": "TOC2",
+      "sampleText": "2.1二级标题",
+      "normalizedText": "2.1二级标题",
+      "paragraphIndex": 57,
+      "paragraphIndexes": [
+        57
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "2.1.1三级标题",
+      "normalizedText": "2.1.1三级标题",
+      "paragraphIndex": 58,
+      "paragraphIndexes": [
+        58
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "2.1.2三级标题",
+      "normalizedText": "2.1.2三级标题",
+      "paragraphIndex": 59,
+      "paragraphIndexes": [
+        59
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "2.2二级标题",
+      "normalizedText": "2.2二级标题",
+      "paragraphIndex": 60,
+      "paragraphIndexes": [
+        60
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "2.2.1三级标题",
+      "normalizedText": "2.2.1三级标题",
+      "paragraphIndex": 61,
+      "paragraphIndexes": [
+        61
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "2.2.2三级标题",
+      "normalizedText": "2.2.2三级标题",
+      "paragraphIndex": 62,
+      "paragraphIndexes": [
+        62
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.1二级标题",
+      "normalizedText": "3.1二级标题",
+      "paragraphIndex": 64,
+      "paragraphIndexes": [
+        64
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.1.1三级标题",
+      "normalizedText": "3.1.1三级标题",
+      "paragraphIndex": 65,
+      "paragraphIndexes": [
+        65
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.1.2三级标题",
+      "normalizedText": "3.1.2三级标题",
+      "paragraphIndex": 66,
+      "paragraphIndexes": [
+        66
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.2二级标题",
+      "normalizedText": "3.2二级标题",
+      "paragraphIndex": 67,
+      "paragraphIndexes": [
+        67
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.2.1三级标题",
+      "normalizedText": "3.2.1三级标题",
+      "paragraphIndex": 68,
+      "paragraphIndexes": [
+        68
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.2.2三级标题",
+      "normalizedText": "3.2.2三级标题",
+      "paragraphIndex": 69,
+      "paragraphIndexes": [
+        69
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.1二级标题",
+      "normalizedText": "3.1二级标题",
+      "paragraphIndex": 71,
+      "paragraphIndexes": [
+        71
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.1.1三级标题",
+      "normalizedText": "3.1.1三级标题",
+      "paragraphIndex": 72,
+      "paragraphIndexes": [
+        72
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.1.2三级标题",
+      "normalizedText": "3.1.2三级标题",
+      "paragraphIndex": 73,
+      "paragraphIndexes": [
+        73
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "3.2二级标题",
+      "normalizedText": "3.2二级标题",
+      "paragraphIndex": 74,
+      "paragraphIndexes": [
+        74
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.2.1三级标题",
+      "normalizedText": "3.2.1三级标题",
+      "paragraphIndex": 75,
+      "paragraphIndexes": [
+        75
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "3.2.2三级标题",
+      "normalizedText": "3.2.2三级标题",
+      "paragraphIndex": 76,
+      "paragraphIndexes": [
+        76
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "（一）二级标题",
+      "normalizedText": "(一)二级标题",
+      "paragraphIndex": 88,
+      "paragraphIndexes": [
+        88
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "（二） 二级标题",
+      "normalizedText": "(二)二级标题",
+      "paragraphIndex": 91,
+      "paragraphIndexes": [
+        91
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "（一）二级标题",
+      "normalizedText": "(一)二级标题",
+      "paragraphIndex": 95,
+      "paragraphIndexes": [
+        95
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC3",
+      "sampleText": "（二）二级标题",
+      "normalizedText": "(二)二级标题",
+      "paragraphIndex": 98,
+      "paragraphIndexes": [
+        98
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "（一）二级标题",
+      "normalizedText": "(一)二级标题",
+      "paragraphIndex": 102,
+      "paragraphIndexes": [
+        102
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "TOC2",
+      "sampleText": "（二）二级标题",
+      "normalizedText": "(二)二级标题",
+      "paragraphIndex": 105,
+      "paragraphIndexes": [
+        105
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [
+            "宋体"
+          ],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "2nd",
+      "sampleText": "1.1（空半字距离）XXXXXX",
+      "normalizedText": "1.1(空半字距离)XXXXX",
+      "paragraphIndex": 115,
+      "paragraphIndexes": [
+        115
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3rd",
+      "sampleText": "1.1.1（空半字距离）XXXXXX",
+      "normalizedText": "1.1.1(空半字距离)XXXXX",
+      "paragraphIndex": 116,
+      "paragraphIndexes": [
+        116
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3rd",
+      "sampleText": "1.1.2（空半字距离）XXXXXXX",
+      "normalizedText": "1.1.2(空半字距离)XXXXXX",
+      "paragraphIndex": 118,
+      "paragraphIndexes": [
+        118
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "2nd",
+      "sampleText": "（一）（空半字距离）XXXXXX",
+      "normalizedText": "(一)(空半字距离)XXXXX",
+      "paragraphIndex": 161,
+      "paragraphIndexes": [
+        161
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 0
+        },
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "3rd",
+      "sampleText": "1.（空半字距离）XXXXXX",
+      "normalizedText": "1.(空半字距离)XXXXX",
+      "paragraphIndex": 162,
+      "paragraphIndexes": [
+        162
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "styleId": "1st",
+      "sampleText": "2.（空半字距离）XXXXXXX",
+      "normalizedText": "2.(空半字距离)XXXXXX",
+      "paragraphIndex": 164,
+      "paragraphIndexes": [
+        164
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Heading 2 candidate."
+    }
+  ],
+  "body": [],
+  "figureCaption": [
+    {
+      "styleId": "Normal",
+      "sampleText": "图X-X（空半字距离）XXX原理图",
+      "normalizedText": "图X-X(空半字距离)XXX原理图",
+      "paragraphIndex": 148,
+      "paragraphIndexes": [
+        148
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 图 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 120,
+          "after": 120,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Figure caption candidate."
+    }
+  ],
+  "tableCaption": [
+    {
+      "styleId": "Normal",
+      "sampleText": "表X-X（空半字距离）1995—1998年工商银行资产负债情况 单位：亿元",
+      "normalizedText": "表X-X(空半字距离)1995—1998年工商银行资产负债情况单位:亿元",
+      "paragraphIndex": 122,
+      "paragraphIndexes": [
+        122
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 表 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 210
+        },
+        "spacing": {
+          "before": 120,
+          "after": 120,
+          "line": 440,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [
+            "宋体"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "宋体",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Table caption candidate."
+    }
+  ],
+  "references": [
+    {
+      "styleId": "TOC1",
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 78,
+      "paragraphIndexes": [
+        78
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "matches 参考文献/参考资料"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "References title candidate."
+    }
+  ],
+  "acknowledgement": [
+    {
+      "styleId": "1st",
+      "sampleText": "致 谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 203,
+      "paragraphIndexes": [
+        203
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 致谢"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Acknowledgement title candidate."
+    }
+  ],
+  "appendix": [
+    {
+      "styleId": "TOC1",
+      "sampleText": "附 录",
+      "normalizedText": "附录",
+      "paragraphIndex": 79,
+      "paragraphIndexes": [
+        79
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        "matches 附录"
+      ],
+      "formatting": {
+        "spacing": {
+          "line": 360,
+          "lineRule": "exact"
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [],
+          "fontSizes": [],
+          "fonts": [],
+          "eastAsiaFonts": [],
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Appendix title candidate."
+    }
+  ]
+}
