@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist-electron",
+    "noEmit": false
+  },
+  "include": ["src/main", "src/preload", "vite.config.ts"]
+}

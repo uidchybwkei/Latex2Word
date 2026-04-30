@@ -1,0 +1,17 @@
+{
+  "name": "@latex2docx/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@latex2docx/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}

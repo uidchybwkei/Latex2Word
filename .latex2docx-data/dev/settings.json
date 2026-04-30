@@ -1,0 +1,8 @@
+{
+  "ai": {
+    "enabled": false,
+    "timeoutMs": 30000
+  },
+  "createdAt": "2026-04-30T06:57:53.322Z",
+  "updatedAt": "2026-04-30T06:57:53.322Z"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "latex2docx",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @latex2docx/desktop dev",
+    "build": "pnpm --filter @latex2docx/desktop build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

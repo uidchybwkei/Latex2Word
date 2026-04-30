@@ -1,0 +1,32 @@
+{
+  "name": "@latex2docx/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist-electron/apps/desktop/src/main/index.js",
+  "scripts": {
+    "dev": "lsof -ti tcp:5173 | xargs kill -9 2>/dev/null || true && concurrently --success last --kill-others \"vite\" \"tsc -p tsconfig.electron.json --watch --preserveWatchOutput\" \"wait-on tcp:5173 dist-electron/apps/desktop/src/main/index.js && VITE_DEV_SERVER_URL=http://localhost:5173 electron .\"",
+    "build": "vite build && tsc -p tsconfig.electron.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.electron.json --noEmit"
+  },
+  "dependencies": {
+    "@latex2docx/core": "workspace:*",
+    "@latex2docx/db": "workspace:*",
+    "@latex2docx/shared": "workspace:*",
+    "jszip": "^3.10.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "electron": "^33.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "wait-on": "^8.0.1"
+  }
+}

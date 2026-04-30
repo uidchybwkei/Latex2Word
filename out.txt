@@ -1,0 +1,1476 @@
+# Word 模板真实结构分析报告
+
+输入文件: /Users/elijah/Desktop/pet_proj/LATEX2DOCX/examples/（1）本科毕业设计（论文）文本模板.doc
+临时目录: /var/folders/l4/5rxf76_5179_qkt9yf9ht7ww0000gn/T/latex2docx_template_y3geg5fk
+
+## A. 转换情况
+- textutil 是否成功: True
+- textutil 是否超时: False
+- textutil returncode: 0
+- 转换后 docx: /var/folders/l4/5rxf76_5179_qkt9yf9ht7ww0000gn/T/latex2docx_template_y3geg5fk/converted.docx
+- 转换后 docx 大小: 7589 bytes
+- 包含 word/document.xml: True
+- 包含 word/styles.xml: False
+- 包含 word/numbering.xml: False
+- headers: []
+- footers: []
+
+## B. 样式列表（paragraph styles）
+未读取到 paragraph style。
+
+## C. 前 120 个非空段落
+### P2
+- text: 本科生毕业设计（论文）
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "72", "text": "本科生毕业设计（论文）"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["72"]}
+- inferredRoles: ['cover_field']
+### P6
+- text: 题目：
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "52", "text": "题目"}, {"bold": true, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "36", "text": "："}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 2, "sizes": ["52", "36"]}
+- inferredRoles: ['cover_field']
+### P11
+- text: 学    院
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "学 院"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: ['cover_field']
+### P12
+- text: 学科门类
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "学科门类"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: ['cover_field']
+### P13
+- text: 专    业
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "专 业"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: ['cover_field']
+### P14
+- text: 学    号
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "学 号"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: ['cover_field']
+### P15
+- text: 姓    名
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "姓 名"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: ['cover_field']
+### P16
+- text: 第一/第二
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "第一/第二"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: []
+### P17
+- text: 指导教师
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2200"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "44", "text": "指导教师"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: ['cover_field']
+### P26
+- text: 年      月      日
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2548"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "36", "text": "年 月 日"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["36"]}
+- inferredRoles: []
+### P28
+- text: 承 诺 书
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "44", "text": "承 诺 书"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["44"]}
+- inferredRoles: []
+### P29
+- text: 本人向合肥师范学院提出学士学位申请，本人郑重声明：所提交的学位论文是本人在导师的指导下独立完成的。据我所知，除文中特别加以说明、标注和致谢的地方外，论文中不包括其他人已经发表或撰写过的研究成果，也不包括其他人为获得任何教育、科研机构的学位或证书而使用过的材料。
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "640"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "本人向合肥师范学院提出学士学位申请，本人郑重声..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: []
+### P30
+- text: 在此本人郑重承诺：所提交的学位论文不存在舞弊作伪行为，文责自负。
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "640"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "在此本人郑重承诺：所提交的学位论文不存在舞弊作..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: []
+### P32
+- text: 学位申请人（学位论文作者）签名：
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "448"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "学位申请人（学位论文作者）签名："}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: []
+### P34
+- text: 年   月   日
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "2274"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "年 月 日"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: []
+### P36
+- text: 为确保本科毕业设计（论文）质量，本人已对该生学位论文的学术性、规范性进行了全面审查，该生学位论文符合学校有关文件要求。
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "664"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "为确保本科毕业设计（论文）质量，本人已对该生学..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: []
+### P38
+- text: 学位论文指导教师签名：
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "1935"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "学位论文指导教师签名："}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: []
+### P40
+- text: 年   月   日
+摘  要
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "年 月 日"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "摘 要"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 2, "sizes": ["32"]}
+- inferredRoles: ['chinese_abstract_title']
+### P41
+- text: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "480"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "XXXXXXXXXXXXXXXXXXXXXXX..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["24"]}
+- inferredRoles: ['chinese_abstract_body']
+### P43
+- text: 关键词：
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "关键词"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "："}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 2, "sizes": ["24"]}
+- inferredRoles: ['keywords']
+### P44
+- text: Abstract
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "32", "text": "Abstract"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['english_abstract_title']
+### P47
+- text: Key Words：
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "Key Words"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "："}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 2, "sizes": ["24"]}
+- inferredRoles: ['english_keywords']
+### P49
+- text: 目  录
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "目 录"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['toc_title']
+### P50
+- text: TOC \o "1-3" \h \z \u  HYPERLINK \l "_Toc322607064" 摘  要	x
+- visibleTextForRole: 摘  要
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "30", "text": "TOC \\o \"1-3\" \\h \\z \\u"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "摘 要"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P51
+- text: HYPERLINK \l "_Toc322607065" Abstract	x
+- visibleTextForRole: Abstract
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "Abstract"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P52
+- text: HYPERLINK \l "_Toc322607067" 1.引言	x
+- visibleTextForRole: 1.引言
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "1.引言"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P53
+- text: HYPERLINK \l "_Toc322607078" 2.一级标题	x
+- visibleTextForRole: 2.一级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "2.一级标题"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P54
+- text: HYPERLINK \l "_Toc322607079" 2.1二级标题	x
+- visibleTextForRole: 2.1二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "2.1二级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P55
+- text: HYPERLINK \l "_Toc322607080" 2.1.1三级标题	x
+- visibleTextForRole: 2.1.1三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.1.1三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P56
+- text: HYPERLINK \l "_Toc322607081" 2.1.2三级标题	x
+- visibleTextForRole: 2.1.2三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.1.2三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P57
+- text: HYPERLINK \l "_Toc322607082" 2.2二级标题	x
+- visibleTextForRole: 2.2二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "2.2二级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P58
+- text: HYPERLINK \l "_Toc322607083" 2.2.1三级标题	x
+- visibleTextForRole: 2.2.1三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.2.1三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P59
+- text: HYPERLINK \l "_Toc322607084" 2.2.2三级标题	x
+- visibleTextForRole: 2.2.2三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.2.2三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P60
+- text: HYPERLINK \l "_Toc322607085" 3.一级标题	x
+- visibleTextForRole: 3.一级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "3.一级标题"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P61
+- text: HYPERLINK \l "_Toc322607086" 3.1二级标题	x
+- visibleTextForRole: 3.1二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.1二级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P62
+- text: HYPERLINK \l "_Toc322607087" 3.1.1三级标题	x
+- visibleTextForRole: 3.1.1三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "3.1.1三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P63
+- text: HYPERLINK \l "_Toc322607088" 3.1.2三级标题	x
+- visibleTextForRole: 3.1.2三级标题
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "3.1.2三级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P64
+- text: HYPERLINK \l "_Toc322607089" 3.2二级标题	x
+- visibleTextForRole: 3.2二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "3.2二级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P65
+- text: HYPERLINK \l "_Toc322607090" 3.2.1三级标题	x
+- visibleTextForRole: 3.2.1三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "3.2.1三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P66
+- text: HYPERLINK \l "_Toc322607091" 3.2.2三级标题	x
+- visibleTextForRole: 3.2.2三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "3.2.2三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P67
+- text: HYPERLINK \l "_Toc322607085" 4.一级标题	x
+- visibleTextForRole: 4.一级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "4.一级标题"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P68
+- text: HYPERLINK \l "_Toc322607086" 3.1二级标题	x
+- visibleTextForRole: 3.1二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.1二级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P69
+- text: HYPERLINK \l "_Toc322607087" 3.1.1三级标题	x
+- visibleTextForRole: 3.1.1三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.1.1"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P70
+- text: HYPERLINK \l "_Toc322607088" 3.1.2三级标题	x
+- visibleTextForRole: 3.1.2三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.1.2"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P71
+- text: HYPERLINK \l "_Toc322607089" 3.2二级标题	x
+- visibleTextForRole: 3.2二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.2二级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P72
+- text: HYPERLINK \l "_Toc322607090" 3.2.1三级标题	x
+- visibleTextForRole: 3.2.1三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.2.1"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P73
+- text: HYPERLINK \l "_Toc322607091" 3.2.2三级标题	x
+- visibleTextForRole: 3.2.2三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "3.2.2"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P74
+- text: HYPERLINK \l "_Toc322607101" 5.结语	x
+- visibleTextForRole: 5.结语
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "5.结语"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P75
+- text: HYPERLINK \l "_Toc322607102" 参考文献	x
+- visibleTextForRole: 参考文献
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "参考文献"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P76
+- text: HYPERLINK \l "_Toc322607103" 附  录	x
+- visibleTextForRole: 附  录
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "附 录"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P77
+- text: HYPERLINK \l "_Toc322607103" 致  谢	x
+- visibleTextForRole: 致  谢
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "致 谢"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P78
+- text: 目  录
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "目 录"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['toc_title']
+### P79
+- text: TOC \o "1-3" \h \z \u  HYPERLINK \l "_Toc322607064" 摘  要	x
+- visibleTextForRole: 摘  要
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "30", "text": "TOC \\o \"1-3\" \\h \\z \\u"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "摘 要"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P80
+- text: HYPERLINK \l "_Toc322607065" Abstract	x
+- visibleTextForRole: Abstract
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "Abstract"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P81
+- text: HYPERLINK \l "_Toc322607067" 一 引言	x
+- visibleTextForRole: 一 引言
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "一"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "引言"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 4, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P82
+- text: HYPERLINK \l "_Toc322607078" 二 一级标题	x
+- visibleTextForRole: 二 一级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "二"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "一级标题"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 4, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P83
+- text: HYPERLINK \l "_Toc322607079" （一）二级标题	x
+- visibleTextForRole: （一）二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "（一）二级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P84
+- text: HYPERLINK \l "_Toc322607080" 1.三级标题	x
+- visibleTextForRole: 1.三级标题
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.三级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["24", "28"]}
+- inferredRoles: ['toc_entry']
+### P85
+- text: HYPERLINK \l "_Toc322607081" 2.三级标题	x
+- visibleTextForRole: 2.三级标题
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.三级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["24", "28"]}
+- inferredRoles: ['toc_entry']
+### P86
+- text: HYPERLINK \l "_Toc322607082" （二） 二级标题	x
+- visibleTextForRole: （二） 二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "（二） 二级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P87
+- text: HYPERLINK \l "_Toc322607083" 1.三级标题	x
+- visibleTextForRole: 1.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P88
+- text: HYPERLINK \l "_Toc322607084" 2.三级标题	x
+- visibleTextForRole: 2.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P89
+- text: HYPERLINK \l "_Toc322607085" 三 一级标题	x
+- visibleTextForRole: 三 一级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "三 一级标题"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P90
+- text: HYPERLINK \l "_Toc322607086" （一）二级标题	x
+- visibleTextForRole: （一）二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "（一）二级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P91
+- text: HYPERLINK \l "_Toc322607087" 1.三级标题	x
+- visibleTextForRole: 1.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P92
+- text: HYPERLINK \l "_Toc322607088" 2.三级标题	x
+- visibleTextForRole: 2.三级标题
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.三级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P93
+- text: HYPERLINK \l "_Toc322607089" （二）二级标题	x
+- visibleTextForRole: （二）二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "（二）二级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P94
+- text: HYPERLINK \l "_Toc322607090" 1.三级标题	x
+- visibleTextForRole: 1.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P95
+- text: HYPERLINK \l "_Toc322607091" 2.三级标题	x
+- visibleTextForRole: 2.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.三级标题"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P96
+- text: HYPERLINK \l "_Toc322607085" 四 一级标题	x
+- visibleTextForRole: 四 一级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "四 一级标题"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P97
+- text: HYPERLINK \l "_Toc322607086" （一）二级标题	x
+- visibleTextForRole: （一）二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "（一）二级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P98
+- text: HYPERLINK \l "_Toc322607087" 1.三级标题	x
+- visibleTextForRole: 1.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "1."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P99
+- text: HYPERLINK \l "_Toc322607088" 2.三级标题	x
+- visibleTextForRole: 2.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "2."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P100
+- text: HYPERLINK \l "_Toc322607089" （二）二级标题	x
+- visibleTextForRole: （二）二级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "280"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "（二）二级标题"}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "x"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P101
+- text: HYPERLINK \l "_Toc322607090" 1.三级标题	x
+- visibleTextForRole: 1.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "1."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P102
+- text: HYPERLINK \l "_Toc322607091" 2.三级标题	x
+- visibleTextForRole: 2.三级标题
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "560"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "28", "text": "2."}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "三级标题"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 4, "sizes": ["28"]}
+- inferredRoles: ['toc_entry']
+### P103
+- text: HYPERLINK \l "_Toc322607101" 五 结语	x
+- visibleTextForRole: 五 结语
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "五 结语"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P104
+- text: HYPERLINK \l "_Toc322607102" 参考文献	x
+- visibleTextForRole: 参考文献
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "参考文献"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P105
+- text: HYPERLINK \l "_Toc322607103" 附  录	x
+- visibleTextForRole: 附  录
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "附 录"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P106
+- text: HYPERLINK \l "_Toc322607103" 致  谢	x
+- visibleTextForRole: 致  谢
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 2, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "HYPERLINK \\l \"_Toc32260..."}, {"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "致 谢"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "30", "text": "x"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 3, "sizes": ["30", "24"]}
+- inferredRoles: ['toc_entry']
+### P107
+- text: 1.（空一字距离）引言
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "1.（空一字距离）引言"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['heading1']
+### P108
+- text: 1.1（空半字距离）XXXXXX
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.1"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "（空半字距离）"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "XXXXXX"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28", "24"]}
+- inferredRoles: ['heading2']
+### P109
+- text: 1.1.1（空半字距离）XXXXXX
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "562"}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.1.1"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "（空半字距离）"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "XXXXXX"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28", "24"]}
+- inferredRoles: ['heading2']
+### P110
+- text: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "480"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "XXXXXXXXXXXXXXXXXXXXXXX..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["24"]}
+- inferredRoles: ['body']
+### P111
+- text: 1.1.2（空半字距离）XXXXXXX
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "562"}
+- runSummary: {"boldRuns": 3, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.1.2"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "（空半字距离）"}, {"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "XXXXXXX"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 3, "sizes": ["28", "24"]}
+- inferredRoles: ['heading2']
+### P115
+- text: 表X-X（空半字距离）1995—1998年工商银行资产负债情况  单位：亿元
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "120", "before": "120"}
+- indentation: {"first-line": "210"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "表X-X（空半字距离）1995—1998年工商..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P116
+- text: 时间
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "时间"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P117
+- text: 1995
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1995"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P118
+- text: 1996
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1996"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P119
+- text: 1997
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1997"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P120
+- text: 1998
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1998"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P121
+- text: 总资产
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "总资产"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P126
+- text: 净资产
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "净资产"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P131
+- text: 总负债
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "总负债"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P141
+- text: 图X-X（空半字距离）XXX原理图
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "120", "before": "120"}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "图X-X（空半字距离）XXX原理图"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P143
+- text: XXXXXX可表示为：
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "480"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "XXXXXX可表示为："}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["24"]}
+- inferredRoles: ['body']
+### P144
+- text: EMBED Equation.3                                              （X-X）
+- styleId/styleName: None / None
+- jc: right (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "21", "text": "EMBED Equation.3"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "（X-X）"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 2, "sizes": ["21"]}
+- inferredRoles: []
+### P145
+- text: EMBED Equation.3                                        （X-X）
+- styleId/styleName: None / None
+- jc: right (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "21", "text": "EMBED Equation.3"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "（X-X）"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 2, "sizes": ["21"]}
+- inferredRoles: []
+### P150
+- text: 一（空一字距离）引言
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "一（空一字距离）引言"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['heading1']
+### P151
+- text: （一）（空半字距离）XXXXXX
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "（一）（空半字距离）XXXXXX"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["28"]}
+- inferredRoles: ['heading2']
+### P152
+- text: 1.（空半字距离）XXXXXX
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "562"}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "1.（空半字距离）XXXXXX"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["28"]}
+- inferredRoles: ['heading2']
+### P153
+- text: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "480"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "XXXXXXXXXXXXXXXXXXXXXXX..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["24"]}
+- inferredRoles: ['body']
+### P154
+- text: 2.（空半字距离）XXXXXXX
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {"first-line": "562"}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "28", "text": "2.（空半字距离）XXXXXXX"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["28"]}
+- inferredRoles: ['heading2']
+### P156
+- text: 表X-X（空半字距离）1995—1998年工商银行资产负债情况  单位：亿元
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "120", "before": "120"}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "表X-X（空半字距离）1995—1998年工商..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P157
+- text: 时间
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "时间"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P158
+- text: 1995
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1995"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P159
+- text: 1996
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1996"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P160
+- text: 1997
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1997"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P161
+- text: 1998
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": true, "sz": "21", "text": "1998"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 1, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P162
+- text: 总资产
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "总资产"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P167
+- text: 净资产
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "净资产"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P172
+- text: 总负债
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "总负债"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P182
+- text: 图X-X（空半字距离）XXX原理图
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "120", "before": "120"}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "21", "text": "图X-X（空半字距离）XXX原理图"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["21"]}
+- inferredRoles: []
+### P185
+- text: 参考文献
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "参考文献"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['references_title']
+### P186
+- text: [1]吕叔湘.中国文法要略[M]. 北京：商务印书馆，1982年.
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "-480", "left": "480"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "[1]吕叔湘.中国文法要略[M]. 北京：商务..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["24"]}
+- inferredRoles: ['reference_item']
+### P189
+- text: 致  谢
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {"after": "240", "before": "240"}
+- indentation: {}
+- runSummary: {"boldRuns": 1, "examples": [{"bold": true, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "32", "text": "致 谢"}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["32"]}
+- inferredRoles: ['acknowledgement_title']
+### P190
+- text: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- styleId/styleName: None / None
+- jc: both (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {"first-line": "520"}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "24", "text": "XXXXXXXXXXXXXXXXXXXXXXX..."}], "fonts": [{"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 1, "sizes": ["24"]}
+- inferredRoles: ['acknowledgement_body']
+### P192
+- text: 吕叔湘，《中国文法要略》[M]，商务印书馆，1982年.
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "18", "text": "吕叔湘，《中国文法要略》[M]，商务印书馆，1..."}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["18"]}
+- inferredRoles: ['acknowledgement_body']
+### P193
+- text: 2吕叔湘，《中国文法要略》[M]，商务印书馆，1982年.
+- styleId/styleName: None / None
+- jc: None (None)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "24", "text": "2"}, {"bold": false, "font": {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}, "italic": false, "sz": "18", "text": "吕叔湘，《中国文法要略》[M]，商务印书馆，1..."}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, {"ascii": "Times", "cs": "Times", "hAnsi": "Times"}], "italicRuns": 0, "runs": 2, "sizes": ["24", "18"]}
+- inferredRoles: ['acknowledgement_body']
+### P195
+- text: 合肥师范学院XXXX届本科生毕业设计（论文）
+- styleId/styleName: None / None
+- jc: center (direct)
+- outlineLvl: None (None)
+- numbering: numId=None, ilvl=None
+- spacing: {}
+- indentation: {}
+- runSummary: {"boldRuns": 0, "examples": [{"bold": false, "font": {"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}, "italic": false, "sz": "18", "text": "合肥师范学院XXXX届本科生毕业设计（论文）"}], "fonts": [{"ascii": "Times New Roman", "cs": "Times New Roman", "hAnsi": "Times New Roman"}], "italicRuns": 0, "runs": 1, "sizes": ["18"]}
+- inferredRoles: ['acknowledgement_body']
+
+## D. 目录/封面/摘要/正文结构判断
+### 封面字段
+- P2: 本科生毕业设计（论文）
+- P6: 题目：
+- P11: 学    院
+- P12: 学科门类
+- P13: 专    业
+- P14: 学    号
+- P15: 姓    名
+- P17: 指导教师
+### 中文摘要标题
+- P40: 年   月   日
+摘  要
+### 中文摘要正文
+- P41: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+### 关键词
+- P43: 关键词：
+### 英文摘要标题
+- P44: Abstract
+### 英文摘要正文
+未在前 120 个非空段落中识别到。
+### 英文关键词
+- P47: Key Words：
+### 目录标题
+- P49: 目  录
+- P78: 目  录
+### 目录条目
+- P50: TOC \o "1-3" \h \z \u  HYPERLINK \l "_Toc322607064" 摘  要	x
+- P51: HYPERLINK \l "_Toc322607065" Abstract	x
+- P52: HYPERLINK \l "_Toc322607067" 1.引言	x
+- P53: HYPERLINK \l "_Toc322607078" 2.一级标题	x
+- P54: HYPERLINK \l "_Toc322607079" 2.1二级标题	x
+- P55: HYPERLINK \l "_Toc322607080" 2.1.1三级标题	x
+- P56: HYPERLINK \l "_Toc322607081" 2.1.2三级标题	x
+- P57: HYPERLINK \l "_Toc322607082" 2.2二级标题	x
+- P58: HYPERLINK \l "_Toc322607083" 2.2.1三级标题	x
+- P59: HYPERLINK \l "_Toc322607084" 2.2.2三级标题	x
+- P60: HYPERLINK \l "_Toc322607085" 3.一级标题	x
+- P61: HYPERLINK \l "_Toc322607086" 3.1二级标题	x
+- P62: HYPERLINK \l "_Toc322607087" 3.1.1三级标题	x
+- P63: HYPERLINK \l "_Toc322607088" 3.1.2三级标题	x
+- P64: HYPERLINK \l "_Toc322607089" 3.2二级标题	x
+- P65: HYPERLINK \l "_Toc322607090" 3.2.1三级标题	x
+- P66: HYPERLINK \l "_Toc322607091" 3.2.2三级标题	x
+- P67: HYPERLINK \l "_Toc322607085" 4.一级标题	x
+- P68: HYPERLINK \l "_Toc322607086" 3.1二级标题	x
+- P69: HYPERLINK \l "_Toc322607087" 3.1.1三级标题	x
+- ... 共 56 项，仅列前 20 项
+### 一级标题
+- P107: 1.（空一字距离）引言
+- P150: 一（空一字距离）引言
+### 二级标题
+- P108: 1.1（空半字距离）XXXXXX
+- P109: 1.1.1（空半字距离）XXXXXX
+- P111: 1.1.2（空半字距离）XXXXXXX
+- P151: （一）（空半字距离）XXXXXX
+- P152: 1.（空半字距离）XXXXXX
+- P154: 2.（空半字距离）XXXXXXX
+### 正文
+- P110: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- P143: XXXXXX可表示为：
+- P153: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+### 参考文献标题
+- P185: 参考文献
+### 参考文献条目
+- P186: [1]吕叔湘.中国文法要略[M]. 北京：商务印书馆，1982年.
+### 致谢标题
+- P189: 致  谢
+### 致谢正文
+- P190: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- P192: 吕叔湘，《中国文法要略》[M]，商务印书馆，1982年.
+- P193: 2吕叔湘，《中国文法要略》[M]，商务印书馆，1982年.
+- P195: 合肥师范学院XXXX届本科生毕业设计（论文）
+### 附录标题
+未在前 120 个非空段落中识别到。
+### 附录正文
+未在前 120 个非空段落中识别到。
+
+## E. 适合 Phase 2 的规则建议
+- 中文模板导入时不要用前两个非空段落推断 title/authors；先识别封面区，再从包含“题目/学生姓名/学号/学院/专业/指导教师”等标签的段落中抽取。
+- 过滤占位和说明性文本：题目、学生姓名、学号、学院、专业、班级、指导教师、完成日期、摘要、关键词、目录、参考文献、致谢、附录，以及“宋体/黑体/小四/此处/填写/格式/要求/说明”等模板说明句。
+- 摘要标题用归一化文本精确匹配“摘要/中文摘要”；摘要正文取其后到“关键词/关键字”之前的连续正文段落。
+- 关键词用前缀匹配“关键词：”“关键字：”，允许中英文冒号和中间空格。
+- 英文摘要标题匹配独立段落 ABSTRACT/Abstract/英文摘要；英文关键词匹配 Keywords/Key words 前缀。
+- 目录标题匹配“目录/目 录/CONTENTS”；目录条目通常包含标题文本和末尾页码，不能作为正文或标题样本。
+- 一级标题优先用 style outlineLvl=0 或内置 Heading 1；不可靠时 fallback 到文本模式：第1章、第一章、一、、1 后接标题文本，并结合居中/加粗/较大字号。
+- 二级标题优先用 style outlineLvl=1/2 或 Heading 2/3；fallback 到 1.1、1.1.1、（一）、(一) 等模式，并结合左对齐/加粗/段前段后间距。
+- styles.xml 中没有可靠 Heading 样式时，基于文本模式、段落对齐、字号、加粗、outlineLvl、编号 numId/ilvl 共同打分。
+- body sample 应排除封面、摘要标题、关键词、英文摘要、目录、目录条目、参考文献、致谢、附录标题、模板格式说明和过短占位字段。
+
+## F. JSON 草案
+```json
+{
+  "expectedRoles": {
+    "title": {
+      "paragraphIndex": 6,
+      "text": "题目：",
+      "reason": "封面字段中包含“题目”时才可作为标题占位；本模板不应取首个非空段落为题名。"
+    },
+    "authors": {
+      "paragraphIndex": 15,
+      "text": "姓    名",
+      "reason": "封面字段中包含“学生姓名/姓名/作者”时才可作为作者占位。"
+    },
+    "abstract": {
+      "titleParagraphIndex": 40,
+      "bodyParagraphIndex": 41,
+      "text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "reason": "中文摘要正文位于“摘要”标题之后、“关键词”之前。"
+    },
+    "keywords": {
+      "paragraphIndex": 43,
+      "text": "关键词：",
+      "reason": "匹配“关键词/关键字”前缀。"
+    },
+    "heading1Examples": [
+      {
+        "paragraphIndex": 107,
+        "text": "1.（空一字距离）引言",
+        "reason": "文本模式匹配一级标题。"
+      },
+      {
+        "paragraphIndex": 150,
+        "text": "一（空一字距离）引言",
+        "reason": "文本模式匹配一级标题。"
+      }
+    ],
+    "heading2Examples": [
+      {
+        "paragraphIndex": 108,
+        "text": "1.1（空半字距离）XXXXXX",
+        "reason": "文本模式匹配二级或多级标题。"
+      },
+      {
+        "paragraphIndex": 109,
+        "text": "1.1.1（空半字距离）XXXXXX",
+        "reason": "文本模式匹配二级或多级标题。"
+      },
+      {
+        "paragraphIndex": 111,
+        "text": "1.1.2（空半字距离）XXXXXXX",
+        "reason": "文本模式匹配二级或多级标题。"
+      },
+      {
+        "paragraphIndex": 151,
+        "text": "（一）（空半字距离）XXXXXX",
+        "reason": "文本模式匹配二级或多级标题。"
+      },
+      {
+        "paragraphIndex": 152,
+        "text": "1.（空半字距离）XXXXXX",
+        "reason": "文本模式匹配二级或多级标题。"
+      }
+    ],
+    "bodyExamples": [
+      {
+        "paragraphIndex": 110,
+        "text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+        "reason": "主章节标题之后且不属于目录/参考文献/致谢。"
+      },
+      {
+        "paragraphIndex": 143,
+        "text": "XXXXXX可表示为：",
+        "reason": "主章节标题之后且不属于目录/参考文献/致谢。"
+      },
+      {
+        "paragraphIndex": 153,
+        "text": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+        "reason": "主章节标题之后且不属于目录/参考文献/致谢。"
+      }
+    ],
+    "references": {
+      "paragraphIndex": 185,
+      "text": "参考文献",
+      "reason": "匹配独立段落“参考文献/References”。"
+    }
+  },
+  "recommendedHeuristics": [
+    "中文模板导入时不要用前两个非空段落推断 title/authors；先识别封面区，再从包含“题目/学生姓名/学号/学院/专业/指导教师”等标签的段落中抽取。",
+    "过滤占位和说明性文本：题目、学生姓名、学号、学院、专业、班级、指导教师、完成日期、摘要、关键词、目录、参考文献、致谢、附录，以及“宋体/黑体/小四/此处/填写/格式/要求/说明”等模板说明句。",
+    "摘要标题用归一化文本精确匹配“摘要/中文摘要”；摘要正文取其后到“关键词/关键字”之前的连续正文段落。",
+    "关键词用前缀匹配“关键词：”“关键字：”，允许中英文冒号和中间空格。",
+    "英文摘要标题匹配独立段落 ABSTRACT/Abstract/英文摘要；英文关键词匹配 Keywords/Key words 前缀。",
+    "目录标题匹配“目录/目 录/CONTENTS”；目录条目通常包含标题文本和末尾页码，不能作为正文或标题样本。",
+    "一级标题优先用 style outlineLvl=0 或内置 Heading 1；不可靠时 fallback 到文本模式：第1章、第一章、一、、1 后接标题文本，并结合居中/加粗/较大字号。",
+    "二级标题优先用 style outlineLvl=1/2 或 Heading 2/3；fallback 到 1.1、1.1.1、（一）、(一) 等模式，并结合左对齐/加粗/段前段后间距。",
+    "styles.xml 中没有可靠 Heading 样式时，基于文本模式、段落对齐、字号、加粗、outlineLvl、编号 numId/ilvl 共同打分。",
+    "body sample 应排除封面、摘要标题、关键词、英文摘要、目录、目录条目、参考文献、致谢、附录标题、模板格式说明和过短占位字段。"
+  ],
+  "rawIssuesWithCurrentApp": [
+    "若当前 Phase 2 直接取前两个非空段落，会把封面大标题或字段标签误判为论文题名/作者。",
+    "旧版 .doc 经 textutil 转换后样式名可能不等价于 Word UI 中的 Heading 1/2，不能只依赖 styles.xml 的样式名。",
+    "目录条目和摘要/关键词属于结构性前置内容，若进入正文样本会污染 body 规则。",
+    "封面字段通常是标签和占位内容混排，应该识别标签而不是直接采用完整段落。"
+  ]
+}
+```

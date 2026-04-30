@@ -1,0 +1,3636 @@
+{
+  "coverTitleField": [
+    {
+      "sampleText": "题目：",
+      "normalizedText": "题目:",
+      "paragraphIndex": 5,
+      "paragraphIndexes": [
+        5
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=题目:"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "36",
+            "52"
+          ],
+          "fontSizes": [
+            36,
+            52
+          ],
+          "maxFontSize": 52,
+          "minFontSize": 36,
+          "dominantFontSize": 36,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Detected Chinese cover field titleField."
+    }
+  ],
+  "coverAuthorField": [
+    {
+      "sampleText": "姓 名",
+      "normalizedText": "姓名",
+      "paragraphIndex": 14,
+      "paragraphIndexes": [
+        14
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=姓名"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 2200
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field authorField."
+    }
+  ],
+  "coverStudentIdField": [
+    {
+      "sampleText": "学 号",
+      "normalizedText": "学号",
+      "paragraphIndex": 13,
+      "paragraphIndexes": [
+        13
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学号"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 2200
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field studentIdField."
+    }
+  ],
+  "coverSchoolField": [
+    {
+      "sampleText": "学 院",
+      "normalizedText": "学院",
+      "paragraphIndex": 10,
+      "paragraphIndexes": [
+        10
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=学院"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 2200
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field schoolField."
+    }
+  ],
+  "coverMajorField": [
+    {
+      "sampleText": "专 业",
+      "normalizedText": "专业",
+      "paragraphIndex": 12,
+      "paragraphIndexes": [
+        12
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=专业"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 2200
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44"
+          ],
+          "fontSizes": [
+            44
+          ],
+          "maxFontSize": 44,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field majorField."
+    }
+  ],
+  "coverSupervisorField": [
+    {
+      "sampleText": "指导教师",
+      "normalizedText": "指导教师",
+      "paragraphIndex": 16,
+      "paragraphIndexes": [
+        16
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "normalized cover label match",
+        "normalized=指导教师"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 2200
+        },
+        "runSummary": {
+          "runs": 4,
+          "runCount": 4,
+          "textRunCount": 4,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 1,
+          "sizes": [
+            "44",
+            "48"
+          ],
+          "fontSizes": [
+            44,
+            48
+          ],
+          "maxFontSize": 48,
+          "minFontSize": 44,
+          "dominantFontSize": 44,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Detected Chinese cover field supervisorField."
+    }
+  ],
+  "chineseAbstractTitle": [
+    {
+      "sampleText": "年 月 日 摘 要",
+      "normalizedText": "年月日摘要",
+      "paragraphIndex": 39,
+      "paragraphIndexes": [
+        39
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "matches 摘要/中文摘要"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32",
+            "24"
+          ],
+          "fontSizes": [
+            32,
+            24
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 24,
+          "dominantFontSize": 32,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract title candidate."
+    }
+  ],
+  "chineseAbstractBody": [
+    {
+      "sampleText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "normalizedText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.",
+      "paragraphIndex": 40,
+      "paragraphIndexes": [
+        40
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        "between 摘要 and 关键词"
+      ],
+      "formatting": {
+        "indentation": {
+          "firstLine": 480
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24",
+            "21"
+          ],
+          "fontSizes": [
+            24,
+            21
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 21,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese abstract body candidate."
+    }
+  ],
+  "chineseKeywords": [
+    {
+      "sampleText": "关键词：",
+      "normalizedText": "关键词:",
+      "paragraphIndex": 42,
+      "paragraphIndexes": [
+        42
+      ],
+      "confidence": 0.94,
+      "evidence": [
+        "matches 关键词/关键字 label"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24",
+            "21"
+          ],
+          "fontSizes": [
+            24,
+            21
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 21,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Chinese keywords candidate."
+    }
+  ],
+  "tocTitle": [
+    {
+      "sampleText": "目 录",
+      "normalizedText": "目录",
+      "paragraphIndex": 48,
+      "paragraphIndexes": [
+        48
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 目录/目 录"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC title candidate."
+    }
+  ],
+  "tocEntries": [
+    {
+      "sampleText": "摘 要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 49,
+      "paragraphIndexes": [
+        49
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 4,
+          "boldRunCount": 4,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "30",
+            "24"
+          ],
+          "fontSizes": [
+            30,
+            24
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 30,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "Abstract",
+      "normalizedText": "Abstract",
+      "paragraphIndex": 50,
+      "paragraphIndexes": [
+        50
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.引言",
+      "normalizedText": "1.引言",
+      "paragraphIndex": 51,
+      "paragraphIndexes": [
+        51
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.一级标题",
+      "normalizedText": "2.一级标题",
+      "paragraphIndex": 52,
+      "paragraphIndexes": [
+        52
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.1二级标题",
+      "normalizedText": "2.1二级标题",
+      "paragraphIndex": 53,
+      "paragraphIndexes": [
+        53
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.1.1三级标题",
+      "normalizedText": "2.1.1三级标题",
+      "paragraphIndex": 54,
+      "paragraphIndexes": [
+        54
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.1.2三级标题",
+      "normalizedText": "2.1.2三级标题",
+      "paragraphIndex": 55,
+      "paragraphIndexes": [
+        55
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.2二级标题",
+      "normalizedText": "2.2二级标题",
+      "paragraphIndex": 56,
+      "paragraphIndexes": [
+        56
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.2.1三级标题",
+      "normalizedText": "2.2.1三级标题",
+      "paragraphIndex": 57,
+      "paragraphIndexes": [
+        57
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.2.2三级标题",
+      "normalizedText": "2.2.2三级标题",
+      "paragraphIndex": 58,
+      "paragraphIndexes": [
+        58
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.一级标题",
+      "normalizedText": "3.一级标题",
+      "paragraphIndex": 59,
+      "paragraphIndexes": [
+        59
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.1二级标题",
+      "normalizedText": "3.1二级标题",
+      "paragraphIndex": 60,
+      "paragraphIndexes": [
+        60
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.1.1三级标题",
+      "normalizedText": "3.1.1三级标题",
+      "paragraphIndex": 61,
+      "paragraphIndexes": [
+        61
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.1.2三级标题",
+      "normalizedText": "3.1.2三级标题",
+      "paragraphIndex": 62,
+      "paragraphIndexes": [
+        62
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.2二级标题",
+      "normalizedText": "3.2二级标题",
+      "paragraphIndex": 63,
+      "paragraphIndexes": [
+        63
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.2.1三级标题",
+      "normalizedText": "3.2.1三级标题",
+      "paragraphIndex": 64,
+      "paragraphIndexes": [
+        64
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.2.2三级标题",
+      "normalizedText": "3.2.2三级标题",
+      "paragraphIndex": 65,
+      "paragraphIndexes": [
+        65
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "4.一级标题",
+      "normalizedText": "4.一级标题",
+      "paragraphIndex": 66,
+      "paragraphIndexes": [
+        66
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.1二级标题",
+      "normalizedText": "3.1二级标题",
+      "paragraphIndex": 67,
+      "paragraphIndexes": [
+        67
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.1.1三级标题",
+      "normalizedText": "3.1.1三级标题",
+      "paragraphIndex": 68,
+      "paragraphIndexes": [
+        68
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.1.2三级标题",
+      "normalizedText": "3.1.2三级标题",
+      "paragraphIndex": 69,
+      "paragraphIndexes": [
+        69
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.2二级标题",
+      "normalizedText": "3.2二级标题",
+      "paragraphIndex": 70,
+      "paragraphIndexes": [
+        70
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.2.1三级标题",
+      "normalizedText": "3.2.1三级标题",
+      "paragraphIndex": 71,
+      "paragraphIndexes": [
+        71
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "3.2.2三级标题",
+      "normalizedText": "3.2.2三级标题",
+      "paragraphIndex": 72,
+      "paragraphIndexes": [
+        72
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "5.结语",
+      "normalizedText": "5.结语",
+      "paragraphIndex": 73,
+      "paragraphIndexes": [
+        73
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 74,
+      "paragraphIndexes": [
+        74
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "附 录",
+      "normalizedText": "附录",
+      "paragraphIndex": 75,
+      "paragraphIndexes": [
+        75
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "致 谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 76,
+      "paragraphIndexes": [
+        76
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "摘 要",
+      "normalizedText": "摘要",
+      "paragraphIndex": 78,
+      "paragraphIndexes": [
+        78
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 4,
+          "boldRunCount": 4,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "30",
+            "24"
+          ],
+          "fontSizes": [
+            30,
+            24
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 30,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "Abstract",
+      "normalizedText": "Abstract",
+      "paragraphIndex": 79,
+      "paragraphIndexes": [
+        79
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "一 引言",
+      "normalizedText": "一引言",
+      "paragraphIndex": 80,
+      "paragraphIndexes": [
+        80
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 4,
+          "boldRunCount": 4,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "二 一级标题",
+      "normalizedText": "二一级标题",
+      "paragraphIndex": 81,
+      "paragraphIndexes": [
+        81
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 8,
+          "runCount": 8,
+          "textRunCount": 8,
+          "boldRuns": 4,
+          "boldRunCount": 4,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "（一）二级标题",
+      "normalizedText": "(一)二级标题",
+      "paragraphIndex": 82,
+      "paragraphIndexes": [
+        82
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.三级标题",
+      "normalizedText": "1.三级标题",
+      "paragraphIndex": 83,
+      "paragraphIndexes": [
+        83
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 6,
+          "sizes": [
+            "28",
+            "24"
+          ],
+          "fontSizes": [
+            28,
+            24
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 24,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.三级标题",
+      "normalizedText": "2.三级标题",
+      "paragraphIndex": 84,
+      "paragraphIndexes": [
+        84
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 6,
+          "sizes": [
+            "28",
+            "24"
+          ],
+          "fontSizes": [
+            28,
+            24
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 24,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "（二） 二级标题",
+      "normalizedText": "(二)二级标题",
+      "paragraphIndex": 85,
+      "paragraphIndexes": [
+        85
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.三级标题",
+      "normalizedText": "1.三级标题",
+      "paragraphIndex": 86,
+      "paragraphIndexes": [
+        86
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.三级标题",
+      "normalizedText": "2.三级标题",
+      "paragraphIndex": 87,
+      "paragraphIndexes": [
+        87
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "三 一级标题",
+      "normalizedText": "三一级标题",
+      "paragraphIndex": 88,
+      "paragraphIndexes": [
+        88
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "（一）二级标题",
+      "normalizedText": "(一)二级标题",
+      "paragraphIndex": 89,
+      "paragraphIndexes": [
+        89
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.三级标题",
+      "normalizedText": "1.三级标题",
+      "paragraphIndex": 90,
+      "paragraphIndexes": [
+        90
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.三级标题",
+      "normalizedText": "2.三级标题",
+      "paragraphIndex": 91,
+      "paragraphIndexes": [
+        91
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "（二）二级标题",
+      "normalizedText": "(二)二级标题",
+      "paragraphIndex": 92,
+      "paragraphIndexes": [
+        92
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times",
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.三级标题",
+      "normalizedText": "1.三级标题",
+      "paragraphIndex": 93,
+      "paragraphIndexes": [
+        93
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.三级标题",
+      "normalizedText": "2.三级标题",
+      "paragraphIndex": 94,
+      "paragraphIndexes": [
+        94
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "四 一级标题",
+      "normalizedText": "四一级标题",
+      "paragraphIndex": 95,
+      "paragraphIndexes": [
+        95
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "（一）二级标题",
+      "normalizedText": "(一)二级标题",
+      "paragraphIndex": 96,
+      "paragraphIndexes": [
+        96
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.三级标题",
+      "normalizedText": "1.三级标题",
+      "paragraphIndex": 97,
+      "paragraphIndexes": [
+        97
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.三级标题",
+      "normalizedText": "2.三级标题",
+      "paragraphIndex": 98,
+      "paragraphIndexes": [
+        98
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "（二）二级标题",
+      "normalizedText": "(二)二级标题",
+      "paragraphIndex": 99,
+      "paragraphIndexes": [
+        99
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 280
+        },
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "1.三级标题",
+      "normalizedText": "1.三级标题",
+      "paragraphIndex": 100,
+      "paragraphIndexes": [
+        100
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "2.三级标题",
+      "normalizedText": "2.三级标题",
+      "paragraphIndex": 101,
+      "paragraphIndexes": [
+        101
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 560
+        },
+        "runSummary": {
+          "runs": 7,
+          "runCount": 7,
+          "textRunCount": 7,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 3,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "五 结语",
+      "normalizedText": "五结语",
+      "paragraphIndex": 102,
+      "paragraphIndexes": [
+        102
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 103,
+      "paragraphIndexes": [
+        103
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "runSummary": {
+          "runs": 5,
+          "runCount": 5,
+          "textRunCount": 5,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": false
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "附 录",
+      "normalizedText": "附录",
+      "paragraphIndex": 104,
+      "paragraphIndexes": [
+        104
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    },
+    {
+      "sampleText": "致 谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 105,
+      "paragraphIndexes": [
+        105
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        "field code or hyperlink paragraph"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "runSummary": {
+          "runs": 6,
+          "runCount": 6,
+          "textRunCount": 6,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 2,
+          "sizes": [
+            "24",
+            "30"
+          ],
+          "fontSizes": [
+            24,
+            30
+          ],
+          "maxFontSize": 30,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times New Roman",
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times New Roman",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "TOC entry candidate."
+    }
+  ],
+  "heading1": [
+    {
+      "sampleText": "1.（空一字距离）引言",
+      "normalizedText": "1.(空一字距离)引言",
+      "paragraphIndex": 106,
+      "paragraphIndexes": [
+        106
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 2,
+          "boldRunCount": 2,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24",
+            "32"
+          ],
+          "fontSizes": [
+            24,
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 1 candidate."
+    },
+    {
+      "sampleText": "一（空一字距离）引言",
+      "normalizedText": "一(空一字距离)引言",
+      "paragraphIndex": 149,
+      "paragraphIndexes": [
+        149
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 1 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 2,
+          "runCount": 2,
+          "textRunCount": 2,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "18",
+            "32"
+          ],
+          "fontSizes": [
+            18,
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 18,
+          "dominantFontSize": 18,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 1 candidate."
+    }
+  ],
+  "heading2": [
+    {
+      "sampleText": "1.1（空半字距离）XXXXXX",
+      "normalizedText": "1.1(空半字距离)XXXXX",
+      "paragraphIndex": 107,
+      "paragraphIndexes": [
+        107
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28",
+            "24"
+          ],
+          "fontSizes": [
+            28,
+            24
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 24,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "1.1.1（空半字距离）XXXXXX",
+      "normalizedText": "1.1.1(空半字距离)XXXXX",
+      "paragraphIndex": 108,
+      "paragraphIndexes": [
+        108
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 562
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28",
+            "24"
+          ],
+          "fontSizes": [
+            28,
+            24
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 24,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "1.1.2（空半字距离）XXXXXXX",
+      "normalizedText": "1.1.2(空半字距离)XXXXXX",
+      "paragraphIndex": 110,
+      "paragraphIndexes": [
+        110
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 562
+        },
+        "runSummary": {
+          "runs": 3,
+          "runCount": 3,
+          "textRunCount": 3,
+          "boldRuns": 3,
+          "boldRunCount": 3,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28",
+            "24"
+          ],
+          "fontSizes": [
+            28,
+            24
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 24,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "（一）（空半字距离）XXXXXX",
+      "normalizedText": "(一)(空半字距离)XXXXX",
+      "paragraphIndex": 150,
+      "paragraphIndexes": [
+        150
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "1.（空半字距离）XXXXXX",
+      "normalizedText": "1.(空半字距离)XXXXX",
+      "paragraphIndex": 151,
+      "paragraphIndexes": [
+        151
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 562
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 2 candidate."
+    },
+    {
+      "sampleText": "2.（空半字距离）XXXXXXX",
+      "normalizedText": "2.(空半字距离)XXXXXX",
+      "paragraphIndex": 153,
+      "paragraphIndexes": [
+        153
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        "Chinese heading 2 pattern plus direct formatting"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 562
+        },
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "28"
+          ],
+          "fontSizes": [
+            28
+          ],
+          "maxFontSize": 28,
+          "minFontSize": 28,
+          "dominantFontSize": 28,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Heading 2 candidate."
+    }
+  ],
+  "body": [
+    {
+      "sampleText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。",
+      "normalizedText": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.",
+      "paragraphIndex": 109,
+      "paragraphIndexes": [
+        109
+      ],
+      "confidence": 0.78,
+      "evidence": [
+        "after heading and excluded front matter/TOC/instructions"
+      ],
+      "formatting": {
+        "alignment": "both",
+        "indentation": {
+          "firstLine": 480
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "24"
+          ],
+          "fontSizes": [
+            24
+          ],
+          "maxFontSize": 24,
+          "minFontSize": 24,
+          "dominantFontSize": 24,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Body candidate."
+    }
+  ],
+  "figureCaption": [
+    {
+      "sampleText": "图X-X（空半字距离）XXX原理图",
+      "normalizedText": "图X-X(空半字距离)XXX原理图",
+      "paragraphIndex": 140,
+      "paragraphIndexes": [
+        140
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 图 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 120,
+          "after": 120
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "21"
+          ],
+          "fontSizes": [
+            21
+          ],
+          "maxFontSize": 21,
+          "minFontSize": 21,
+          "dominantFontSize": 21,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Figure caption candidate."
+    }
+  ],
+  "tableCaption": [
+    {
+      "sampleText": "表X-X（空半字距离）1995—1998年工商银行资产负债情况 单位：亿元",
+      "normalizedText": "表X-X(空半字距离)1995—1998年工商银行资产负债情况单位:亿元",
+      "paragraphIndex": 114,
+      "paragraphIndexes": [
+        114
+      ],
+      "confidence": 0.86,
+      "evidence": [
+        "matches 表 caption pattern"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "indentation": {
+          "firstLine": 210
+        },
+        "spacing": {
+          "before": 120,
+          "after": 120
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 0,
+          "boldRunCount": 0,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "21"
+          ],
+          "fontSizes": [
+            21
+          ],
+          "maxFontSize": 21,
+          "minFontSize": 21,
+          "dominantFontSize": 21,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": false,
+          "mostlyBold": false
+        }
+      },
+      "notes": "Table caption candidate."
+    }
+  ],
+  "references": [
+    {
+      "sampleText": "参考文献",
+      "normalizedText": "参考文献",
+      "paragraphIndex": 184,
+      "paragraphIndexes": [
+        184
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        "matches 参考文献/参考资料"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "References title candidate."
+    }
+  ],
+  "acknowledgement": [
+    {
+      "sampleText": "致 谢",
+      "normalizedText": "致谢",
+      "paragraphIndex": 188,
+      "paragraphIndexes": [
+        188
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        "matches 致谢"
+      ],
+      "formatting": {
+        "alignment": "center",
+        "spacing": {
+          "before": 240,
+          "after": 240
+        },
+        "runSummary": {
+          "runs": 1,
+          "runCount": 1,
+          "textRunCount": 1,
+          "boldRuns": 1,
+          "boldRunCount": 1,
+          "italicRuns": 0,
+          "italicRunCount": 0,
+          "underlineRunCount": 0,
+          "sizes": [
+            "32"
+          ],
+          "fontSizes": [
+            32
+          ],
+          "maxFontSize": 32,
+          "minFontSize": 32,
+          "dominantFontSize": 32,
+          "fonts": [
+            "Times"
+          ],
+          "eastAsiaFonts": [],
+          "dominantFont": "Times",
+          "hasBold": true,
+          "mostlyBold": true
+        }
+      },
+      "notes": "Acknowledgement title candidate."
+    }
+  ],
+  "appendix": []
+}

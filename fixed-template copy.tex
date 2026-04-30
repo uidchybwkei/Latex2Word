@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{booktabs}
+% LaTeX2Docx controlled input subset.
+% Fill content only inside the commands/environments shown here.
+% Do not copy Word template labels such as “题目：” or format notes such as “空一字距离”.
+\title{论文题目}
+\author{作者姓名}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+这里填写中文摘要正文。摘要环境会映射到 schema 中的中文摘要样式。nasjiknvfiafnvgik
+\end{abstract}
+\textbf{关键词：}关键词一；关键词二；关键词三
+
+\section{引言}
+这里填写正文内容。普通段落会映射到 schema 中的正文样式。njiksdnfvijkafdvjki
+
+\subsection{研究背景}
+这里填写二级标题下的正文内容。
+
+\begin{figure}[htbp]
+\centering
+\fbox{\rule{0pt}{2in}\rule{0.8\linewidth}{0pt}}
+\caption{图1-1 示例图题}
+\end{figure}
+
+\begin{table}[htbp]
+\centering
+\caption{表1-1 示例表题}
+\begin{tabular}{ll}
+\toprule
+列1 & 列2 \\
+\midrule
+示例 & 内容 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{参考文献}
+\begin{thebibliography}{9}
+\bibitem{ref1} 作者. 文献题名[M]. 出版地：出版社，年份.
+\end{thebibliography}
+\end{document}
